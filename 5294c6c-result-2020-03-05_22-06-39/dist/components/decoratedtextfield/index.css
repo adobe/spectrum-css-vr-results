@@ -1,0 +1,15 @@
+.spectrum-DecoratedTextfield {
+  display: inline-block;
+  position: relative;
+}
+.spectrum-DecoratedTextfield-icon {
+  width: 18px;
+  height: 18px;
+
+  position: absolute;
+  top: 7px;
+  right: 12px;
+}
+.spectrum-DecoratedTextfield-field {
+  padding-right: 41px;
+}
