@@ -1,0 +1,28 @@
+.spectrum-DecoratedTextfield {
+  display: inline-block;
+  position: relative;
+}
+
+[dir="ltr"] .spectrum-DecoratedTextfield-icon {
+  right: var(--spectrum-textfield-padding-x, var(--spectrum-global-dimension-size-150));
+}
+
+[dir="rtl"] .spectrum-DecoratedTextfield-icon {
+  left: var(--spectrum-textfield-padding-x, var(--spectrum-global-dimension-size-150));
+}
+
+.spectrum-DecoratedTextfield-icon {
+  width: var(--spectrum-textfield-icon-size, var(--spectrum-global-dimension-size-225));
+  height: var(--spectrum-textfield-icon-size, var(--spectrum-global-dimension-size-225));
+
+  position: absolute;
+  top: calc(var(--spectrum-textfield-height, var(--spectrum-alias-single-line-height)) / 2 - var(--spectrum-textfield-icon-size, var(--spectrum-global-dimension-size-225)) / 2);
+}
+
+[dir="ltr"] .spectrum-DecoratedTextfield-field {
+  padding-right: calc(var(--spectrum-textfield-padding-x, var(--spectrum-global-dimension-size-150)) - var(--spectrum-textfield-border-size, var(--spectrum-alias-border-size-thin)) + var(--spectrum-textfield-icon-size, var(--spectrum-global-dimension-size-225)) + var(--spectrum-textfield-icon-margin-left, var(--spectrum-global-dimension-size-150)));
+}
+
+[dir="rtl"] .spectrum-DecoratedTextfield-field {
+  padding-left: calc(var(--spectrum-textfield-padding-x, var(--spectrum-global-dimension-size-150)) - var(--spectrum-textfield-border-size, var(--spectrum-alias-border-size-thin)) + var(--spectrum-textfield-icon-size, var(--spectrum-global-dimension-size-225)) + var(--spectrum-textfield-icon-margin-left, var(--spectrum-global-dimension-size-150)));
+}
