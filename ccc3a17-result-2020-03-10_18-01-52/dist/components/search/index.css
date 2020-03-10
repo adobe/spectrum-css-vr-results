@@ -1,0 +1,81 @@
+.spectrum-Search {
+  display: inline-block;
+  position: relative;
+}
+[dir="ltr"] .spectrum-Search .spectrum-ClearButton {
+    right: 0;
+}
+[dir="rtl"] .spectrum-Search .spectrum-ClearButton {
+    left: 0;
+}
+.spectrum-Search .spectrum-ClearButton {
+    position: absolute;
+    top: 0;
+  }
+[dir="ltr"] .spectrum-Search-input {
+  padding-left: 36px;
+}
+[dir="rtl"] .spectrum-Search-input {
+  padding-right: 36px;
+}
+[dir="ltr"] .spectrum-Search-input {
+  padding-right: 28px;
+}
+[dir="rtl"] .spectrum-Search-input {
+  padding-left: 28px;
+}
+.spectrum-Search-input {
+  display: block;
+  -webkit-appearance: none;
+  outline-offset: -2px;
+  text-indent: 0;
+}
+.spectrum-Search-input::-webkit-search-cancel-button,
+  .spectrum-Search-input::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+[dir="ltr"] .spectrum-Search-input.spectrum-Textfield--quiet {
+    padding-left: 24px;
+}
+[dir="rtl"] .spectrum-Search-input.spectrum-Textfield--quiet {
+    padding-right: 24px;
+}
+[dir="ltr"] .spectrum-Search-input.spectrum-Textfield--quiet {
+    padding-right: 20px;
+}
+[dir="rtl"] .spectrum-Search-input.spectrum-Textfield--quiet {
+    padding-left: 20px;
+}
+[dir="ltr"] .spectrum-Search-input.spectrum-Textfield--quiet ~ .spectrum-Search-icon {
+      left: 0;
+}
+[dir="rtl"] .spectrum-Search-input.spectrum-Textfield--quiet ~ .spectrum-Search-icon {
+      right: 0;
+}
+[dir="ltr"] .spectrum-Search-input.spectrum-Textfield--quiet ~ .spectrum-Search-clear {
+      right: -8px;
+}
+[dir="rtl"] .spectrum-Search-input.spectrum-Textfield--quiet ~ .spectrum-Search-clear {
+      left: -8px;
+}
+[dir="ltr"] .spectrum-Search-input.spectrum-Textfield--quiet ~ .spectrum-Search-rightIcon {
+      right: 0;
+}
+[dir="rtl"] .spectrum-Search-input.spectrum-Textfield--quiet ~ .spectrum-Search-rightIcon {
+      left: 0;
+}
+[dir="ltr"] .spectrum-Search-icon {
+  left: 12px;
+}
+[dir="rtl"] .spectrum-Search-icon {
+  right: 12px;
+}
+.spectrum-Search-icon {
+  display: block;
+  position: absolute;
+  top: 8px;
+
+  transition: color 130ms ease-in-out;
+
+  pointer-events: none;
+}
