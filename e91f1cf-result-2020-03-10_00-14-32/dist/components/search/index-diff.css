@@ -1,0 +1,29 @@
+.spectrum--large [dir="ltr"] .spectrum-Search-input {
+  padding-left: 36px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Search-input {
+  padding-right: 36px;
+}
+.spectrum--large [dir="ltr"] .spectrum-Search-input {
+  padding-right: 28px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Search-input {
+  padding-left: 28px;
+}
+.spectrum--large [dir="ltr"] .spectrum-Search-input.spectrum-Textfield--quiet {
+    padding-left: 24px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Search-input.spectrum-Textfield--quiet {
+    padding-right: 24px;
+}
+.spectrum--large [dir="ltr"] .spectrum-Search-input.spectrum-Textfield--quiet {
+    padding-right: 20px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Search-input.spectrum-Textfield--quiet {
+    padding-left: 20px;
+}
+.spectrum--large .spectrum-Search-icon {
+  top: 10px;
+
+  transition: color 130ms ease-in-out;
+}
