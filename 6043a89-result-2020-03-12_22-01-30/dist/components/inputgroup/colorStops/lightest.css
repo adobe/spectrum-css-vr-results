@@ -1,0 +1,82 @@
+.spectrum-InputGroup.is-focused:not(.is-invalid) .spectrum-InputGroup-textfield .spectrum-InputGroup-input {
+          border-color: rgb(55, 142, 240);
+        }
+.spectrum-InputGroup.is-focused:not(.is-invalid) .spectrum-InputGroup-button {
+        border-color: rgb(55, 142, 240);
+      }
+.spectrum-InputGroup:hover:not(.is-focused):not(.is-keyboardFocused):not(.is-disabled) .spectrum-InputGroup-textfield .spectrum-InputGroup-input {
+          border-color: rgb(211, 211, 211);
+        }
+.spectrum-InputGroup:hover:not(.is-focused):not(.is-keyboardFocused):not(.is-disabled) .spectrum-InputGroup-button {
+        border-color: rgb(211, 211, 211);
+      }
+.spectrum-InputGroup:hover:not(.is-focused):not(.is-keyboardFocused):not(.is-disabled).is-invalid .spectrum-InputGroup-textfield .spectrum-InputGroup-input {
+            border-color: rgb(215, 55, 63);
+          }
+.spectrum-InputGroup:hover:not(.is-focused):not(.is-keyboardFocused):not(.is-disabled).is-invalid .spectrum-InputGroup-button {
+          border-color: rgb(215, 55, 63);
+        }
+.spectrum-InputGroup.is-disabled .spectrum-Datepicker-rangeDash {
+      color: rgb(188, 188, 188);
+    }
+.spectrum-InputGroup.is-focused .spectrum-InputGroup-button,
+  .spectrum-InputGroup.is-focused .spectrum-InputGroup-input {
+    border-color: rgb(55, 142, 240);
+  }
+.spectrum-InputGroup.is-focused.is-invalid .spectrum-InputGroup-button,
+    .spectrum-InputGroup.is-focused.is-invalid .spectrum-InputGroup-input {
+      border-color: rgb(227, 72, 80);
+    }
+.spectrum-InputGroup:not(.spectrum-InputGroup--quiet).is-keyboardFocused {
+    box-shadow: 0 0 0 1px rgb(55, 142, 240);
+  }
+.spectrum-InputGroup:not(.spectrum-InputGroup--quiet).is-keyboardFocused .spectrum-InputGroup-input,
+  .spectrum-InputGroup:not(.spectrum-InputGroup--quiet).is-keyboardFocused .spectrum-InputGroup-input.focus-ring {
+    box-shadow: none ;
+  }
+.spectrum-InputGroup:not(.spectrum-InputGroup--quiet).is-keyboardFocused.is-invalid {
+      box-shadow: 0 0 0 1px rgb(55, 142, 240);
+    }
+.spectrum-InputGroup:not(.spectrum-InputGroup--quiet).is-keyboardFocused.is-invalid .spectrum-InputGroup-button,
+    .spectrum-InputGroup:not(.spectrum-InputGroup--quiet).is-keyboardFocused.is-invalid .spectrum-InputGroup-input {
+      border-color: rgb(55, 142, 240);
+    }
+.spectrum-InputGroup:not(.spectrum-InputGroup--quiet).is-keyboardFocused .spectrum-InputGroup-button {
+    box-shadow: none;
+  }
+.spectrum-InputGroup--quiet .spectrum-InputGroup-button,
+    .spectrum-InputGroup--quiet .spectrum-InputGroup-button:hover,
+    .spectrum-InputGroup--quiet .spectrum-InputGroup-button:focus,
+    .spectrum-InputGroup--quiet .spectrum-InputGroup-button:active,
+    .spectrum-InputGroup--quiet .spectrum-InputGroup-button.is-selected,
+    .spectrum-InputGroup--quiet .spectrum-InputGroup-button.is-invalid,
+    .spectrum-InputGroup--quiet .spectrum-InputGroup-button:disabled,
+    .spectrum-InputGroup--quiet .spectrum-InputGroup-button:disabled:hover {
+      border-color: rgb(234, 234, 234);
+    }
+.spectrum-InputGroup--quiet:hover:not(.is-focused):not(.is-keyboardFocused):not(.is-disabled) .spectrum-InputGroup-input,
+    .spectrum-InputGroup--quiet:hover:not(.is-focused):not(.is-keyboardFocused):not(.is-disabled) .spectrum-InputGroup-button {
+      border-color: rgb(211, 211, 211);
+    }
+.spectrum-InputGroup--quiet.is-invalid .spectrum-InputGroup-input,
+    .spectrum-InputGroup--quiet.is-invalid .spectrum-InputGroup-button {
+      border-color: rgb(227, 72, 80);
+    }
+.spectrum-InputGroup--quiet.is-focused .spectrum-InputGroup-input,
+    .spectrum-InputGroup--quiet.is-focused .spectrum-InputGroup-button {
+      border-color: rgb(38, 128, 235);
+    }
+.spectrum-InputGroup--quiet.is-focused.is-invalid .spectrum-InputGroup-input,
+      .spectrum-InputGroup--quiet.is-focused.is-invalid .spectrum-InputGroup-button {
+        border-color: rgb(38, 128, 235);
+      }
+.spectrum-InputGroup--quiet.is-keyboardFocused .spectrum-InputGroup-input,
+    .spectrum-InputGroup--quiet.is-keyboardFocused .spectrum-InputGroup-button {
+      box-shadow: 0 1px 0 rgb(55, 142, 240);
+      border-color: rgb(55, 142, 240);
+    }
+.spectrum-InputGroup--quiet.is-keyboardFocused.is-invalid .spectrum-InputGroup-input,
+      .spectrum-InputGroup--quiet.is-keyboardFocused.is-invalid .spectrum-InputGroup-button {
+        box-shadow: 0 1px 0 rgb(55, 142, 240);
+        border-color: rgb(55, 142, 240);
+      }
