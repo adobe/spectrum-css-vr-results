@@ -1,0 +1,17 @@
+.spectrum--large [dir="ltr"] .spectrum-DecoratedTextfield-icon {
+  right: 15px;
+}
+.spectrum--large [dir="rtl"] .spectrum-DecoratedTextfield-icon {
+  left: 15px;
+}
+.spectrum--large .spectrum-DecoratedTextfield-icon {
+  width: 22px;
+  height: 22px;
+  top: 9px;
+}
+.spectrum--large [dir="ltr"] .spectrum-DecoratedTextfield-field {
+  padding-right: 51px;
+}
+.spectrum--large [dir="rtl"] .spectrum-DecoratedTextfield-field {
+  padding-left: 51px;
+}

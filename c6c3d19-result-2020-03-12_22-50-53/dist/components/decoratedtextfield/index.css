@@ -1,0 +1,23 @@
+.spectrum-DecoratedTextfield {
+  display: inline-block;
+  position: relative;
+}
+[dir="ltr"] .spectrum-DecoratedTextfield-icon {
+  right: 12px;
+}
+[dir="rtl"] .spectrum-DecoratedTextfield-icon {
+  left: 12px;
+}
+.spectrum-DecoratedTextfield-icon {
+  width: 18px;
+  height: 18px;
+
+  position: absolute;
+  top: 7px;
+}
+[dir="ltr"] .spectrum-DecoratedTextfield-field {
+  padding-right: 41px;
+}
+[dir="rtl"] .spectrum-DecoratedTextfield-field {
+  padding-left: 41px;
+}
