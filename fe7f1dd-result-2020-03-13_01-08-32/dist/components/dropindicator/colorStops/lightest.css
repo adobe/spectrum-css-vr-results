@@ -1,7 +1,0 @@
-.spectrum-DropIndicator {
-  background: rgb(55, 142, 240);
-}
-.spectrum-DropIndicator:before,
-  .spectrum-DropIndicator:after {
-    border-color: rgb(55, 142, 240);
-  }
