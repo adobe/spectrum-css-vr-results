@@ -1,0 +1,194 @@
+.spectrum-TreeView {
+  display: block;
+  list-style: none;
+  position: relative;
+  padding: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  outline: none;
+}
+.spectrum-TreeView-item {
+  overflow: hidden;
+}
+[dir="ltr"] .spectrum-TreeView-item.is-open > .spectrum-TreeView-itemLink > .spectrum-TreeView-indicator { transform: rotate(90deg); }
+[dir="rtl"] .spectrum-TreeView-item.is-open > .spectrum-TreeView-itemLink > .spectrum-TreeView-indicator { transform: matrix(-1, 0, 0, 1, 0, 0) rotate(90deg); }
+.spectrum-TreeView-item.is-open > .spectrum-TreeView {
+      height: auto;
+      visibility: visible;
+    }
+.spectrum-TreeView-itemLink {
+  display: block;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  padding-top: 6px;
+
+  padding-bottom: 6px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  text-decoration: none;
+
+  height: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.spectrum-TreeView-itemLink:focus {
+    outline: none;
+  }
+[dir="ltr"] .spectrum-TreeView-itemLink .spectrum-Icon {
+    margin-right: 8px;
+}
+[dir="rtl"] .spectrum-TreeView-itemLink .spectrum-Icon {
+    margin-left: 8px;
+}
+.spectrum-TreeView-itemLink .spectrum-Icon {
+    vertical-align: top;
+  }
+[dir="ltr"] .spectrum-TreeView-itemLink::before {
+    left: 2px;
+}
+[dir="rtl"] .spectrum-TreeView-itemLink::before {
+    right: 2px;
+}
+[dir="ltr"] .spectrum-TreeView-itemLink::before {
+    right: 0;
+}
+[dir="rtl"] .spectrum-TreeView-itemLink::before {
+    left: 0;
+}
+.spectrum-TreeView-itemLink::before {
+    content: '';
+
+    position: absolute;
+    z-index: -1;
+    margin-top: -6px;
+
+    height: 36px;
+
+    background-color: transparent;
+
+    border-radius: 4px;
+  }
+[dir="ltr"] .spectrum-TreeView-indicator {
+
+  float: left;
+}
+[dir="rtl"] .spectrum-TreeView-indicator {
+
+  float: right;
+}
+[dir="ltr"] .spectrum-TreeView-indicator {
+
+  left: 10px;
+}
+[dir="rtl"] .spectrum-TreeView-indicator {
+
+  right: 10px;
+}
+[dir="ltr"] .spectrum-TreeView-indicator {
+  margin-left: -40px;
+}
+[dir="rtl"] .spectrum-TreeView-indicator {
+  margin-right: -40px;
+}
+[dir="rtl"] .spectrum-TreeView-indicator { transform: matrix(-1, 0, 0, 1, 0, 0) ; }
+.spectrum-TreeView-indicator {
+  display: block;
+  box-sizing: content-box;
+  position: relative;
+  top: -5px;
+  margin-bottom: -10px;
+
+  padding-left: 12px;
+
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: transform ease 130ms;
+
+  pointer-events: all !important;
+}
+[dir="ltr"] .spectrum-TreeView .spectrum-TreeView {
+
+  padding-left: 16px;
+}
+[dir="rtl"] .spectrum-TreeView .spectrum-TreeView {
+
+  padding-right: 16px;
+}
+.spectrum-TreeView .spectrum-TreeView {
+  position: static;
+  height: 0;
+  visibility: hidden;
+}
+[dir="ltr"] .spectrum-TreeView-item--indent1 {
+  padding-left: 16px;
+}
+[dir="rtl"] .spectrum-TreeView-item--indent1 {
+  padding-right: 16px;
+}
+[dir="ltr"] .spectrum-TreeView-item--indent2 {
+  padding-left: 32px;
+}
+[dir="rtl"] .spectrum-TreeView-item--indent2 {
+  padding-right: 32px;
+}
+[dir="ltr"] .spectrum-TreeView-item--indent3 {
+  padding-left: 48px;
+}
+[dir="rtl"] .spectrum-TreeView-item--indent3 {
+  padding-right: 48px;
+}
+[dir="ltr"] .spectrum-TreeView-item--indent4 {
+  padding-left: 64px;
+}
+[dir="rtl"] .spectrum-TreeView-item--indent4 {
+  padding-right: 64px;
+}
+[dir="ltr"] .spectrum-TreeView-item--indent5 {
+  padding-left: 80px;
+}
+[dir="rtl"] .spectrum-TreeView-item--indent5 {
+  padding-right: 80px;
+}
+[dir="ltr"] .spectrum-TreeView-item--indent6 {
+  padding-left: 96px;
+}
+[dir="rtl"] .spectrum-TreeView-item--indent6 {
+  padding-right: 96px;
+}
+[dir="ltr"] .spectrum-TreeView-item--indent7 {
+  padding-left: 112px;
+}
+[dir="rtl"] .spectrum-TreeView-item--indent7 {
+  padding-right: 112px;
+}
+[dir="ltr"] .spectrum-TreeView-item--indent8 {
+  padding-left: 128px;
+}
+[dir="rtl"] .spectrum-TreeView-item--indent8 {
+  padding-right: 128px;
+}
+[dir="ltr"] .spectrum-TreeView-item--indent9 {
+  padding-left: 144px;
+}
+[dir="rtl"] .spectrum-TreeView-item--indent9 {
+  padding-right: 144px;
+}
+[dir="ltr"] .spectrum-TreeView-item--indent10 {
+  padding-left: 160px;
+}
+[dir="rtl"] .spectrum-TreeView-item--indent10 {
+  padding-right: 160px;
+}
+.spectrum-TreeView-heading {
+  padding: 6px;
+  font-weight: 700;
+}
+.spectrum-TreeView-heading:not(:first-child) {
+    margin-top: 16px;
+  }
