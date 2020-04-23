@@ -1,0 +1,69 @@
+.spectrum-ColorWheel.is-focused .spectrum-ColorWheel-handle {
+  width: calc(var(--spectrum-colorhandle-size, var(--spectrum-global-dimension-size-200)) * 2);
+  height: calc(var(--spectrum-colorhandle-size, var(--spectrum-global-dimension-size-200)) * 2);
+
+  margin-left: calc(-1 * var(--spectrum-colorhandle-size, var(--spectrum-global-dimension-size-200)));
+  margin-top: calc(-1 * var(--spectrum-colorhandle-size, var(--spectrum-global-dimension-size-200)));
+}
+
+.spectrum-ColorWheel-slider {
+  opacity: 0.0001;
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 0;
+  margin: 0;
+  pointer-events: none;
+}
+
+.spectrum-ColorWheel {
+  position: relative;
+  display: block;
+  width: calc(var(--spectrum-global-dimension-size-125) * 16);
+  height: calc(var(--spectrum-global-dimension-size-125) * 16);
+  margin: var(--spectrum-global-dimension-size-100);
+
+  border-radius: 100%;
+
+  -webkit-user-select: none;
+
+     -moz-user-select: none;
+
+      -ms-user-select: none;
+
+          user-select: none;
+  cursor: default;
+}
+
+.spectrum-ColorWheel.is-focused {
+    z-index: 2;
+  }
+
+.spectrum-ColorWheel.is-disabled {
+    pointer-events: none;
+  }
+
+.spectrum-ColorWheel.is-dragged {
+    z-index: 2;
+  }
+
+.spectrum-ColorWheel-handle {
+  left: 50%;
+  top: 50%;
+}
+
+.spectrum-ColorWheel.is-disabled {
+    opacity: 0.3;
+  }
+
+.spectrum-ColorWheel-outerCircle,
+.spectrum-ColorWheel-innerCircle {
+  fill: transparent;
+
+  stroke-width: var(--spectrum-global-dimension-static-size-10, 1px);
+  stroke: rgba(44, 44, 44, 0.1);
+}
+
+.spectrum-ColorWheel-outerCircle {
+  stroke-width: var(--spectrum-global-dimension-static-size-10, 1px);
+}

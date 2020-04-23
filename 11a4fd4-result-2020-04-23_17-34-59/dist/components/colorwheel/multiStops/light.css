@@ -1,0 +1,13 @@
+.spectrum--light .spectrum-ColorWheel.is-disabled {
+    opacity: 0.3;
+  }
+.spectrum--light .spectrum-ColorWheel-outerCircle,
+.spectrum--light .spectrum-ColorWheel-innerCircle {
+  fill: transparent;
+
+  stroke-width: 1px;
+  stroke: rgba(44, 44, 44, 0.1);
+}
+.spectrum--light .spectrum-ColorWheel-outerCircle {
+  stroke-width: 1px;
+}
