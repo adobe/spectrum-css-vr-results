@@ -1,0 +1,10 @@
+.spectrum-ColorWheel.is-disabled {
+    opacity: 0.3;
+  }
+.spectrum-ColorWheel-gradient {
+  border-color: rgba(0,0,0,0.42);
+}
+.spectrum-ColorWheel-outerCircle,
+.spectrum-ColorWheel-innerCircle {
+  stroke: rgba(0,0,0,0.42);
+}

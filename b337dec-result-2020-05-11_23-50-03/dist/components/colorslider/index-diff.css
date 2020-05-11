@@ -1,0 +1,41 @@
+.spectrum--large .spectrum-ColorSlider.is-focused .spectrum-ColorSlider-handle {
+  width: 40px;
+  height: 40px;
+
+  margin-left: -20px;
+  margin-top: -20px;
+}
+.spectrum--large .spectrum-ColorSlider {
+  width: 240px;
+  height: 30px;
+}
+.spectrum--large .spectrum-ColorSlider--vertical {
+
+  width: 30px;
+  height: 240px;
+}
+.spectrum--large .spectrum-ColorSlider-handle:after {
+    border-radius: 0%;
+    width: 30px;
+    height: 30px;
+  }
+.spectrum--large .spectrum-ColorSlider-checkerboard {
+  background-color: rgb(255, 255, 255);
+  background-image:
+    linear-gradient(-45deg, transparent 75.5%, rgb(188, 188, 188) 75.5%),
+    linear-gradient(45deg, transparent 75.5%, rgb(188, 188, 188) 75.5%),
+    linear-gradient(-45deg, rgb(188, 188, 188) 25.5%, transparent 25.5%),
+    linear-gradient(45deg, rgb(188, 188, 188) 25.5%, transparent 25.5%);
+  background-size:
+    16px
+    16px;
+  background-position:
+    0 0,
+    0 8px,
+    8px -8px,
+    -8px 0;
+}
+.spectrum--large .spectrum-ColorSlider-gradient,
+.spectrum--large .spectrum-ColorSlider-checkerboard {
+  border-radius: 5px;
+}
