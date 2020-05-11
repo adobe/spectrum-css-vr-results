@@ -1,0 +1,6 @@
+
+.spectrum-ColorWheel {
+  --spectrum-colorhandle-size: var(--spectrum-global-dimension-size-200);
+  --spectrum-colorwheel-border-size: var(--spectrum-alias-border-size-thin);
+  --spectrum-colorhandle-outer-border-color: var(--spectrum-alias-colorhandle-outer-border-color);
+}
