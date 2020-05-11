@@ -1,0 +1,10 @@
+.spectrum--dark .spectrum-ColorWheel.is-disabled {
+    opacity: 0.3;
+  }
+.spectrum--dark .spectrum-ColorWheel-gradient {
+  border-color: rgba(44, 44, 44, 0.1);
+}
+.spectrum--dark .spectrum-ColorWheel-outerCircle,
+.spectrum--dark .spectrum-ColorWheel-innerCircle {
+  stroke: rgba(44, 44, 44, 0.1);
+}
