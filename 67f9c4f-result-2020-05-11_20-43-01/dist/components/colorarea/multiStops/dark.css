@@ -1,6 +1,0 @@
-.spectrum--dark .spectrum-ColorSlider-gradient {
-  box-shadow: 0 0 0 1px rgba(44, 44, 44, 0.1);
-}
-.spectrum--dark .spectrum-ColorSlider.is-disabled {
-    opacity: 0.3;
-  }
