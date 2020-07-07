@@ -1,8 +1,0 @@
-
-.spectrum-Site,
-.spectrum-CSSComponent,
-.spectrum-CSSExample,
-.spectrum-CSS,
-.spectrum-Button {
-  --spectrum-semantic-negative-color-text-small: var(--spectrum-global-color-red-600);
-}
