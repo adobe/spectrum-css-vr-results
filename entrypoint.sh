@@ -5,7 +5,7 @@ set -e
 BRANCH_TO_MERGE=$(echo ${GITHUB_REF} | sed -e "s/refs\/heads\///g")
 REPO_FULLNAME=$(jq -r ".repository.full_name" "$GITHUB_EVENT_PATH")
 
-if ["$BRANCH_TO_MERGE" == "gh-pages"]; then
+if [ "$BRANCH_TO_MERGE" == 'gh-pages' ]; then
 	echo "Branch gh-pages is excluded from auto-merge"
 	exit 1
 fi
