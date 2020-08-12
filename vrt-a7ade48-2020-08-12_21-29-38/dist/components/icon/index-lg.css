@@ -1,0 +1,350 @@
+.spectrum-Icon,
+.spectrum-UIIcon {
+  display: inline-block;
+  color: inherit;
+  fill: currentColor;
+  pointer-events: none;
+}
+.spectrum-Icon:not(:root), .spectrum-UIIcon:not(:root) {
+    overflow: hidden;
+  }
+.spectrum-Icon--sizeXXS,
+  .spectrum-Icon--sizeXXS img,
+  .spectrum-Icon--sizeXXS svg {
+    height: 11px;
+    width: 11px;
+  }
+.spectrum-Icon--sizeXS,
+  .spectrum-Icon--sizeXS img,
+  .spectrum-Icon--sizeXS svg {
+    height: 15px;
+    width: 15px;
+  }
+.spectrum-Icon--sizeS,
+  .spectrum-Icon--sizeS img,
+  .spectrum-Icon--sizeS svg {
+    height: 22px;
+    width: 22px;
+  }
+.spectrum-Icon--sizeM,
+  .spectrum-Icon--sizeM img,
+  .spectrum-Icon--sizeM svg {
+    height: 30px;
+    width: 30px;
+  }
+.spectrum-Icon--sizeL,
+  .spectrum-Icon--sizeL img,
+  .spectrum-Icon--sizeL svg {
+    height: 44px;
+    width: 44px;
+  }
+.spectrum-Icon--sizeXL,
+  .spectrum-Icon--sizeXL img,
+  .spectrum-Icon--sizeXL svg {
+    height: 60px;
+    width: 60px;
+  }
+.spectrum-Icon--sizeXXL,
+  .spectrum-Icon--sizeXXL img,
+  .spectrum-Icon--sizeXXL svg {
+    height: 90px;
+    width: 90px;
+  }
+.spectrum--medium .spectrum-UIIcon--large {
+    display: none;
+  }
+.spectrum--medium .spectrum-UIIcon--medium {
+    display: inline;
+  }
+.spectrum--large .spectrum-UIIcon--medium {
+    display: none;
+  }
+.spectrum--large .spectrum-UIIcon--large {
+    display: inline;
+  }
+.spectrum--large {
+  --ui-icon-large-display: block;
+  --ui-icon-medium-display: none;
+}
+.spectrum--medium {
+  --ui-icon-medium-display: block;
+  --ui-icon-large-display: none;
+}
+.spectrum-UIIcon--large {
+  display: var(--ui-icon-large-display);
+}
+.spectrum-UIIcon--medium {
+  display: var(--ui-icon-medium-display);
+}
+.spectrum-UIIcon-ChevronDown75,
+.spectrum-UIIcon-ChevronDown100,
+.spectrum-UIIcon-ChevronDown200,
+.spectrum-UIIcon-ChevronDown300,
+.spectrum-UIIcon-ChevronDown400,
+.spectrum-UIIcon-ChevronDown500,
+.spectrum-UIIcon-ArrowDown75,
+.spectrum-UIIcon-ArrowDown100,
+.spectrum-UIIcon-ArrowDown200,
+.spectrum-UIIcon-ArrowDown300,
+.spectrum-UIIcon-ArrowDown400,
+.spectrum-UIIcon-ArrowDown500,
+.spectrum-UIIcon-ArrowDown600 {
+  transform: rotate(90deg);
+}
+.spectrum-UIIcon-ChevronLeft75,
+.spectrum-UIIcon-ChevronLeft100,
+.spectrum-UIIcon-ChevronLeft200,
+.spectrum-UIIcon-ChevronLeft300,
+.spectrum-UIIcon-ChevronLeft400,
+.spectrum-UIIcon-ChevronLeft500,
+.spectrum-UIIcon-ArrowLeft75,
+.spectrum-UIIcon-ArrowLeft100,
+.spectrum-UIIcon-ArrowLeft200,
+.spectrum-UIIcon-ArrowLeft300,
+.spectrum-UIIcon-ArrowLeft400,
+.spectrum-UIIcon-ArrowLeft500,
+.spectrum-UIIcon-ArrowLeft600 {
+  transform: rotate(180deg);
+}
+.spectrum-UIIcon-ChevronUp75,
+.spectrum-UIIcon-ChevronUp100,
+.spectrum-UIIcon-ChevronUp200,
+.spectrum-UIIcon-ChevronUp300,
+.spectrum-UIIcon-ChevronUp400,
+.spectrum-UIIcon-ChevronUp500,
+.spectrum-UIIcon-ArrowUp75,
+.spectrum-UIIcon-ArrowUp100,
+.spectrum-UIIcon-ArrowUp200,
+.spectrum-UIIcon-ArrowUp300,
+.spectrum-UIIcon-ArrowUp400,
+.spectrum-UIIcon-ArrowUp500,
+.spectrum-UIIcon-ArrowUp600 {
+  transform: rotate(270deg);
+}
+.spectrum-UIIcon-ChevronRight75,
+.spectrum-UIIcon-ChevronDown75,
+.spectrum-UIIcon-ChevronLeft75,
+.spectrum-UIIcon-ChevronUp75 {
+  width: 12px;
+  height: 12px;
+}
+.spectrum-UIIcon-ChevronRight100,
+.spectrum-UIIcon-ChevronDown100,
+.spectrum-UIIcon-ChevronLeft100,
+.spectrum-UIIcon-ChevronUp100 {
+  width: 14px;
+  height: 14px;
+}
+.spectrum-UIIcon-ChevronRight200,
+.spectrum-UIIcon-ChevronDown200,
+.spectrum-UIIcon-ChevronLeft200,
+.spectrum-UIIcon-ChevronUp200 {
+  width: 16px;
+  height: 16px;
+}
+.spectrum-UIIcon-ChevronRight300,
+.spectrum-UIIcon-ChevronDown300,
+.spectrum-UIIcon-ChevronLeft300,
+.spectrum-UIIcon-ChevronUp300 {
+  width: 16px;
+  height: 16px;
+}
+.spectrum-UIIcon-ChevronRight400,
+.spectrum-UIIcon-ChevronDown400,
+.spectrum-UIIcon-ChevronLeft400,
+.spectrum-UIIcon-ChevronUp400 {
+  width: 18px;
+  height: 18px;
+}
+.spectrum-UIIcon-ChevronRight500,
+.spectrum-UIIcon-ChevronDown500,
+.spectrum-UIIcon-ChevronLeft500,
+.spectrum-UIIcon-ChevronUp500 {
+  width: 20px;
+  height: 20px;
+}
+.spectrum-UIIcon-ArrowRight75,
+.spectrum-UIIcon-ArrowDown75,
+.spectrum-UIIcon-ArrowLeft75,
+.spectrum-UIIcon-ArrowUp75 {
+  width: 12px;
+  height: 12px;
+}
+.spectrum-UIIcon-ArrowRight100,
+.spectrum-UIIcon-ArrowDown100,
+.spectrum-UIIcon-ArrowLeft100,
+.spectrum-UIIcon-ArrowUp100 {
+  width: 14px;
+  height: 14px;
+}
+.spectrum-UIIcon-ArrowRight200,
+.spectrum-UIIcon-ArrowDown200,
+.spectrum-UIIcon-ArrowLeft200,
+.spectrum-UIIcon-ArrowUp200 {
+  width: 16px;
+  height: 16px;
+}
+.spectrum-UIIcon-ArrowRight300,
+.spectrum-UIIcon-ArrowDown300,
+.spectrum-UIIcon-ArrowLeft300,
+.spectrum-UIIcon-ArrowUp300 {
+  width: 16px;
+  height: 16px;
+}
+.spectrum-UIIcon-ArrowRight400,
+.spectrum-UIIcon-ArrowDown400,
+.spectrum-UIIcon-ArrowLeft400,
+.spectrum-UIIcon-ArrowUp400 {
+  width: 18px;
+  height: 18px;
+}
+.spectrum-UIIcon-ArrowRight500,
+.spectrum-UIIcon-ArrowDown500,
+.spectrum-UIIcon-ArrowLeft500,
+.spectrum-UIIcon-ArrowUp500 {
+  width: 22px;
+  height: 22px;
+}
+.spectrum-UIIcon-ArrowRight600,
+.spectrum-UIIcon-ArrowDown600,
+.spectrum-UIIcon-ArrowLeft600,
+.spectrum-UIIcon-ArrowUp600 {
+  width: 24px;
+  height: 24px;
+}
+.spectrum-UIIcon-Checkmark50 {
+  width: 12px;
+  height: 12px;
+}
+.spectrum-UIIcon-Checkmark75 {
+  width: 12px;
+  height: 12px;
+}
+.spectrum-UIIcon-Checkmark100 {
+  width: 14px;
+  height: 14px;
+}
+.spectrum-UIIcon-Checkmark200 {
+  width: 16px;
+  height: 16px;
+}
+.spectrum-UIIcon-Checkmark300 {
+  width: 16px;
+  height: 16px;
+}
+.spectrum-UIIcon-Checkmark400 {
+  width: 18px;
+  height: 18px;
+}
+.spectrum-UIIcon-Checkmark500 {
+  width: 20px;
+  height: 20px;
+}
+.spectrum-UIIcon-Checkmark600 {
+  width: 24px;
+  height: 24px;
+}
+.spectrum-UIIcon-Dash50 {
+  width: 10px;
+  height: 10px;
+}
+.spectrum-UIIcon-Dash75 {
+  width: 10px;
+  height: 10px;
+}
+.spectrum-UIIcon-Dash100 {
+  width: 12px;
+  height: 12px;
+}
+.spectrum-UIIcon-Dash200 {
+  width: 14px;
+  height: 14px;
+}
+.spectrum-UIIcon-Dash300 {
+  width: 16px;
+  height: 16px;
+}
+.spectrum-UIIcon-Dash400 {
+  width: 18px;
+  height: 18px;
+}
+.spectrum-UIIcon-Dash500 {
+  width: 20px;
+  height: 20px;
+}
+.spectrum-UIIcon-Dash600 {
+  width: 22px;
+  height: 22px;
+}
+.spectrum-UIIcon-Cross75 {
+  width: 10px;
+  height: 10px;
+}
+.spectrum-UIIcon-Cross100 {
+  width: 10px;
+  height: 10px;
+}
+.spectrum-UIIcon-Cross200 {
+  width: 12px;
+  height: 12px;
+}
+.spectrum-UIIcon-Cross300 {
+  width: 14px;
+  height: 14px;
+}
+.spectrum-UIIcon-Cross400 {
+  width: 16px;
+  height: 16px;
+}
+.spectrum-UIIcon-Cross500 {
+  width: 16px;
+  height: 16px;
+}
+.spectrum-UIIcon-Cross600 {
+  width: 18px;
+  height: 18px;
+}
+.spectrum-UIIcon-TripleGripper100 {
+  width: 10px;
+  height: 14px;
+}
+.spectrum-UIIcon-DoubleGripper100 {
+  width: 6px;
+  height: 20px;
+}
+.spectrum-UIIcon-SingleGripper100 {
+  width: 4px;
+  height: 30px;
+}
+.spectrum-UIIcon-CornerTriangle75 {
+  width: 6px;
+  height: 6px;
+}
+.spectrum-UIIcon-CornerTriangle100 {
+  width: 7px;
+  height: 7px;
+}
+.spectrum-UIIcon-CornerTriangle200 {
+  width: 8px;
+  height: 8px;
+}
+.spectrum-UIIcon-CornerTriangle300 {
+  width: 8px;
+  height: 8px;
+}
+.spectrum-UIIcon-Asterisk75 {
+  width: 8px;
+  height: 12px;
+}
+.spectrum-UIIcon-Asterisk100 {
+  width: 10px;
+  height: 10px;
+}
+.spectrum-UIIcon-Asterisk200 {
+  width: 12px;
+  height: 12px;
+}
+.spectrum-UIIcon-Asterisk300 {
+  width: 12px;
+  height: 12px;
+}
