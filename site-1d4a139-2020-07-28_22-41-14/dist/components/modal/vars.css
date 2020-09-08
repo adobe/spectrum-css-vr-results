@@ -1,9 +1,0 @@
-
-.spectrum-Modal {
-  --spectrum-dialog-entry-animation-distance: var(--spectrum-global-dimension-size-250);
-  --spectrum-dialog-border-radius: var(--spectrum-global-dimension-size-50);
-  --spectrum-dialog-exit-animation-duration: var(--spectrum-global-animation-duration-100);
-  --spectrum-dialog-entry-animation-duration: var(--spectrum-global-animation-duration-500);
-  --spectrum-dialog-entry-animation-delay: var(--spectrum-global-animation-duration-200);
-  --spectrum-dialog-background-color: var(--spectrum-alias-background-color-default);
-}
