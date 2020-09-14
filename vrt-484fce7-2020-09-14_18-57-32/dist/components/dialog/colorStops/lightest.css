@@ -1,0 +1,15 @@
+.spectrum-Dialog-heading {
+  color: rgb(50, 50, 50);
+}
+.spectrum-Dialog-content {
+  color: rgb(80, 80, 80);
+}
+.spectrum-Dialog-typeIcon {
+  color: rgb(50, 50, 50);
+}
+.spectrum-Dialog--error .spectrum-Dialog-typeIcon {
+    color: rgb(215, 55, 63);
+  }
+.spectrum-Dialog--warning .spectrum-Dialog-typeIcon {
+    color: rgb(218, 123, 17);
+  }
