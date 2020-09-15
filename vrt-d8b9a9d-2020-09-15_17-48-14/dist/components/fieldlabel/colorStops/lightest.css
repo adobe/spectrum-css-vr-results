@@ -1,0 +1,13 @@
+.spectrum-FieldLabel,
+.spectrum-Form-itemLabel {
+  color: rgb(116, 116, 116);
+}
+.spectrum-FieldLabel.is-disabled, .spectrum-Form-itemLabel.is-disabled {
+    color: rgb(188, 188, 188);
+  }
+.spectrum-FieldLabel.is-disabled .spectrum-FieldLabel-requiredIcon, .spectrum-Form-itemLabel.is-disabled .spectrum-FieldLabel-requiredIcon {
+      color: rgb(188, 188, 188);
+    }
+.spectrum-FieldLabel-requiredIcon {
+  color: rgb(149, 149, 149);
+}
