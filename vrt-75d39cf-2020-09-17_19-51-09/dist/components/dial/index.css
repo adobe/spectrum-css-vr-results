@@ -1,0 +1,228 @@
+[dir="ltr"] .spectrum-Dial-label {
+  padding-left: 0;
+}
+[dir="rtl"] .spectrum-Dial-label {
+  padding-right: 0;
+}
+.spectrum-Dial-label {
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+[dir="ltr"] .spectrum-Dial-value {
+  padding-right: 0;
+}
+[dir="rtl"] .spectrum-Dial-value {
+  padding-left: 0;
+}
+.spectrum-Dial-value {
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  cursor: default;
+}
+.spectrum-Dial {
+  position: relative;
+  z-index: 1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  height: auto;
+  min-width: 0;
+  min-height: 0;
+  width: 48px;
+}
+.spectrum-Dial-labelContainer {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: auto;
+  padding-top: 4px;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+.spectrum-Dial-label:only-child {
+    text-align: center;
+  }
+[dir="ltr"] .spectrum-Dial-controls {
+  margin-left: 8px;
+}
+[dir="rtl"] .spectrum-Dial-controls {
+  margin-right: 8px;
+}
+.spectrum-Dial-controls {
+  display: inline-block;
+  box-sizing: border-box;
+
+  position: relative;
+  z-index: auto;
+
+  vertical-align: top;
+
+  width: 32px;
+  height: 32px;
+  min-height: 0;
+
+  border-radius: 16px;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+
+  box-sizing: border-box;
+  outline: none;
+}
+.spectrum-Dial-controls::before,
+  .spectrum-Dial-controls::after {
+    content: "";
+    width: 4px;
+    height: 2px;
+    border-radius: 1px;
+    position: absolute;
+    bottom: 0;
+  }
+[dir="ltr"] .spectrum-Dial-controls::before {
+    left: auto;
+}
+[dir="rtl"] .spectrum-Dial-controls::before {
+    right: auto;
+}
+[dir="ltr"] .spectrum-Dial-controls::before {
+    right: -2px;
+}
+[dir="rtl"] .spectrum-Dial-controls::before {
+    left: -2px;
+}
+.spectrum-Dial-controls::before {
+    transform: rotate(45deg);
+  }
+[dir="ltr"] .spectrum-Dial-controls::after {
+    left: -2px;
+}
+[dir="rtl"] .spectrum-Dial-controls::after {
+    right: -2px;
+}
+.spectrum-Dial-controls::after {
+    transform: rotate(-45deg);
+  }
+[dir="ltr"] .spectrum-Dial-handle {
+  left: 0;
+}
+[dir="rtl"] .spectrum-Dial-handle {
+  right: 0;
+}
+[dir="ltr"] .spectrum-Dial-handle {
+  margin-left: -8px;
+  margin-right: 0;
+}
+[dir="rtl"] .spectrum-Dial-handle {
+  margin-right: -8px;
+  margin-left: 0;
+}
+[dir="ltr"] .spectrum-Dial-handle {
+  left: 8px;
+}
+[dir="rtl"] .spectrum-Dial-handle {
+  right: 8px;
+}
+[dir="ltr"] .spectrum-Dial-handle {
+  right: 8px;
+}
+[dir="rtl"] .spectrum-Dial-handle {
+  left: 8px;
+}
+.spectrum-Dial-handle {
+  position: absolute;
+  z-index: 2;
+  display: inline-block;
+  box-sizing: border-box;
+
+  margin-top: -8px;
+
+  margin-bottom: 0;
+
+  outline: none;
+  cursor: pointer;
+  cursor: grab;
+
+  width: 100%;
+  height: 100%;
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: none;
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  border-radius: 16px;
+  transform: rotate(-45deg);
+  cursor: pointer;
+  cursor: grab;
+}
+[dir="ltr"] .spectrum-Dial-handle::after {
+    left: -2px;
+}
+[dir="rtl"] .spectrum-Dial-handle::after {
+    right: -2px;
+}
+.spectrum-Dial-handle::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    transform: translateY(-50%);
+  }
+.spectrum-Dial-handle:active,
+  .spectrum-Dial-handle.is-focused,
+  .spectrum-Dial-handle.is-dragged {
+    border-width: 2px;
+    cursor: ns-resize;
+    cursor: grabbing;
+  }
+[dir="ltr"] .spectrum-Dial-input {
+  left: 0;
+}
+[dir="rtl"] .spectrum-Dial-input {
+  right: 0;
+}
+.spectrum-Dial-input {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+  opacity: 0.000001;
+  cursor: default;
+  -webkit-appearance: none;
+  border: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.spectrum-Dial-input:focus {
+    outline: none;
+  }
+.spectrum-Dial--small .spectrum-Dial-controls {
+    width: 24px;
+    height: 24px;
+  }
+.spectrum-Dial.is-disabled {
+    cursor: default;
+  }
+.u-isGrabbing {
+  cursor: ns-resize;
+  cursor: grabbing;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.u-isGrabbing .spectrum-Dial .spectrum-Dial-label,
+    .u-isGrabbing .spectrum-Dial .spectrum-Dial-value {
+      cursor: inherit;
+    }
