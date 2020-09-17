@@ -1,0 +1,18 @@
+.spectrum-ProgressCircle-track {
+  border-color: rgb(74, 74, 74);
+}
+.spectrum-ProgressCircle-fill {
+  border-color: rgb(55, 142, 240);
+}
+.spectrum-ProgressCircle--overBackground .spectrum-ProgressCircle-track {
+    border-color: rgba(255,255,255,0.2);
+  }
+.spectrum-ProgressCircle--overBackground .spectrum-ProgressCircle-fill {
+    border-color: rgb(255, 255, 255);
+  }
+.spectrum-ProgressCircle--indeterminate.spectrum-ProgressCircle--overBackground .spectrum-ProgressCircle-track {
+    border-color: rgba(255,255,255,0.2);
+  }
+.spectrum-ProgressCircle--indeterminate.spectrum-ProgressCircle--overBackground .spectrum-ProgressCircle-fill {
+    border-color: rgb(255, 255, 255);
+  }
