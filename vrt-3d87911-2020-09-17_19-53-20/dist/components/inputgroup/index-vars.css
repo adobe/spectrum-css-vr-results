@@ -1,0 +1,352 @@
+.spectrum-InputGroup {
+  position: relative;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  min-width: var(--spectrum-alias-single-line-width, var(--spectrum-global-dimension-size-2400));
+  border-radius: var(--spectrum-global-dimension-size-50);
+}
+
+[dir="ltr"] .spectrum-InputGroup .spectrum-InputGroup-button {
+    border-top-left-radius: var(--spectrum-combobox-fieldbutton-border-top-left-radius, 0);
+}
+
+[dir="rtl"] .spectrum-InputGroup .spectrum-InputGroup-button {
+    border-top-right-radius: var(--spectrum-combobox-fieldbutton-border-top-left-radius, 0);
+}
+
+[dir="ltr"] .spectrum-InputGroup .spectrum-InputGroup-button {
+    border-bottom-left-radius: var(--spectrum-combobox-fieldbutton-border-bottom-left-radius, 0);
+}
+
+[dir="rtl"] .spectrum-InputGroup .spectrum-InputGroup-button {
+    border-bottom-right-radius: var(--spectrum-combobox-fieldbutton-border-bottom-left-radius, 0);
+}
+
+.spectrum-InputGroup .spectrum-InputGroup-button {
+    padding: 0;
+    width: var(--spectrum-global-dimension-size-400);
+  }
+
+.spectrum-InputGroup .spectrum-InputGroup-input {
+    width: auto;
+  }
+
+.spectrum-InputGroup-button {
+  position: relative;
+}
+
+[dir="ltr"] .spectrum-InputGroup-input {
+  border-top-right-radius: var(--spectrum-combobox-textfield-border-top-right-radius, 0);
+}
+
+[dir="rtl"] .spectrum-InputGroup-input {
+  border-top-left-radius: var(--spectrum-combobox-textfield-border-top-right-radius, 0);
+}
+
+[dir="ltr"] .spectrum-InputGroup-input {
+  border-bottom-right-radius: var(--spectrum-combobox-textfield-border-bottom-right-radius, 0);
+}
+
+[dir="rtl"] .spectrum-InputGroup-input {
+  border-bottom-left-radius: var(--spectrum-combobox-textfield-border-bottom-right-radius, 0);
+}
+
+[dir="ltr"] .spectrum-InputGroup-input {
+  border-right-width: 0;
+}
+
+[dir="rtl"] .spectrum-InputGroup-input {
+  border-left-width: 0;
+}
+
+.spectrum-InputGroup-input {
+  -ms-flex: 1;
+      flex: 1;
+}
+
+.spectrum-InputGroup--quiet {
+  border-radius: 0;
+}
+
+[dir="ltr"] .spectrum-InputGroup--quiet .spectrum-InputGroup-button {
+
+    padding-left: calc(var(--spectrum-fieldbutton-min-width, var(--spectrum-global-dimension-size-400)) / 2 - var(--spectrum-icon-chevron-down-medium-width) / 2);
+}
+
+[dir="rtl"] .spectrum-InputGroup--quiet .spectrum-InputGroup-button {
+
+    padding-right: calc(var(--spectrum-fieldbutton-min-width, var(--spectrum-global-dimension-size-400)) / 2 - var(--spectrum-icon-chevron-down-medium-width) / 2);
+}
+
+[dir="ltr"] .spectrum-InputGroup--quiet .spectrum-InputGroup-button {
+    padding-right: 0;
+}
+
+[dir="rtl"] .spectrum-InputGroup--quiet .spectrum-InputGroup-button {
+    padding-left: 0;
+}
+
+.spectrum-InputGroup--quiet .spectrum-InputGroup-button {
+    width: auto;
+    position: relative;
+
+    border-bottom: var(--spectrum-textfield-quiet-border-size, var(--spectrum-alias-border-size-thin)) solid;
+    border-radius: 0;
+  }
+
+[dir="ltr"] .spectrum-InputGroup--quiet .spectrum-InputGroup-button:after {
+      right: calc((var(--spectrum-fieldbutton-min-width, var(--spectrum-global-dimension-size-400)) / 2 - var(--spectrum-icon-chevron-down-medium-width) / 2) * -1);
+}
+
+[dir="rtl"] .spectrum-InputGroup--quiet .spectrum-InputGroup-button:after {
+      left: calc((var(--spectrum-fieldbutton-min-width, var(--spectrum-global-dimension-size-400)) / 2 - var(--spectrum-icon-chevron-down-medium-width) / 2) * -1);
+}
+
+.spectrum-InputGroup--quiet .spectrum-InputGroup-button:after {
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: calc(var(--spectrum-fieldbutton-min-width, var(--spectrum-global-dimension-size-400)) / 2 - var(--spectrum-icon-chevron-down-medium-width) / 2);
+    }
+
+[dir="ltr"] .spectrum-InputGroup--quiet .spectrum-InputGroup-icon {
+    right: 0;
+}
+
+[dir="rtl"] .spectrum-InputGroup--quiet .spectrum-InputGroup-icon {
+    left: 0;
+}
+
+.spectrum-Datepicker--range {
+  border-radius: var(--spectrum-global-dimension-size-50);
+}
+
+.spectrum-Datepicker--range.spectrum-InputGroup--quiet {
+    border-radius: 0;
+  }
+
+.spectrum-Datepicker--range.spectrum-InputGroup--quiet .spectrum-InputGroup-textfield {
+      min-width: 0;
+      width: calc(var(--spectrum-global-dimension-size-900) + var(--spectrum-global-dimension-size-200) + var(--spectrum-icon-alert-medium-width, var(--spectrum-global-dimension-size-225)));
+    }
+
+.spectrum-Datepicker--range.spectrum-InputGroup--quiet .spectrum-InputGroup-textfield:first-of-type {
+        width: calc(var(--spectrum-global-dimension-size-900) + var(--spectrum-global-dimension-size-200));
+      }
+
+.spectrum-Datepicker--range.spectrum-InputGroup--quiet .spectrum-InputGroup-button {
+      border-radius: 0;
+    }
+
+.spectrum-Datepicker--range.spectrum-Datepicker--datetimeRange .spectrum-InputGroup-textfield {
+      width: calc(var(--spectrum-global-dimension-size-1600) - 2 * var(--spectrum-global-dimension-size-150) + var(--spectrum-icon-alert-medium-width, var(--spectrum-global-dimension-size-225)) + var(--spectrum-global-dimension-size-450) + var(--spectrum-icon-alert-medium-width, var(--spectrum-global-dimension-size-225)));
+      min-width: 0;
+    }
+
+.spectrum-Datepicker--range.spectrum-Datepicker--datetimeRange .spectrum-InputGroup-textfield:first-of-type {
+        width: calc(var(--spectrum-global-dimension-size-1600) - 2 * var(--spectrum-global-dimension-size-150) + var(--spectrum-icon-alert-medium-width, var(--spectrum-global-dimension-size-225)) + var(--spectrum-global-dimension-size-450));
+      }
+
+.spectrum-Datepicker--range.spectrum-Datepicker--datetimeRange.spectrum-InputGroup--quiet .spectrum-InputGroup-textfield {
+        width: calc(var(--spectrum-global-dimension-size-1600) - 2 * var(--spectrum-global-dimension-size-150) + var(--spectrum-icon-alert-medium-width, var(--spectrum-global-dimension-size-225)) + var(--spectrum-global-dimension-size-300) + var(--spectrum-icon-alert-medium-width, var(--spectrum-global-dimension-size-225)));
+      }
+
+.spectrum-Datepicker--range.spectrum-Datepicker--datetimeRange.spectrum-InputGroup--quiet .spectrum-InputGroup-textfield:first-of-type {
+          width: calc(var(--spectrum-global-dimension-size-1600) - 2 * var(--spectrum-global-dimension-size-150) + var(--spectrum-icon-alert-medium-width, var(--spectrum-global-dimension-size-225)) + var(--spectrum-global-dimension-size-300));
+        }
+
+.spectrum-Datepicker--range .spectrum-InputGroup-textfield {
+    -ms-flex: initial;
+        flex: initial;
+    min-width: 0;
+    width: calc(var(--spectrum-global-dimension-size-1600) - 2 * var(--spectrum-global-dimension-size-150) + var(--spectrum-icon-alert-medium-width, var(--spectrum-global-dimension-size-225)));
+  }
+
+.spectrum-Datepicker--range .spectrum-InputGroup-textfield:first-of-type {
+      width: calc(var(--spectrum-global-dimension-size-1600) - 2 * var(--spectrum-global-dimension-size-150));
+    }
+
+[dir="ltr"] .spectrum-Datepicker--range .spectrum-InputGroup-textfield.is-invalid .spectrum-InputGroup-input {
+        padding-right: var(--spectrum-global-dimension-size-150);
+}
+
+[dir="rtl"] .spectrum-Datepicker--range .spectrum-InputGroup-textfield.is-invalid .spectrum-InputGroup-input {
+        padding-left: var(--spectrum-global-dimension-size-150);
+}
+
+.spectrum-Datepicker--range .spectrum-InputGroup-input {
+    width: 100%;
+  }
+
+[dir="ltr"] .spectrum-Datepicker--range .spectrum-InputGroup-input.spectrum-Datepicker-startField {
+      border-right: 0;
+}
+
+[dir="rtl"] .spectrum-Datepicker--range .spectrum-InputGroup-input.spectrum-Datepicker-startField {
+      border-left: 0;
+}
+
+[dir="ltr"] .spectrum-Datepicker--range .spectrum-InputGroup-input.spectrum-Datepicker-startField {
+      padding-right: var(--spectrum-global-dimension-size-150);
+}
+
+[dir="rtl"] .spectrum-Datepicker--range .spectrum-InputGroup-input.spectrum-Datepicker-startField {
+      padding-left: var(--spectrum-global-dimension-size-150);
+}
+
+[dir="ltr"] .spectrum-Datepicker--range .spectrum-InputGroup-input.spectrum-Datepicker-endField {
+      border-left: 0;
+}
+
+[dir="rtl"] .spectrum-Datepicker--range .spectrum-InputGroup-input.spectrum-Datepicker-endField {
+      border-right: 0;
+}
+
+[dir="ltr"] .spectrum-Datepicker--range .spectrum-InputGroup-input.spectrum-Datepicker-endField {
+      padding-left: var(--spectrum-global-dimension-size-150);
+}
+
+[dir="rtl"] .spectrum-Datepicker--range .spectrum-InputGroup-input.spectrum-Datepicker-endField {
+      padding-right: var(--spectrum-global-dimension-size-150);
+}
+
+.spectrum-Datepicker--range .spectrum-InputGroup-input.spectrum-Datepicker-endField {
+      border-radius: 0;
+    }
+
+.spectrum-Datepicker--range .spectrum-Datepicker-rangeDash {
+    line-height: calc(var(--spectrum-textfield-height, var(--spectrum-alias-single-line-height)) - var(--spectrum-global-dimension-size-100));
+    padding-top: 0;
+    -ms-flex: initial;
+        flex: initial;
+    width: 0;
+    z-index: 1;
+  }
+
+.spectrum-Datepicker--range .spectrum-Datepicker-rangeDash:before {
+      content: "–";
+      display: inline-block;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: calc(-0.5 * var(--spectrum-global-dimension-static-font-size-100, 14px));
+      margin-right: calc(-0.5 * var(--spectrum-global-dimension-static-font-size-100, 14px));
+      overflow: hidden;
+      text-align: center;
+      vertical-align: middle;
+      width: var(--spectrum-global-dimension-static-font-size-100, 14px);
+    }
+
+[dir="ltr"] .spectrum-Datepicker--range.spectrum-InputGroup--quiet .spectrum-Datepicker--rangeDash:before {
+        margin-left: calc(-0.5 * var(--spectrum-global-dimension-static-font-size-100, 14px));
+}
+
+[dir="rtl"] .spectrum-Datepicker--range.spectrum-InputGroup--quiet .spectrum-Datepicker--rangeDash:before {
+        margin-right: calc(-0.5 * var(--spectrum-global-dimension-static-font-size-100, 14px));
+}
+
+.spectrum-InputGroup.is-focused:not(.is-invalid) .spectrum-InputGroup-textfield .spectrum-InputGroup-input {
+          border-color: var(--spectrum-textfield-border-color-key-focus, var(--spectrum-alias-border-color-focus));
+        }
+
+.spectrum-InputGroup.is-focused:not(.is-invalid) .spectrum-InputGroup-button {
+        border-color: var(--spectrum-textfield-border-color-key-focus, var(--spectrum-alias-border-color-focus));
+      }
+
+.spectrum-InputGroup:hover:not(.is-focused):not(.is-keyboardFocused):not(.is-disabled) .spectrum-InputGroup-textfield .spectrum-InputGroup-input {
+          border-color: var(--spectrum-textfield-border-color-hover, var(--spectrum-alias-border-color-hover));
+        }
+
+.spectrum-InputGroup:hover:not(.is-focused):not(.is-keyboardFocused):not(.is-disabled) .spectrum-InputGroup-button {
+        border-color: var(--spectrum-textfield-border-color-hover, var(--spectrum-alias-border-color-hover));
+      }
+
+.spectrum-InputGroup:hover:not(.is-focused):not(.is-keyboardFocused):not(.is-disabled).is-invalid .spectrum-InputGroup-textfield .spectrum-InputGroup-input {
+            border-color: var(--spectrum-textfield-border-color-error-hover, var(--spectrum-semantic-negative-color-state-hover));
+          }
+
+.spectrum-InputGroup:hover:not(.is-focused):not(.is-keyboardFocused):not(.is-disabled).is-invalid .spectrum-InputGroup-button {
+          border-color: var(--spectrum-textfield-border-color-error-hover, var(--spectrum-semantic-negative-color-state-hover));
+        }
+
+.spectrum-InputGroup.is-disabled .spectrum-Datepicker-rangeDash {
+      color: var(--spectrum-alias-text-color-disabled, var(--spectrum-global-color-gray-500));
+    }
+
+.spectrum-InputGroup.is-focused .spectrum-InputGroup-button,
+  .spectrum-InputGroup.is-focused .spectrum-InputGroup-input {
+    border-color: var(--spectrum-picker-border-color-key-focus, var(--spectrum-alias-border-color-focus));
+  }
+
+.spectrum-InputGroup.is-focused.is-invalid .spectrum-InputGroup-button,
+    .spectrum-InputGroup.is-focused.is-invalid .spectrum-InputGroup-input {
+      border-color: var(--spectrum-picker-border-color-error, var(--spectrum-global-color-red-500));
+    }
+
+.spectrum-InputGroup:not(.spectrum-InputGroup--quiet).is-keyboardFocused {
+    box-shadow: 0 0 0 1px var(--spectrum-picker-border-color-key-focus, var(--spectrum-alias-border-color-focus));
+  }
+
+.spectrum-InputGroup:not(.spectrum-InputGroup--quiet).is-keyboardFocused .spectrum-InputGroup-input,
+  .spectrum-InputGroup:not(.spectrum-InputGroup--quiet).is-keyboardFocused .spectrum-InputGroup-input.focus-ring {
+    box-shadow: none ;
+  }
+
+.spectrum-InputGroup:not(.spectrum-InputGroup--quiet).is-keyboardFocused.is-invalid {
+      box-shadow: 0 0 0 1px var(--spectrum-picker-border-color-error-key-focus, var(--spectrum-alias-border-color-focus));
+    }
+
+.spectrum-InputGroup:not(.spectrum-InputGroup--quiet).is-keyboardFocused.is-invalid .spectrum-InputGroup-button,
+    .spectrum-InputGroup:not(.spectrum-InputGroup--quiet).is-keyboardFocused.is-invalid .spectrum-InputGroup-input {
+      border-color: var(--spectrum-picker-border-color-error-key-focus, var(--spectrum-alias-border-color-focus));
+    }
+
+.spectrum-InputGroup:not(.spectrum-InputGroup--quiet).is-keyboardFocused .spectrum-InputGroup-button {
+    box-shadow: none;
+  }
+
+.spectrum-InputGroup--quiet .spectrum-InputGroup-button,
+    .spectrum-InputGroup--quiet .spectrum-InputGroup-button:hover,
+    .spectrum-InputGroup--quiet .spectrum-InputGroup-button:focus,
+    .spectrum-InputGroup--quiet .spectrum-InputGroup-button:active,
+    .spectrum-InputGroup--quiet .spectrum-InputGroup-button.is-selected,
+    .spectrum-InputGroup--quiet .spectrum-InputGroup-button.is-invalid,
+    .spectrum-InputGroup--quiet .spectrum-InputGroup-button:disabled,
+    .spectrum-InputGroup--quiet .spectrum-InputGroup-button:disabled:hover {
+      border-color: var(--spectrum-textfield-quiet-border-color, var(--spectrum-alias-border-color));
+    }
+
+.spectrum-InputGroup--quiet:hover:not(.is-focused):not(.is-keyboardFocused):not(.is-disabled) .spectrum-InputGroup-input,
+    .spectrum-InputGroup--quiet:hover:not(.is-focused):not(.is-keyboardFocused):not(.is-disabled) .spectrum-InputGroup-button {
+      border-color: var(--spectrum-textfield-quiet-border-color-hover, var(--spectrum-alias-border-color-hover));
+    }
+
+.spectrum-InputGroup--quiet.is-invalid .spectrum-InputGroup-input,
+    .spectrum-InputGroup--quiet.is-invalid .spectrum-InputGroup-button {
+      border-color: var(--spectrum-textfield-quiet-border-color-error, var(--spectrum-semantic-negative-color-default));
+    }
+
+.spectrum-InputGroup--quiet.is-focused .spectrum-InputGroup-input,
+    .spectrum-InputGroup--quiet.is-focused .spectrum-InputGroup-button {
+      border-color: var(--spectrum-textfield-quiet-border-color-mouse-focus, var(--spectrum-alias-border-color-mouse-focus));
+    }
+
+.spectrum-InputGroup--quiet.is-focused.is-invalid .spectrum-InputGroup-input,
+      .spectrum-InputGroup--quiet.is-focused.is-invalid .spectrum-InputGroup-button {
+        border-color: var(--spectrum-textfield-quiet-border-color-error-mouse-focus, var(--spectrum-semantic-negative-color-state-hover));
+      }
+
+.spectrum-InputGroup--quiet.is-keyboardFocused .spectrum-InputGroup-input,
+    .spectrum-InputGroup--quiet.is-keyboardFocused .spectrum-InputGroup-button {
+      box-shadow: 0 1px 0 var(--spectrum-textfield-quiet-border-color-key-focus, var(--spectrum-alias-border-color-focus));
+      border-color: var(--spectrum-textfield-quiet-border-color-key-focus, var(--spectrum-alias-border-color-focus));
+    }
+
+.spectrum-InputGroup--quiet.is-keyboardFocused.is-invalid .spectrum-InputGroup-input,
+      .spectrum-InputGroup--quiet.is-keyboardFocused.is-invalid .spectrum-InputGroup-button {
+        box-shadow: 0 1px 0 var(--spectrum-picker-border-color-error-key-focus, var(--spectrum-alias-border-color-focus));
+        border-color: var(--spectrum-picker-border-color-error-key-focus, var(--spectrum-alias-border-color-focus));
+      }
