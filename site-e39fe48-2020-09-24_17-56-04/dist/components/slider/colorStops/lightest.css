@@ -1,0 +1,76 @@
+.spectrum-Slider-track::before {
+    background: rgb(234, 234, 234);
+  }
+.spectrum-Slider-labelContainer {
+  color: rgb(116, 116, 116);
+}
+.spectrum-Slider--filled .spectrum-Slider-track:first-child::before {
+      background: rgb(116, 116, 116);
+    }
+.spectrum-Slider-fill::before {
+    background: rgb(116, 116, 116);
+  }
+.spectrum-Slider-ramp path {
+    fill: rgb(234, 234, 234);
+  }
+.spectrum-Slider-handle {
+  border-color: rgb(116, 116, 116);
+  background: transparent;
+}
+.spectrum-Slider-handle:hover {
+    border-color: rgb(80, 80, 80);
+  }
+.spectrum-Slider-handle.is-focused {
+    border-color: rgb(80, 80, 80);
+  }
+.spectrum-Slider-handle.is-focused:before {
+      box-shadow: 0 0 0 2px
+        rgb(55, 142, 240);
+    }
+.spectrum-Slider-handle:active,
+  .spectrum-Slider-handle.is-dragged {
+    border-color: rgb(80, 80, 80);
+  }
+.spectrum-Slider--ramp .spectrum-Slider-handle {
+    box-shadow: 0 0 0 4px rgb(255, 255, 255);
+  }
+.spectrum-Slider-input {
+  background: transparent;
+}
+.spectrum-Slider-tick:after {
+    background-color: rgb(234, 234, 234);
+  }
+.spectrum-Slider-handle.is-dragged {
+    border-color: rgb(80, 80, 80);
+    background: transparent;
+  }
+.spectrum-Slider--range .spectrum-Slider-track:not(:first-of-type):not(:last-of-type):before {
+        background: rgb(116, 116, 116);
+      }
+.spectrum-Slider.is-disabled .spectrum-Slider-labelContainer {
+      color: rgb(188, 188, 188);
+    }
+.spectrum-Slider.is-disabled .spectrum-Slider-handle {
+      border-color: rgb(211, 211, 211);
+      background: rgb(255, 255, 255);
+    }
+.spectrum-Slider.is-disabled .spectrum-Slider-handle:hover,
+      .spectrum-Slider.is-disabled .spectrum-Slider-handle:active {
+        border-color: rgb(211, 211, 211);
+        background: transparent;
+      }
+.spectrum-Slider.is-disabled .spectrum-Slider-track::before {
+        background: rgb(234, 234, 234);
+      }
+.spectrum-Slider.is-disabled.spectrum-Slider--filled .spectrum-Slider-track:first-child::before {
+          background: rgb(234, 234, 234);
+        }
+.spectrum-Slider.is-disabled .spectrum-Slider-fill::before {
+        background: rgb(234, 234, 234);
+      }
+.spectrum-Slider.is-disabled .spectrum-Slider-ramp path {
+        fill: rgb(244, 244, 244);
+      }
+.spectrum-Slider.is-disabled.spectrum-Slider--range .spectrum-Slider-track:not(:first-of-type):not(:last-of-type):before {
+            background: rgb(234, 234, 234);
+          }
