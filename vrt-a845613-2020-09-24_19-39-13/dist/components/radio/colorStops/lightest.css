@@ -1,0 +1,72 @@
+.spectrum-Radio-input:checked + .spectrum-Radio-button:before {
+      border-color: rgb(38, 128, 235);
+    }
+.spectrum-Radio-label {
+  color: rgb(80, 80, 80);
+}
+.spectrum-Radio-button:before {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(149, 149, 149);
+  }
+.spectrum-Radio:hover .spectrum-Radio-button:before {
+        border-color: rgb(116, 116, 116);
+        box-shadow: none;
+      }
+.spectrum-Radio:hover .spectrum-Radio-input:checked + .spectrum-Radio-button:before {
+        border-color: rgb(20, 115, 230);
+      }
+.spectrum-Radio:hover .spectrum-Radio-label {
+      color: rgb(50, 50, 50);
+    }
+.spectrum-Radio:active .spectrum-Radio-button:before {
+        border-color: rgb(80, 80, 80);
+      }
+.spectrum-Radio:active .spectrum-Radio-input:checked + .spectrum-Radio-button:before {
+        border-color: rgb(13, 102, 208);
+      }
+.spectrum-Radio:active .spectrum-Radio-label {
+      color: rgb(50, 50, 50);
+    }
+.spectrum-Radio--emphasized .spectrum-Radio-input:checked + .spectrum-Radio-button:before {
+      border-color: rgb(38, 128, 235);
+    }
+.spectrum-Radio--emphasized:hover .spectrum-Radio-input:checked + .spectrum-Radio-button:before {
+        border-color: rgb(20, 115, 230);
+      }
+.spectrum-Radio--emphasized:active .spectrum-Radio-input:checked + .spectrum-Radio-button:before {
+        border-color: rgb(13, 102, 208);
+      }
+.spectrum-Radio.is-invalid:hover .spectrum-Radio-input + .spectrum-Radio-button:before, .spectrum-Radio--emphasized.is-invalid:hover .spectrum-Radio-input + .spectrum-Radio-button:before {
+        border-color: rgb(215, 55, 63);
+      }
+.spectrum-Radio.is-invalid:hover .spectrum-Radio-label, .spectrum-Radio--emphasized.is-invalid:hover .spectrum-Radio-label {
+      color: rgb(201, 37, 45);
+    }
+.spectrum-Radio.is-invalid:active .spectrum-Radio-input + .spectrum-Radio-button:before, .spectrum-Radio--emphasized.is-invalid:active .spectrum-Radio-input + .spectrum-Radio-button:before {
+        border-color: rgb(201, 37, 45);
+      }
+.spectrum-Radio.is-invalid:active .spectrum-Radio-label, .spectrum-Radio--emphasized.is-invalid:active .spectrum-Radio-label {
+      color: rgb(201, 37, 45);
+    }
+.spectrum-Radio.is-invalid .spectrum-Radio-button:before, .spectrum-Radio.is-invalid .spectrum-Radio-input:checked + .spectrum-Radio-button:before, .spectrum-Radio--emphasized.is-invalid .spectrum-Radio-button:before, .spectrum-Radio--emphasized.is-invalid .spectrum-Radio-input:checked + .spectrum-Radio-button:before {
+        border-color: rgb(227, 72, 80);
+      }
+.spectrum-Radio.is-invalid .spectrum-Radio-label, .spectrum-Radio--emphasized.is-invalid .spectrum-Radio-label {
+      color: rgb(215, 55, 63);
+    }
+.spectrum-Radio .spectrum-Radio-input:disabled + .spectrum-Radio-button:before, .spectrum-Radio .spectrum-Radio-input:checked:disabled + .spectrum-Radio-button:before {
+      border-color: rgb(211, 211, 211);
+    }
+.spectrum-Radio .spectrum-Radio-input:disabled ~ .spectrum-Radio-label, .spectrum-Radio .spectrum-Radio-input:checked:disabled ~ .spectrum-Radio-label {
+    color: rgb(188, 188, 188);
+  }
+.spectrum-Radio .spectrum-Radio-input.focus-ring + .spectrum-Radio-button:before, .spectrum-Radio:hover .spectrum-Radio-input.focus-ring + .spectrum-Radio-button:before, .spectrum-Radio--emphasized .spectrum-Radio-input.focus-ring + .spectrum-Radio-button:before, .spectrum-Radio--emphasized:hover .spectrum-Radio-input.focus-ring + .spectrum-Radio-button:before {
+        border-color: rgb(116, 116, 116);
+      }
+.spectrum-Radio .spectrum-Radio-input.focus-ring + .spectrum-Radio-button:after, .spectrum-Radio:hover .spectrum-Radio-input.focus-ring + .spectrum-Radio-button:after, .spectrum-Radio--emphasized .spectrum-Radio-input.focus-ring + .spectrum-Radio-button:after, .spectrum-Radio--emphasized:hover .spectrum-Radio-input.focus-ring + .spectrum-Radio-button:after {
+        box-shadow: 0 0 0 2px
+          rgb(55, 142, 240);
+      }
+.spectrum-Radio .spectrum-Radio-input.focus-ring:checked + .spectrum-Radio-button:before, .spectrum-Radio:hover .spectrum-Radio-input.focus-ring:checked + .spectrum-Radio-button:before, .spectrum-Radio--emphasized .spectrum-Radio-input.focus-ring:checked + .spectrum-Radio-button:before, .spectrum-Radio--emphasized:hover .spectrum-Radio-input.focus-ring:checked + .spectrum-Radio-button:before {
+        border-color: rgb(20, 115, 230);
+      }
