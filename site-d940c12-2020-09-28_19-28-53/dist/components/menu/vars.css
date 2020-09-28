@@ -1,0 +1,31 @@
+
+.spectrum-Menu {
+  --spectrum-popover-padding-y: var(--spectrum-global-dimension-size-50);
+  --spectrum-icon-checkmark-medium-width: undefined;
+  --spectrum-listitem-option-icon-padding-x: var(--spectrum-global-dimension-size-150);
+  --spectrum-listitem-option-padding: var(--spectrum-global-dimension-static-size-150);
+  --spectrum-popover-border-size: var(--spectrum-alias-border-size-thin);
+  --spectrum-listitem-border-size-key-focus: var(--spectrum-global-dimension-static-size-25);
+  --spectrum-listitem-option-height: undefined;
+  --spectrum-listitem-option-text-size: var(--spectrum-alias-font-size-default);
+  --spectrum-listitem-option-text-font-weight: var(--spectrum-global-font-weight-regular);
+  --spectrum-listitem-thumbnail-image-padding-x: var(--spectrum-global-dimension-size-100);
+  --spectrum-alias-workflow-icon-size-m: var(--spectrum-global-dimension-size-225);
+  --spectrum-listitem-divider-size: var(--spectrum-alias-border-size-thick);
+  --spectrum-listitem-divider-padding: 3px;
+  --spectrum-alias-body-text-line-height: var(--spectrum-global-font-line-height-medium);
+  --spectrum-listitem-background-color: var(--spectrum-alias-background-color-transparent);
+  --spectrum-listitem-option-background-color: var(--spectrum-alias-background-color-transparent);
+  --spectrum-listitem-option-text-color: var(--spectrum-alias-text-color);
+  --spectrum-listitem-option-focus-indicator-color: var(--spectrum-alias-border-color-focus);
+  --spectrum-listitem-option-background-color-key-focus: var(--spectrum-alias-background-color-hover-overlay);
+  --spectrum-listitem-option-text-color-key-focus: var(--spectrum-alias-text-color);
+  --spectrum-listitem-option-background-color-hover: var(--spectrum-alias-background-color-hover-overlay);
+  --spectrum-listitem-option-text-color-hover: var(--spectrum-alias-text-color);
+  --spectrum-listitem-option-text-color-selected: var(--spectrum-alias-text-color);
+  --spectrum-listitem-option-icon-color-selected: var(--spectrum-alias-icon-color-selected);
+  --spectrum-listitem-option-background-color-down: var(--spectrum-alias-background-color-hover-overlay);
+  --spectrum-listitem-option-background-color-disabled: var(--spectrum-alias-background-color-transparent);
+  --spectrum-listitem-option-text-color-disabled: var(--spectrum-alias-text-color-disabled);
+  --spectrum-listitem-divider-color: var(--spectrum-alias-border-color-extralight);
+}
