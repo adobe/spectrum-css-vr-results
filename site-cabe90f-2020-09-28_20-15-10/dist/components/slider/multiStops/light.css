@@ -1,0 +1,76 @@
+.spectrum--light .spectrum-Slider-track::before {
+    background: rgb(225, 225, 225);
+  }
+.spectrum--light .spectrum-Slider-labelContainer {
+  color: rgb(110, 110, 110);
+}
+.spectrum--light .spectrum-Slider--filled .spectrum-Slider-track:first-child::before {
+      background: rgb(110, 110, 110);
+    }
+.spectrum--light .spectrum-Slider-fill::before {
+    background: rgb(110, 110, 110);
+  }
+.spectrum--light .spectrum-Slider-ramp path {
+    fill: rgb(225, 225, 225);
+  }
+.spectrum--light .spectrum-Slider-handle {
+  border-color: rgb(110, 110, 110);
+  background: transparent;
+}
+.spectrum--light .spectrum-Slider-handle:hover {
+    border-color: rgb(75, 75, 75);
+  }
+.spectrum--light .spectrum-Slider-handle.is-focused {
+    border-color: rgb(75, 75, 75);
+  }
+.spectrum--light .spectrum-Slider-handle.is-focused:before {
+      box-shadow: 0 0 0 2px
+        rgb(38, 128, 235);
+    }
+.spectrum--light .spectrum-Slider-handle:active,
+.spectrum--light .spectrum-Slider-handle.is-dragged {
+    border-color: rgb(75, 75, 75);
+  }
+.spectrum--light .spectrum-Slider--ramp .spectrum-Slider-handle {
+    box-shadow: 0 0 0 4px rgb(245, 245, 245);
+  }
+.spectrum--light .spectrum-Slider-input {
+  background: transparent;
+}
+.spectrum--light .spectrum-Slider-tick:after {
+    background-color: rgb(225, 225, 225);
+  }
+.spectrum--light .spectrum-Slider-handle.is-dragged {
+    border-color: rgb(75, 75, 75);
+    background: transparent;
+  }
+.spectrum--light .spectrum-Slider--range .spectrum-Slider-track:not(:first-of-type):not(:last-of-type):before {
+        background: rgb(110, 110, 110);
+      }
+.spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-labelContainer {
+      color: rgb(179, 179, 179);
+    }
+.spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-handle {
+      border-color: rgb(202, 202, 202);
+      background: rgb(245, 245, 245);
+    }
+.spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-handle:hover,
+.spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-handle:active {
+        border-color: rgb(202, 202, 202);
+        background: transparent;
+      }
+.spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-track::before {
+        background: rgb(225, 225, 225);
+      }
+.spectrum--light .spectrum-Slider.is-disabled.spectrum-Slider--filled .spectrum-Slider-track:first-child::before {
+          background: rgb(225, 225, 225);
+        }
+.spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-fill::before {
+        background: rgb(225, 225, 225);
+      }
+.spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-ramp path {
+        fill: rgb(234, 234, 234);
+      }
+.spectrum--light .spectrum-Slider.is-disabled.spectrum-Slider--range .spectrum-Slider-track:not(:first-of-type):not(:last-of-type):before {
+            background: rgb(225, 225, 225);
+          }
