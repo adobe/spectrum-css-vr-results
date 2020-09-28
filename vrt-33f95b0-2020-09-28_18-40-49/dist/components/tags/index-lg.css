@@ -1,0 +1,82 @@
+.spectrum-Tags {
+  display: inline-block;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.spectrum-Tags-item {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: center;
+      align-items: center;
+  box-sizing: border-box;
+
+  margin-top: 5px;
+
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: calc(13px - var(--spectrum-tag-border-size));
+  padding-right: calc(13px - var(--spectrum-tag-border-size));
+  height: 30px;
+  max-width: 100%;
+
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  outline: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+
+  transition: border-color 130ms ease-in-out,
+    color 130ms ease-in-out,
+    box-shadow 130ms ease-in-out,
+    background-color 130ms ease-in-out;
+}
+.spectrum-Tags-item.is-disabled {
+    pointer-events: none;
+  }
+[dir="ltr"] .spectrum-Tags-item > .spectrum-Icon,[dir="ltr"] 
+  .spectrum-Tags-item > .spectrum-Avatar {
+    margin-right: 10px;
+}
+[dir="rtl"] .spectrum-Tags-item > .spectrum-Icon,[dir="rtl"] 
+  .spectrum-Tags-item > .spectrum-Avatar {
+    margin-left: 10px;
+}
+[dir="ltr"] .spectrum-Tags-item > .spectrum-Icon,[dir="ltr"] 
+  .spectrum-Tags-item > .spectrum-Avatar {
+    margin-left: -3px;
+}
+[dir="rtl"] .spectrum-Tags-item > .spectrum-Icon,[dir="rtl"] 
+  .spectrum-Tags-item > .spectrum-Avatar {
+    margin-right: -3px;
+}
+[dir="ltr"] .spectrum-Tags-item > .spectrum-Icon ~ .spectrum-Tags-itemLabel,[dir="ltr"]  .spectrum-Tags-item > .spectrum-Avatar ~ .spectrum-Tags-itemLabel {
+      margin-right: -3px;
+}
+[dir="rtl"] .spectrum-Tags-item > .spectrum-Icon ~ .spectrum-Tags-itemLabel,[dir="rtl"]  .spectrum-Tags-item > .spectrum-Avatar ~ .spectrum-Tags-itemLabel {
+      margin-left: -3px;
+}
+[dir="ltr"] .spectrum-Tags-item .spectrum-ClearButton {
+    margin-right: -13px;
+}
+[dir="rtl"] .spectrum-Tags-item .spectrum-ClearButton {
+    margin-left: -13px;
+}
+.spectrum-Tags-itemLabel {
+  height: 100%;
+  line-height: 28px;
+  -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+  font-size: 15px;
+  cursor: default;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
