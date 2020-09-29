@@ -1,0 +1,27 @@
+
+.spectrum-InputGroup,
+.spectrum-Datepicker {
+  --spectrum-alias-single-line-width: var(--spectrum-global-dimension-size-2400);
+  --spectrum-combobox-fieldbutton-border-top-left-radius: 0;
+  --spectrum-combobox-fieldbutton-border-bottom-left-radius: 0;
+  --spectrum-combobox-textfield-border-top-right-radius: 0;
+  --spectrum-combobox-textfield-border-bottom-right-radius: 0;
+  --spectrum-fieldbutton-min-width: var(--spectrum-global-dimension-size-400);
+  --spectrum-icon-chevron-down-medium-width: undefined;
+  --spectrum-textfield-quiet-border-size: var(--spectrum-alias-border-size-thin);
+  --spectrum-icon-alert-medium-width: var(--spectrum-global-dimension-size-225);
+  --spectrum-textfield-height: var(--spectrum-alias-single-line-height);
+  --spectrum-textfield-border-color-key-focus: var(--spectrum-alias-border-color-focus);
+  --spectrum-textfield-border-color-hover: var(--spectrum-alias-border-color-hover);
+  --spectrum-textfield-border-color-error-hover: var(--spectrum-semantic-negative-color-state-hover);
+  --spectrum-alias-text-color-disabled: var(--spectrum-global-color-gray-500);
+  --spectrum-picker-border-color-key-focus: var(--spectrum-alias-border-color-focus);
+  --spectrum-picker-border-color-error: var(--spectrum-global-color-red-500);
+  --spectrum-picker-border-color-error-key-focus: var(--spectrum-alias-border-color-focus);
+  --spectrum-textfield-quiet-border-color: var(--spectrum-alias-border-color);
+  --spectrum-textfield-quiet-border-color-hover: var(--spectrum-alias-border-color-hover);
+  --spectrum-textfield-quiet-border-color-error: var(--spectrum-semantic-negative-color-default);
+  --spectrum-textfield-quiet-border-color-mouse-focus: var(--spectrum-alias-border-color-mouse-focus);
+  --spectrum-textfield-quiet-border-color-error-mouse-focus: var(--spectrum-semantic-negative-color-state-hover);
+  --spectrum-textfield-quiet-border-color-key-focus: var(--spectrum-alias-border-color-focus);
+}
