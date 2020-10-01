@@ -1,0 +1,255 @@
+.spectrum--large .spectrum-Slider {
+  min-height: 40px;
+  min-width: 125px;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider-controls {
+  margin-left: 10px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-controls {
+  margin-right: 10px;
+}
+.spectrum--large .spectrum-Slider-controls {
+  width: calc(100% - 20px);
+  min-height: 40px;
+}
+.spectrum--large .spectrum-Slider-track,
+.spectrum--large .spectrum-Slider-fill {
+  height: 2px;
+  top: 20px;
+
+  margin-top: -1px;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider-track,.spectrum--large [dir="ltr"] 
+.spectrum-Slider-fill {
+  padding-left: 0;
+  padding-right: 4px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-track,.spectrum--large [dir="rtl"] 
+.spectrum-Slider-fill {
+  padding-right: 0;
+  padding-left: 4px;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider-track,.spectrum--large [dir="ltr"] 
+.spectrum-Slider-fill {
+  margin-left: -10px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-track,.spectrum--large [dir="rtl"] 
+.spectrum-Slider-fill {
+  margin-right: -10px;
+}
+.spectrum--large .spectrum-Slider-track::before, .spectrum--large .spectrum-Slider-fill::before {
+
+    border-radius: 1px;
+  }
+.spectrum--large [dir="ltr"] .spectrum-Slider-fill {
+  padding-left: 14px;
+  padding-right: 0;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-fill {
+  padding-right: 14px;
+  padding-left: 0;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider-fill--right {
+  padding-left: 0;
+  padding-right: 14px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-fill--right {
+  padding-right: 0;
+  padding-left: 14px;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider-track ~ .spectrum-Slider-track {
+  right: 0;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-track ~ .spectrum-Slider-track {
+  left: 0;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider-track ~ .spectrum-Slider-track {
+  padding-left: 4px;
+  padding-right: 0;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-track ~ .spectrum-Slider-track {
+  padding-right: 4px;
+  padding-left: 0;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider-track ~ .spectrum-Slider-track {
+  margin-left: 0;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-track ~ .spectrum-Slider-track {
+  margin-right: 0;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider-track ~ .spectrum-Slider-track {
+  margin-right: -10px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-track ~ .spectrum-Slider-track {
+  margin-left: -10px;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider--range .spectrum-Slider-track:first-of-type {
+      padding-left: 0;
+      padding-right: 4px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider--range .spectrum-Slider-track:first-of-type {
+      padding-right: 0;
+      padding-left: 4px;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider--range .spectrum-Slider-track:first-of-type {
+      left: 0;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider--range .spectrum-Slider-track:first-of-type {
+      right: 0;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider--range .spectrum-Slider-track:first-of-type {
+      margin-left: -10px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider--range .spectrum-Slider-track:first-of-type {
+      margin-right: -10px;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider--range .spectrum-Slider-track,.spectrum--large [dir="rtl"] 
+    .spectrum-Slider--range .spectrum-Slider-track {
+      padding-left: 14px;
+      padding-right: 14px;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+.spectrum--large [dir="ltr"] .spectrum-Slider--range .spectrum-Slider-track:last-of-type {
+      padding-left: 4px;
+      padding-right: 0;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider--range .spectrum-Slider-track:last-of-type {
+      padding-right: 4px;
+      padding-left: 0;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider--range .spectrum-Slider-track:last-of-type {
+      right: 0;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider--range .spectrum-Slider-track:last-of-type {
+      left: 0;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider--range .spectrum-Slider-track:last-of-type {
+      margin-right: -10px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider--range .spectrum-Slider-track:last-of-type {
+      margin-left: -10px;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider-ramp {
+  left: -10px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-ramp {
+  right: -10px;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider-ramp {
+  right: -10px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-ramp {
+  left: -10px;
+}
+.spectrum--large .spectrum-Slider-ramp {
+  margin-top: 0;
+  height: 16px;
+  top: 8px;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider-handle {
+  margin-left: -10px;
+  margin-right: 0;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-handle {
+  margin-right: -10px;
+  margin-left: 0;
+}
+.spectrum--large .spectrum-Slider-handle {
+  top: 20px;
+
+  width: 20px;
+  height: 20px;
+
+  margin-top: -10px;
+
+  margin-bottom: 0;
+
+  border-width: 2px;
+
+  border-radius: 10px;
+
+  transition: border-width 130ms ease-in-out;
+}
+.spectrum--large .spectrum-Slider-handle:active,
+  .spectrum--large .spectrum-Slider-handle.is-focused,
+  .spectrum--large .spectrum-Slider-handle.is-dragged {
+    border-width: 8px;
+  }
+.spectrum--large .spectrum-Slider-handle:before {
+
+    transition: box-shadow 130ms
+        ease-out,
+      width 130ms ease-out,
+      height 130ms ease-out;
+
+    width: 20px;
+    height: 20px;
+  }
+.spectrum--large .spectrum-Slider-handle.is-focused:before {
+      width: 24px;
+      height: 24px;
+    }
+.spectrum--large [dir="ltr"] .spectrum-Slider-input {
+  left: -2.5px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-input {
+  right: -2.5px;
+}
+.spectrum--large .spectrum-Slider-input {
+
+  width: 20px;
+  height: 20px;
+  top: -2.5px;
+}
+.spectrum--large .spectrum-Slider-labelContainer {
+
+  padding-top: 5px;
+
+  font-size: 15px;
+  line-height: 1.3;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider-value {
+  margin-left: 20px;
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-value {
+  margin-right: 20px;
+}
+.spectrum--large .spectrum-Slider-ticks {
+
+  margin: 0 -10px;
+  margin-top: 11px;
+}
+.spectrum--large .spectrum-Slider-tick {
+
+  width: 2px;
+}
+.spectrum--large [dir="ltr"] .spectrum-Slider-tick:after {
+    left: calc(50% - 1px);
+}
+.spectrum--large [dir="rtl"] .spectrum-Slider-tick:after {
+    right: calc(50% - 1px);
+}
+.spectrum--large .spectrum-Slider-tick:after {
+    width: 2px;
+    height: 10px;
+
+    border-radius: 1px;
+  }
+.spectrum--large .spectrum-Slider-tick .spectrum-Slider-tickLabel {
+
+    margin-top: 20px;
+
+    margin-bottom: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+
+    font-size: 15px;
+    line-height: 1.3;
+  }
+.spectrum--large .spectrum-Slider-tick:first-of-type .spectrum-Slider-tickLabel, .spectrum--large .spectrum-Slider-tick:last-of-type .spectrum-Slider-tickLabel {
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
