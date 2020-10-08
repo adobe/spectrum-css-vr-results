@@ -1,0 +1,311 @@
+[dir="ltr"] .spectrum-Switch {
+
+  margin-right: calc(var(--spectrum-switch-cursor-hit-x, var(--spectrum-global-dimension-size-100)) * 2);
+}
+
+[dir="rtl"] .spectrum-Switch {
+
+  margin-left: calc(var(--spectrum-switch-cursor-hit-x, var(--spectrum-global-dimension-size-100)) * 2);
+}
+
+.spectrum-Switch {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: start;
+      align-items: flex-start;
+
+  position: relative;
+
+  min-height: var(--spectrum-switch-height, var(--spectrum-global-dimension-size-400));
+  max-width: 100%;
+
+  vertical-align: top;
+}
+
+[dir="ltr"] .spectrum-Switch-input {
+  left: 0;
+}
+
+[dir="rtl"] .spectrum-Switch-input {
+  right: 0;
+}
+
+.spectrum-Switch-input {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0.0001;
+  z-index: 1;
+
+  cursor: pointer;
+}
+
+[dir="ltr"] .spectrum-Switch-input:checked + .spectrum-Switch-switch::before {
+      transform: translateX(
+        calc(100% - var(--spectrum-switch-handle-border-size, var(--spectrum-alias-border-size-thick)))
+      );
+    }
+
+[dir="rtl"] .spectrum-Switch-input:checked + .spectrum-Switch-switch::before {
+      transform: translateX(
+        calc(-100% + var(--spectrum-switch-handle-border-size, var(--spectrum-alias-border-size-thick)))
+      );
+    }
+
+.spectrum-Switch-input:disabled,
+  .spectrum-Switch-input[disabled] {
+    cursor: default;
+  }
+
+.spectrum-Switch-input.focus-ring + .spectrum-Switch-switch:after {
+        margin: calc(var(--spectrum-alias-focus-ring-gap, var(--spectrum-global-dimension-static-size-25)) * -1);
+      }
+
+.spectrum-Switch-label {
+  margin-left: var(--spectrum-switch-text-gap, var(--spectrum-global-dimension-size-125));
+  margin-right: var(--spectrum-switch-text-gap, var(--spectrum-global-dimension-size-125));
+  margin-top: var(--spectrum-global-dimension-size-65);
+  margin-bottom: 0;
+  font-size: var(--spectrum-switch-text-size, var(--spectrum-alias-font-size-default));
+  line-height: 1.49;
+  transition: color var(--spectrum-global-animation-duration-200, 160ms) ease-in-out;
+}
+
+[dir="ltr"] .spectrum-Switch-switch {
+
+  left: 0;
+}
+
+[dir="rtl"] .spectrum-Switch-switch {
+
+  right: 0;
+}
+
+[dir="ltr"] .spectrum-Switch-switch {
+  right: 0;
+}
+
+[dir="rtl"] .spectrum-Switch-switch {
+  left: 0;
+}
+
+.spectrum-Switch-switch {
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+
+  width: var(--spectrum-switch-track-width);
+  margin-top: calc((var(--spectrum-switch-height, var(--spectrum-global-dimension-size-400)) - var(--spectrum-switch-track-height, var(--spectrum-global-dimension-size-175))) / 2);
+  margin-bottom: calc((var(--spectrum-switch-height, var(--spectrum-global-dimension-size-400)) - var(--spectrum-switch-track-height, var(--spectrum-global-dimension-size-175))) / 2);
+  margin-left: 0;
+  margin-right: 0;
+
+  -ms-flex-positive: 0;
+
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+
+  vertical-align: middle;
+
+  transition: background var(--spectrum-global-animation-duration-100, 130ms)
+      ease-in-out,
+    border var(--spectrum-global-animation-duration-100, 130ms) ease-in-out;
+
+  height: var(--spectrum-switch-track-height, var(--spectrum-global-dimension-size-175));
+
+  border-radius: calc(var(--spectrum-switch-track-height, var(--spectrum-global-dimension-size-175)) / 2);
+}
+
+.spectrum-Switch-switch:before {
+    display: block;
+    position: absolute;
+    content: "";
+    box-sizing: border-box;
+  }
+
+[dir="ltr"] .spectrum-Switch-switch:before {
+    left: 0;
+}
+
+[dir="rtl"] .spectrum-Switch-switch:before {
+    right: 0;
+}
+
+.spectrum-Switch-switch:before {
+    transition: background var(--spectrum-global-animation-duration-100, 130ms)
+        ease-in-out,
+      border var(--spectrum-global-animation-duration-100, 130ms) ease-in-out,
+      transform var(--spectrum-global-animation-duration-100, 130ms) ease-in-out,
+      box-shadow var(--spectrum-global-animation-duration-100, 130ms) ease-in-out;
+
+    width: var(--spectrum-switch-handle-size, var(--spectrum-global-dimension-size-175));
+    height: var(--spectrum-switch-handle-size, var(--spectrum-global-dimension-size-175));
+
+    top: 0;
+
+    border-width: var(--spectrum-switch-handle-border-size, var(--spectrum-alias-border-size-thick));
+    border-radius: var(--spectrum-switch-handle-border-radius);
+    border-style: solid;
+  }
+
+[dir="ltr"] .spectrum-Switch-switch:after {
+    left: 0;
+}
+
+[dir="rtl"] .spectrum-Switch-switch:after {
+    right: 0;
+}
+
+[dir="ltr"] .spectrum-Switch-switch:after {
+    right: 0;
+}
+
+[dir="rtl"] .spectrum-Switch-switch:after {
+    left: 0;
+}
+
+.spectrum-Switch-switch:after {
+    border-radius: calc(var(--spectrum-switch-track-height, var(--spectrum-global-dimension-size-175)) + var(--spectrum-alias-focus-ring-gap, var(--spectrum-global-dimension-static-size-25)));
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin: 0;
+
+    transition: opacity var(--spectrum-global-animation-duration-100, 130ms) ease-out,
+                margin var(--spectrum-global-animation-duration-100, 130ms) ease-out;
+  }
+
+.spectrum-Switch-switch {
+  background-color: var(--spectrum-switch-track-color, var(--spectrum-global-color-gray-300));
+}
+
+.spectrum-Switch-switch:before {
+    background-color: var(--spectrum-switch-handle-background-color, var(--spectrum-global-color-gray-75));
+    border-color: var(--spectrum-switch-handle-border-color, var(--spectrum-global-color-gray-600));
+  }
+
+.spectrum-Switch-input ~ .spectrum-Switch-label {
+  color: var(--spectrum-switch-text-color, var(--spectrum-alias-text-color));
+}
+
+.spectrum-Switch-input:checked + .spectrum-Switch-switch {
+    background-color: var(--spectrum-switch-track-color-selected, var(--spectrum-global-color-gray-700));
+  }
+
+.spectrum-Switch-input:checked + .spectrum-Switch-switch:before {
+      border-color: var(--spectrum-switch-handle-border-color-selected, var(--spectrum-global-color-gray-700));
+    }
+
+.spectrum-Switch:hover .spectrum-Switch-input + .spectrum-Switch-switch:before {
+        border-color: var(--spectrum-switch-handle-border-color-hover, var(--spectrum-global-color-gray-700));
+        box-shadow: none;
+      }
+
+.spectrum-Switch:hover .spectrum-Switch-input ~ .spectrum-Switch-label {
+      color: var(--spectrum-switch-text-color-hover, var(--spectrum-alias-text-color-hover));
+    }
+
+.spectrum-Switch:hover .spectrum-Switch-input:checked:enabled + .spectrum-Switch-switch {
+      background-color: var(--spectrum-switch-track-color-selected-hover, var(--spectrum-global-color-gray-800));
+    }
+
+.spectrum-Switch:hover .spectrum-Switch-input:checked:enabled + .spectrum-Switch-switch:before {
+        border-color: var(--spectrum-switch-handle-border-color-selected-hover, var(--spectrum-global-color-gray-800));
+      }
+
+.spectrum-Switch:active .spectrum-Switch-input + .spectrum-Switch-switch:before {
+        border-color: var(--spectrum-switch-handle-border-color-down, var(--spectrum-global-color-gray-800));
+      }
+
+.spectrum-Switch:active .spectrum-Switch-input ~ .spectrum-Switch-label {
+      color: var(--spectrum-switch-text-color-down, var(--spectrum-alias-text-color-down));
+    }
+
+.spectrum-Switch:active .spectrum-Switch-input:checked:enabled + .spectrum-Switch-switch {
+      background-color: var(--spectrum-switch-track-color-selected-down, var(--spectrum-global-color-gray-900));
+    }
+
+.spectrum-Switch:active .spectrum-Switch-input:checked:enabled + .spectrum-Switch-switch:before {
+        border-color: var(--spectrum-switch-handle-border-color-selected-down, var(--spectrum-global-color-gray-900));
+      }
+
+.spectrum-Switch .spectrum-Switch-input:disabled + .spectrum-Switch-switch {
+    background-color: var(--spectrum-switch-track-color-disabled, var(--spectrum-global-color-gray-300));
+  }
+
+.spectrum-Switch .spectrum-Switch-input:disabled + .spectrum-Switch-switch:before {
+      border-color: var(--spectrum-switch-handle-border-color-disabled, var(--spectrum-global-color-gray-400));
+    }
+
+.spectrum-Switch .spectrum-Switch-input:disabled ~ .spectrum-Switch-label {
+    color: var(--spectrum-switch-text-color-disabled, var(--spectrum-alias-text-color-disabled));
+  }
+
+.spectrum-Switch .spectrum-Switch-input:disabled:checked + .spectrum-Switch-switch {
+      background-color: var(--spectrum-switch-track-color-selected-disabled, var(--spectrum-global-color-gray-400));
+    }
+
+.spectrum-Switch .spectrum-Switch-input:disabled:checked + .spectrum-Switch-switch:before {
+        border-color: var(--spectrum-switch-handle-border-color-selected-disabled, var(--spectrum-global-color-gray-400));
+      }
+
+.spectrum-Switch .spectrum-Switch-input:disabled:checked ~ .spectrum-Switch-label {
+      color: var(--spectrum-switch-text-color-selected-disabled, var(--spectrum-alias-text-color-disabled));
+    }
+
+.spectrum-Switch--emphasized .spectrum-Switch-input:checked + .spectrum-Switch-switch {
+    background-color: var(--spectrum-switch-emphasized-track-color-selected, var(--spectrum-global-color-blue-500));
+  }
+
+.spectrum-Switch--emphasized .spectrum-Switch-input:checked + .spectrum-Switch-switch:before {
+      border-color: var(--spectrum-switch-emphasized-handle-border-color-selected, var(--spectrum-global-color-blue-500));
+    }
+
+.spectrum-Switch--emphasized:hover .spectrum-Switch-input:checked:enabled + .spectrum-Switch-switch {
+    background-color: var(--spectrum-switch-emphasized-track-color-selected-hover, var(--spectrum-global-color-blue-600));
+  }
+
+.spectrum-Switch--emphasized:hover .spectrum-Switch-input:checked:enabled + .spectrum-Switch-switch:before {
+      border-color: var(--spectrum-switch-emphasized-handle-border-color-selected-hover, var(--spectrum-global-color-blue-600));
+    }
+
+.spectrum-Switch.spectrum-Switch--emphasized:active .spectrum-Switch-input:checked:enabled + .spectrum-Switch-switch {
+    background-color: var(--spectrum-switch-emphasized-track-color-selected-down, var(--spectrum-global-color-blue-700));
+  }
+
+.spectrum-Switch.spectrum-Switch--emphasized:active .spectrum-Switch-input:checked:enabled + .spectrum-Switch-switch:before {
+      border-color: var(--spectrum-switch-emphasized-handle-border-color-selected-down, var(--spectrum-global-color-blue-700));
+    }
+
+.spectrum-Switch .spectrum-Switch-input.focus-ring + .spectrum-Switch-switch:after, .spectrum-Switch:hover .spectrum-Switch-input.focus-ring + .spectrum-Switch-switch:after {
+        box-shadow: 0 0 0 var(--spectrum-switch-focus-ring-size-key-focus, var(--spectrum-alias-focus-ring-size))
+          var(--spectrum-switch-focus-ring-color-key-focus, var(--spectrum-alias-focus-ring-color));
+      }
+
+.spectrum-Switch .spectrum-Switch-input.focus-ring + .spectrum-Switch-switch:before, .spectrum-Switch:hover .spectrum-Switch-input.focus-ring + .spectrum-Switch-switch:before {
+        border-color: var(--spectrum-switch-handle-border-color-key-focus, var(--spectrum-global-color-gray-700));
+      }
+
+.spectrum-Switch .spectrum-Switch-input.focus-ring:checked + .spectrum-Switch-switch, .spectrum-Switch:hover .spectrum-Switch-input.focus-ring:checked + .spectrum-Switch-switch {
+        background-color: var(--spectrum-switch-track-color-selected-key-focus, var(--spectrum-global-color-gray-800));
+      }
+
+.spectrum-Switch .spectrum-Switch-input.focus-ring:checked + .spectrum-Switch-switch:before, .spectrum-Switch:hover .spectrum-Switch-input.focus-ring:checked + .spectrum-Switch-switch:before {
+          border-color: var(--spectrum-switch-handle-border-color-selected-key-focus, var(--spectrum-global-color-gray-800));
+        }
+
+.spectrum-Switch--emphasized .spectrum-Switch-input.focus-ring:checked + .spectrum-Switch-switch, .spectrum-Switch--emphasized:hover .spectrum-Switch-input.focus-ring:checked + .spectrum-Switch-switch {
+        background-color: var(--spectrum-switch-emphasized-track-color-selected-key-focus, var(--spectrum-global-color-blue-600));
+      }
+
+.spectrum-Switch--emphasized .spectrum-Switch-input.focus-ring:checked + .spectrum-Switch-switch:before, .spectrum-Switch--emphasized:hover .spectrum-Switch-input.focus-ring:checked + .spectrum-Switch-switch:before {
+          border-color: var(--spectrum-switch-emphasized-handle-border-color-selected-key-focus, var(--spectrum-global-color-blue-600));
+        }
