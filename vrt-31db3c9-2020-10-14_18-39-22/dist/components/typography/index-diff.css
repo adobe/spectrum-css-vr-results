@@ -1,0 +1,943 @@
+.spectrum--large .spectrum {
+  font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  font-size: 17px;
+}
+.spectrum--large .spectrum:lang(ar) {
+    font-family: myriad-arabic, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  }
+.spectrum--large .spectrum:lang(he) {
+    font-family: myriad-hebrew, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  }
+.spectrum--large .spectrum:lang(zh-Hans) {
+    font-family: adobe-clean-han-simplified-c, source-han-simplified-c, 'SimSun', 'Heiti SC Light', 'sans-serif';
+  }
+.spectrum--large .spectrum:lang(zh-Hant) {
+    font-family: adobe-clean-han-traditional, source-han-traditional, 'MingLiu', 'Heiti TC Light','sans-serif';
+  }
+.spectrum--large .spectrum:lang(zh) {
+    font-family: adobe-clean-han-traditional, source-han-traditional, 'MingLiu', 'Heiti TC Light','sans-serif';
+  }
+.spectrum--large .spectrum:lang(ko) {
+    font-family: adobe-clean-han-korean, source-han-korean, 'Malgun Gothic', 'Apple Gothic', 'sans-serif';
+  }
+.spectrum--large .spectrum:lang(ja) {
+    font-family: adobe-clean-han-japanese, source-han-japanese, 'Yu Gothic', '\30E1 \30A4 \30EA \30AA', '\30D2 \30E9 \30AE \30CE \89D2 \30B4  Pro W3', 'Hiragino Kaku Gothic Pro W3', 'Osaka', '\FF2D \FF33 \FF30 \30B4 \30B7 \30C3 \30AF', 'MS PGothic', 'sans-serif';
+  }
+.spectrum--large .spectrum-Heading--sizeXXXL {
+  
+
+    font-size: 70px;
+  font-weight: 700;
+  line-height: 1.3;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Heading--sizeXXL {
+  
+
+    font-size: 55px;
+  font-weight: 700;
+  line-height: 1.3;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Heading--sizeXL {
+  
+
+    font-size: 44px;
+  font-weight: 700;
+  line-height: 1.3;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Heading--sizeL {
+  
+
+    font-size: 34px;
+  font-weight: 700;
+  line-height: 1.3;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Heading--sizeM {
+  
+
+    font-size: 27px;
+  font-weight: 700;
+  line-height: 1.3;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Heading--sizeS {
+  
+
+    font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Heading--sizeXS {
+  
+
+    font-size: 19px;
+  font-weight: 700;
+  line-height: 1.3;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Heading--sizeXXS {
+  
+
+    font-size: 17px;
+  font-weight: 700;
+  line-height: 1.3;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Heading {
+  font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  font-weight: 700;
+}
+.spectrum--large .spectrum-Heading em,
+  .spectrum--large .spectrum-Heading .spectrum-Heading-emphasis {
+    font-style: italic;
+  }
+.spectrum--large .spectrum-Heading strong,
+  .spectrum--large .spectrum-Heading .spectrum-Heading-strong {
+    font-weight: 900;
+  }
+.spectrum--large .spectrum-Heading--serif {
+  font-family: adobe-clean-serif, 'Source Serif Pro', Georgia, serif;
+}
+.spectrum--large .spectrum-Heading--heavy {
+  font-weight: 900;
+}
+.spectrum--large .spectrum-Heading--heavy em,
+  .spectrum--large .spectrum-Heading--heavy .spectrum-Heading-emphasis {
+    font-style: italic;
+  }
+.spectrum--large .spectrum-Heading--heavy strong,
+  .spectrum--large .spectrum-Heading--heavy .spectrum-Heading-strong {
+    font-weight: 900;
+  }
+.spectrum--large .spectrum-Heading--light {
+  font-weight: 300;
+}
+.spectrum--large .spectrum-Heading--light em,
+  .spectrum--large .spectrum-Heading--light .spectrum-Heading-emphasis {
+    font-style: italic;
+  }
+.spectrum--large .spectrum-Heading--light strong,
+  .spectrum--large .spectrum-Heading--light .spectrum-Heading-strong {
+    font-weight: 700;
+  }
+.spectrum--large .spectrum-Body--sizeXXXL {
+  
+
+    font-size: 31px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Body--sizeXXL {
+  
+
+    font-size: 27px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Body--sizeXL {
+  
+
+    font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Body--sizeL {
+  
+
+    font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Body--sizeM {
+  
+
+    font-size: 19px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Body--sizeS {
+  
+
+    font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Body--sizeXS {
+  
+
+    font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum-Body {
+  font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+}
+.spectrum--large .spectrum-Body strong,
+  .spectrum--large .spectrum-Body .spectrum-Body-strong {
+    font-weight: 700;
+  }
+.spectrum--large .spectrum-Body em,
+  .spectrum--large .spectrum-Body .spectrum-Body-emphasis {
+    font-style: italic;
+  }
+.spectrum--large .spectrum-Body--serif {
+  font-family: adobe-clean-serif, 'Source Serif Pro', Georgia, serif;
+}
+.spectrum--large .spectrum-Detail {
+  font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+}
+.spectrum--large .spectrum-Detail strong,
+  .spectrum--large .spectrum-Detail .spectrum-Detail-strong {
+    font-weight: 900;
+  }
+.spectrum--large .spectrum-Detail em,
+  .spectrum--large .spectrum-Detail .spectrum-Detail-emphasis {
+    font-style: italic;
+  }
+.spectrum--large .spectrum-Detail--light {
+  font-style: normal;
+  font-weight: 400;
+}
+.spectrum--large .spectrum-Detail--serif {
+  font-family: adobe-clean-serif, 'Source Serif Pro', Georgia, serif;
+}
+.spectrum--large .spectrum-Detail--sizeXL {
+  
+
+    font-size: 19px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  }
+.spectrum--large .spectrum-Detail--sizeXL em {
+        font-size: 19px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: italic;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum-Detail--sizeXL strong {
+        font-size: 19px;
+  font-weight: 900;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum-Detail--sizeL {
+  
+
+    font-size: 17px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  }
+.spectrum--large .spectrum-Detail--sizeL em {
+        font-size: 17px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: italic;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum-Detail--sizeL strong {
+        font-size: 17px;
+  font-weight: 900;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum-Detail--sizeM {
+  
+
+    font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  }
+.spectrum--large .spectrum-Detail--sizeM em {
+        font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: italic;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum-Detail--sizeM strong {
+        font-size: 15px;
+  font-weight: 900;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum-Detail--sizeS {
+  
+
+    font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  }
+.spectrum--large .spectrum-Detail--sizeS em {
+        font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: italic;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum-Detail--sizeS strong {
+        font-size: 13px;
+  font-weight: 900;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum-Code {
+  font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+}
+.spectrum--large .spectrum-Code strong,
+  .spectrum--large .spectrum-Code .spectrum-Code-strong {
+    font-weight: 700;
+  }
+.spectrum--large .spectrum-Code em,
+  .spectrum--large .spectrum-Code .spectrum-Code-emphasis {
+    font-style: italic;
+  }
+.spectrum--large .spectrum-Code--serif {
+  font-family: adobe-clean-serif, 'Source Serif Pro', Georgia, serif;
+}
+.spectrum--large .spectrum-Code--sizeXL {
+  
+
+    font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0;
+  font-family: 'Source Code Pro', Monaco, monospace;
+
+    
+  }
+.spectrum--large .spectrum-Code--sizeL {
+  
+
+    font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0;
+  font-family: 'Source Code Pro', Monaco, monospace;
+
+    
+  }
+.spectrum--large .spectrum-Code--sizeM {
+  
+
+    font-size: 19px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0;
+  font-family: 'Source Code Pro', Monaco, monospace;
+
+    
+  }
+.spectrum--large .spectrum-Code--sizeS {
+  
+
+    font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0;
+  font-family: 'Source Code Pro', Monaco, monospace;
+
+    
+  }
+.spectrum--large .spectrum-Code--sizeXS {
+  
+
+    font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0;
+  font-family: 'Source Code Pro', Monaco, monospace;
+
+    
+  }
+.spectrum--large .spectrum-Typography .spectrum-Heading--sizeXXXL {
+    margin-top: 62px;
+    margin-bottom: 14px;
+  }
+.spectrum--large .spectrum-Typography .spectrum-Heading--sizeXXL {
+    margin-top: 44px;
+    margin-bottom: 13px;
+  }
+.spectrum--large .spectrum-Typography .spectrum-Heading--sizeXL {
+    margin-top: 39px;
+    margin-bottom: 11px;
+  }
+.spectrum--large .spectrum-Typography .spectrum-Heading--sizeL {
+    margin-top: 31px;
+    margin-bottom: 9px;
+  }
+.spectrum--large .spectrum-Typography .spectrum-Heading--sizeM {
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+.spectrum--large .spectrum-Typography .spectrum-Heading--sizeS {
+    margin-top: 19px;
+    margin-bottom: 6px;
+  }
+.spectrum--large .spectrum-Typography .spectrum-Heading--sizeXS {
+    margin-top: 17px;
+    margin-bottom: 5px;
+  }
+.spectrum--large .spectrum-Typography .spectrum-Heading--sizeXXS {
+    margin-top: 15px;
+    margin-bottom: 4px;
+  }
+.spectrum--large .spectrum-Typography .spectrum-Body--sizeXXXL {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+.spectrum--large .spectrum-Typography .spectrum-Body--sizeXXL {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+.spectrum--large .spectrum-Typography .spectrum-Body--sizeXL {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+.spectrum--large .spectrum-Typography .spectrum-Body--sizeL {
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+.spectrum--large .spectrum-Typography .spectrum-Body--sizeM {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+.spectrum--large .spectrum-Typography .spectrum-Body--sizeS {
+    margin-top: 0px;
+    margin-bottom: 13px;
+  }
+.spectrum--large .spectrum-Typography .spectrum-Body--sizeXS {
+    margin-top: 0px;
+    margin-bottom: 11px;
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Heading--sizeXXXL, .spectrum--large .spectrum:lang(ko) .spectrum-Heading--sizeXXXL, .spectrum--large .spectrum:lang(zh) .spectrum-Heading--sizeXXXL {
+  
+
+    font-size: 70px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Heading--sizeXXL, .spectrum--large .spectrum:lang(ko) .spectrum-Heading--sizeXXL, .spectrum--large .spectrum:lang(zh) .spectrum-Heading--sizeXXL {
+  
+
+    font-size: 44px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Heading--sizeXL, .spectrum--large .spectrum:lang(ko) .spectrum-Heading--sizeXL, .spectrum--large .spectrum:lang(zh) .spectrum-Heading--sizeXL {
+  
+
+    font-size: 39px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Heading--sizeL, .spectrum--large .spectrum:lang(ko) .spectrum-Heading--sizeL, .spectrum--large .spectrum:lang(zh) .spectrum-Heading--sizeL {
+  
+
+    font-size: 31px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Heading--sizeM, .spectrum--large .spectrum:lang(ko) .spectrum-Heading--sizeM, .spectrum--large .spectrum:lang(zh) .spectrum-Heading--sizeM {
+  
+
+    font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Heading--sizeS, .spectrum--large .spectrum:lang(ko) .spectrum-Heading--sizeS, .spectrum--large .spectrum:lang(zh) .spectrum-Heading--sizeS {
+  
+
+    font-size: 22px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Heading--sizeXS, .spectrum--large .spectrum:lang(ko) .spectrum-Heading--sizeXS, .spectrum--large .spectrum:lang(zh) .spectrum-Heading--sizeXS {
+  
+
+    font-size: 19px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Heading--sizeXXS, .spectrum--large .spectrum:lang(ko) .spectrum-Heading--sizeXXS, .spectrum--large .spectrum:lang(zh) .spectrum-Heading--sizeXXS {
+  
+
+    font-size: 17px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Heading--heavy, .spectrum--large .spectrum:lang(ko) .spectrum-Heading--heavy, .spectrum--large .spectrum:lang(zh) .spectrum-Heading--heavy {
+      font-weight: 700;
+    }
+.spectrum--large .spectrum:lang(ja) .spectrum-Heading--heavy em,
+      .spectrum--large .spectrum:lang(ja) .spectrum-Heading--heavy .spectrum-Heading--emphasis,
+      .spectrum--large .spectrum:lang(ko) .spectrum-Heading--heavy em,
+      .spectrum--large .spectrum:lang(ko) .spectrum-Heading--heavy .spectrum-Heading--emphasis,
+      .spectrum--large .spectrum:lang(zh) .spectrum-Heading--heavy em,
+      .spectrum--large .spectrum:lang(zh) .spectrum-Heading--heavy .spectrum-Heading--emphasis {
+        font-style: normal;
+        font-weight: 900;
+      }
+.spectrum--large .spectrum:lang(ja) .spectrum-Heading--heavy strong,
+      .spectrum--large .spectrum:lang(ja) .spectrum-Heading--heavy .spectrum-Heading--strong,
+      .spectrum--large .spectrum:lang(ko) .spectrum-Heading--heavy strong,
+      .spectrum--large .spectrum:lang(ko) .spectrum-Heading--heavy .spectrum-Heading--strong,
+      .spectrum--large .spectrum:lang(zh) .spectrum-Heading--heavy strong,
+      .spectrum--large .spectrum:lang(zh) .spectrum-Heading--heavy .spectrum-Heading--strong {
+        font-style: normal;
+        font-weight: 900;
+      }
+.spectrum--large .spectrum:lang(ja) .spectrum-Heading--light, .spectrum--large .spectrum:lang(ko) .spectrum-Heading--light, .spectrum--large .spectrum:lang(zh) .spectrum-Heading--light {
+      font-weight: 700;
+    }
+.spectrum--large .spectrum:lang(ja) .spectrum-Heading--light em,
+      .spectrum--large .spectrum:lang(ja) .spectrum-Heading--light .spectrum-Heading--emphasis,
+      .spectrum--large .spectrum:lang(ko) .spectrum-Heading--light em,
+      .spectrum--large .spectrum:lang(ko) .spectrum-Heading--light .spectrum-Heading--emphasis,
+      .spectrum--large .spectrum:lang(zh) .spectrum-Heading--light em,
+      .spectrum--large .spectrum:lang(zh) .spectrum-Heading--light .spectrum-Heading--emphasis {
+        font-style: normal;
+        font-weight: 400;
+      }
+.spectrum--large .spectrum:lang(ja) .spectrum-Heading--light strong,
+      .spectrum--large .spectrum:lang(ja) .spectrum-Heading--light .spectrum-Heading--strong,
+      .spectrum--large .spectrum:lang(ko) .spectrum-Heading--light strong,
+      .spectrum--large .spectrum:lang(ko) .spectrum-Heading--light .spectrum-Heading--strong,
+      .spectrum--large .spectrum:lang(zh) .spectrum-Heading--light strong,
+      .spectrum--large .spectrum:lang(zh) .spectrum-Heading--light .spectrum-Heading--strong {
+        font-style: normal;
+        font-weight: 700;
+      }
+.spectrum--large .spectrum:lang(ja) .spectrum-Body--sizeXXXL, .spectrum--large .spectrum:lang(ko) .spectrum-Body--sizeXXXL, .spectrum--large .spectrum:lang(zh) .spectrum-Body--sizeXXXL {
+  
+
+    font-size: 31px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Body--sizeXXL, .spectrum--large .spectrum:lang(ko) .spectrum-Body--sizeXXL, .spectrum--large .spectrum:lang(zh) .spectrum-Body--sizeXXL {
+  
+
+    font-size: 27px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Body--sizeXL, .spectrum--large .spectrum:lang(ko) .spectrum-Body--sizeXL, .spectrum--large .spectrum:lang(zh) .spectrum-Body--sizeXL {
+  
+
+    font-size: 24px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Body--sizeL, .spectrum--large .spectrum:lang(ko) .spectrum-Body--sizeL, .spectrum--large .spectrum:lang(zh) .spectrum-Body--sizeL {
+  
+
+    font-size: 22px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Body--sizeM, .spectrum--large .spectrum:lang(ko) .spectrum-Body--sizeM, .spectrum--large .spectrum:lang(zh) .spectrum-Body--sizeM {
+  
+
+    font-size: 19px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Body--sizeS, .spectrum--large .spectrum:lang(ko) .spectrum-Body--sizeS, .spectrum--large .spectrum:lang(zh) .spectrum-Body--sizeS {
+  
+
+    font-size: 17px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Body--sizeXS, .spectrum--large .spectrum:lang(ko) .spectrum-Body--sizeXS, .spectrum--large .spectrum:lang(zh) .spectrum-Body--sizeXS {
+  
+
+    font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: none;
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--sizeXL, .spectrum--large .spectrum:lang(ko) .spectrum-Detail--sizeXL, .spectrum--large .spectrum:lang(zh) .spectrum-Detail--sizeXL {
+  
+
+    font-size: 19px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--sizeXL em, .spectrum--large .spectrum:lang(ko) .spectrum-Detail--sizeXL em, .spectrum--large .spectrum:lang(zh) .spectrum-Detail--sizeXL em {
+        font-size: 19px;
+  font-weight: 800;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--sizeXL strong, .spectrum--large .spectrum:lang(ko) .spectrum-Detail--sizeXL strong, .spectrum--large .spectrum:lang(zh) .spectrum-Detail--sizeXL strong {
+        font-size: 19px;
+  font-weight: 900;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--sizeL, .spectrum--large .spectrum:lang(ko) .spectrum-Detail--sizeL, .spectrum--large .spectrum:lang(zh) .spectrum-Detail--sizeL {
+  
+
+    font-size: 17px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--sizeL em, .spectrum--large .spectrum:lang(ko) .spectrum-Detail--sizeL em, .spectrum--large .spectrum:lang(zh) .spectrum-Detail--sizeL em {
+        font-size: 17px;
+  font-weight: 800;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--sizeL strong, .spectrum--large .spectrum:lang(ko) .spectrum-Detail--sizeL strong, .spectrum--large .spectrum:lang(zh) .spectrum-Detail--sizeL strong {
+        font-size: 17px;
+  font-weight: 900;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--sizeM, .spectrum--large .spectrum:lang(ko) .spectrum-Detail--sizeM, .spectrum--large .spectrum:lang(zh) .spectrum-Detail--sizeM {
+  
+
+    font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--sizeM em, .spectrum--large .spectrum:lang(ko) .spectrum-Detail--sizeM em, .spectrum--large .spectrum:lang(zh) .spectrum-Detail--sizeM em {
+        font-size: 15px;
+  font-weight: 800;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--sizeM strong, .spectrum--large .spectrum:lang(ko) .spectrum-Detail--sizeM strong, .spectrum--large .spectrum:lang(zh) .spectrum-Detail--sizeM strong {
+        font-size: 15px;
+  font-weight: 900;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--sizeS, .spectrum--large .spectrum:lang(ko) .spectrum-Detail--sizeS, .spectrum--large .spectrum:lang(zh) .spectrum-Detail--sizeS {
+  
+
+    font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--sizeS em, .spectrum--large .spectrum:lang(ko) .spectrum-Detail--sizeS em, .spectrum--large .spectrum:lang(zh) .spectrum-Detail--sizeS em {
+        font-size: 13px;
+  font-weight: 800;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--sizeS strong, .spectrum--large .spectrum:lang(ko) .spectrum-Detail--sizeS strong, .spectrum--large .spectrum:lang(zh) .spectrum-Detail--sizeS strong {
+        font-size: 13px;
+  font-weight: 900;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+    }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--light, .spectrum--large .spectrum:lang(ko) .spectrum-Detail--light, .spectrum--large .spectrum:lang(zh) .spectrum-Detail--light {
+      font-weight: 700;
+    }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--light em,
+      .spectrum--large .spectrum:lang(ja) .spectrum-Detail--light .spectrum-Detail--emphasis,
+      .spectrum--large .spectrum:lang(ko) .spectrum-Detail--light em,
+      .spectrum--large .spectrum:lang(ko) .spectrum-Detail--light .spectrum-Detail--emphasis,
+      .spectrum--large .spectrum:lang(zh) .spectrum-Detail--light em,
+      .spectrum--large .spectrum:lang(zh) .spectrum-Detail--light .spectrum-Detail--emphasis {
+        font-style: normal;
+        font-weight: 400;
+      }
+.spectrum--large .spectrum:lang(ja) .spectrum-Detail--light strong,
+      .spectrum--large .spectrum:lang(ja) .spectrum-Detail--light .spectrum-Detail--strong,
+      .spectrum--large .spectrum:lang(ko) .spectrum-Detail--light strong,
+      .spectrum--large .spectrum:lang(ko) .spectrum-Detail--light .spectrum-Detail--strong,
+      .spectrum--large .spectrum:lang(zh) .spectrum-Detail--light strong,
+      .spectrum--large .spectrum:lang(zh) .spectrum-Detail--light .spectrum-Detail--strong {
+        font-style: normal;
+        font-weight: 700;
+      }
+.spectrum--large .spectrum:lang(ja) .spectrum-Code--sizeXL, .spectrum--large .spectrum:lang(ko) .spectrum-Code--sizeXL, .spectrum--large .spectrum:lang(zh) .spectrum-Code--sizeXL {
+  
+
+    font-size: 24px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.05em;
+      font-family: adobe-clean-han-traditional, source-han-traditional, 'MingLiu', 'Heiti TC Light','sans-serif';
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Code--sizeL, .spectrum--large .spectrum:lang(ko) .spectrum-Code--sizeL, .spectrum--large .spectrum:lang(zh) .spectrum-Code--sizeL {
+  
+
+    font-size: 22px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.05em;
+      font-family: adobe-clean-han-traditional, source-han-traditional, 'MingLiu', 'Heiti TC Light','sans-serif';
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Code--sizeM, .spectrum--large .spectrum:lang(ko) .spectrum-Code--sizeM, .spectrum--large .spectrum:lang(zh) .spectrum-Code--sizeM {
+  
+
+    font-size: 19px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.05em;
+      font-family: adobe-clean-han-traditional, source-han-traditional, 'MingLiu', 'Heiti TC Light','sans-serif';
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Code--sizeS, .spectrum--large .spectrum:lang(ko) .spectrum-Code--sizeS, .spectrum--large .spectrum:lang(zh) .spectrum-Code--sizeS {
+  
+
+    font-size: 17px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.05em;
+      font-family: adobe-clean-han-traditional, source-han-traditional, 'MingLiu', 'Heiti TC Light','sans-serif';
+
+    
+  }
+.spectrum--large .spectrum:lang(ja) .spectrum-Code--sizeXS, .spectrum--large .spectrum:lang(ko) .spectrum-Code--sizeXS, .spectrum--large .spectrum:lang(zh) .spectrum-Code--sizeXS {
+  
+
+    font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.05em;
+      font-family: adobe-clean-han-traditional, source-han-traditional, 'MingLiu', 'Heiti TC Light','sans-serif';
+
+    
+  }
