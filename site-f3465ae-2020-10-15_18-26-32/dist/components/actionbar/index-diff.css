@@ -1,0 +1,26 @@
+.spectrum--large .spectrum-ActionBar {
+  padding: 0 20px;
+
+  transition: height 130ms ease-in-out,
+              opacity 130ms ease-in-out;
+}
+.spectrum--large .spectrum-ActionBar.is-open {
+    height: 100px;
+  }
+.spectrum--large [dir="ltr"] .spectrum-ActionBar-popover {
+  padding-left: 20px;
+}
+.spectrum--large [dir="rtl"] .spectrum-ActionBar-popover {
+  padding-right: 20px;
+}
+.spectrum--large [dir="ltr"] .spectrum-ActionBar-popover {
+  padding-right: 10px;
+}
+.spectrum--large [dir="rtl"] .spectrum-ActionBar-popover {
+  padding-left: 10px;
+}
+.spectrum--large .spectrum-ActionBar-popover {
+  height: 60px;
+  min-width: 280px;
+  max-width: 960px;
+}
