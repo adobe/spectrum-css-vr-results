@@ -1,0 +1,198 @@
+.spectrum-Picker {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  width: var(--spectrum-global-dimension-size-2400);
+  min-width: var(--spectrum-picker-min-width, var(--spectrum-global-dimension-size-400));
+}
+
+.spectrum-Picker select {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    -ms-appearance: none;
+  }
+
+.spectrum-Picker select::-ms-expand {
+      display: none;
+    }
+
+.spectrum-Picker select::-ms-value {
+      background-color: transparent;
+    }
+
+[dir="ltr"] .spectrum-Picker select + .spectrum-Picker-icon {
+      right: var(--spectrum-picker-padding-x, var(--spectrum-global-dimension-size-150));
+}
+
+[dir="rtl"] .spectrum-Picker select + .spectrum-Picker-icon {
+      left: var(--spectrum-picker-padding-x, var(--spectrum-global-dimension-size-150));
+}
+
+.spectrum-Picker select + .spectrum-Picker-icon {
+      position: absolute;
+      top: 50%;
+      margin-top: calc(var(--spectrum-icon-chevron-down-medium-height, var(--spectrum-global-dimension-size-75)) / -2);
+    }
+
+.spectrum-Picker-trigger {
+  position: relative;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+[dir="ltr"] .spectrum-Picker-label {
+  text-align: left;
+}
+
+[dir="rtl"] .spectrum-Picker-label {
+  text-align: right;
+}
+
+.spectrum-Picker-label {
+  -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+
+  white-space: nowrap;
+  overflow: hidden;
+
+  height: calc(var(--spectrum-picker-height, var(--spectrum-global-dimension-size-400)) - var(--spectrum-picker-border-size, var(--spectrum-alias-border-size-thin)) * 2);
+  line-height: calc(var(--spectrum-picker-height, var(--spectrum-global-dimension-size-400)) - var(--spectrum-picker-border-size, var(--spectrum-alias-border-size-thin)) * 2);
+
+  font-size: var(--spectrum-picker-text-size, var(--spectrum-alias-font-size-default));
+
+  text-overflow: ellipsis;
+}
+
+.spectrum-Picker-label.is-placeholder {
+    font-weight: var(--spectrum-picker-placeholder-text-font-weight, var(--spectrum-global-font-weight-regular));
+    font-style: var(--spectrum-picker-placeholder-text-font-style, var(--spectrum-global-font-style-italic));
+    transition: color var(--spectrum-global-animation-duration-100, 130ms) ease-in-out;
+  }
+
+[dir="ltr"] .spectrum-Picker-label + .spectrum-Picker-icon {
+  margin-left: var(--spectrum-picker-icon-margin-left, var(--spectrum-global-dimension-size-150));
+}
+
+[dir="rtl"] .spectrum-Picker-label + .spectrum-Picker-icon {
+  margin-right: var(--spectrum-picker-icon-margin-left, var(--spectrum-global-dimension-size-150));
+}
+
+[dir="ltr"] .spectrum-Icon + .spectrum-Picker-label {
+  margin-left: var(--spectrum-listitem-thumbnail-image-padding-x, var(--spectrum-global-dimension-size-100));
+}
+
+[dir="rtl"] .spectrum-Icon + .spectrum-Picker-label {
+  margin-right: var(--spectrum-listitem-thumbnail-image-padding-x, var(--spectrum-global-dimension-size-100));
+}
+
+[dir="ltr"] .spectrum-Picker-label ~ .spectrum-Picker-icon {
+  margin-left: var(--spectrum-picker-icon-margin-left, var(--spectrum-global-dimension-size-150));
+}
+
+[dir="rtl"] .spectrum-Picker-label ~ .spectrum-Picker-icon {
+  margin-right: var(--spectrum-picker-icon-margin-left, var(--spectrum-global-dimension-size-150));
+}
+
+.spectrum-Picker-icon {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  transition: color var(--spectrum-global-animation-duration-100, 130ms) ease-out;
+  margin-top: calc((var(--spectrum-picker-height, var(--spectrum-global-dimension-size-400)) - var(--spectrum-picker-border-size, var(--spectrum-alias-border-size-thin)) * 2 - var(--spectrum-icon-chevron-down-medium-height, var(--spectrum-global-dimension-size-75))) / 2);
+  margin-bottom: calc((var(--spectrum-picker-height, var(--spectrum-global-dimension-size-400)) - var(--spectrum-picker-border-size, var(--spectrum-alias-border-size-thin)) * 2 - var(--spectrum-icon-chevron-down-medium-height, var(--spectrum-global-dimension-size-75))) / 2);
+
+  opacity: 1;
+}
+
+.spectrum-Picker-trigger .spectrum-Icon:not(.spectrum-Picker-icon) {
+    margin-top: calc((var(--spectrum-picker-height, var(--spectrum-global-dimension-size-400)) - var(--spectrum-picker-border-size, var(--spectrum-alias-border-size-thin)) * 2 - var(--spectrum-picker-icon-size, var(--spectrum-alias-workflow-icon-size-m))) / 2);
+    margin-bottom: calc((var(--spectrum-picker-height, var(--spectrum-global-dimension-size-400)) - var(--spectrum-picker-border-size, var(--spectrum-alias-border-size-thin)) * 2 - var(--spectrum-picker-icon-size, var(--spectrum-alias-workflow-icon-size-m))) / 2);
+  }
+
+[dir="ltr"] .spectrum-Picker-trigger .spectrum-Picker-label + .spectrum-Icon:not(.spectrum-Picker-icon) {
+    margin-left: var(--spectrum-picker-icon-margin-left, var(--spectrum-global-dimension-size-150));
+}
+
+[dir="rtl"] .spectrum-Picker-trigger .spectrum-Picker-label + .spectrum-Icon:not(.spectrum-Picker-icon) {
+    margin-right: var(--spectrum-picker-icon-margin-left, var(--spectrum-global-dimension-size-150));
+}
+
+[dir="ltr"] .spectrum-Icon + .spectrum-Picker-icon {
+  margin-left: var(--spectrum-picker-icon-gap, var(--spectrum-global-dimension-size-100));
+}
+
+[dir="rtl"] .spectrum-Icon + .spectrum-Picker-icon {
+  margin-right: var(--spectrum-picker-icon-gap, var(--spectrum-global-dimension-size-100));
+}
+
+.spectrum-Picker--quiet {
+  width: auto;
+  min-width: var(--spectrum-picker-quiet-min-width);
+}
+
+.spectrum-Picker-popover {
+  max-width: var(--spectrum-global-dimension-size-3000);
+}
+
+[dir="ltr"] .spectrum-Picker-popover--quiet {
+  margin-left: calc(-1 * (var(--spectrum-picker-quiet-popover-offset-x, var(--spectrum-global-dimension-size-150)) + var(--spectrum-popover-border-size, var(--spectrum-alias-border-size-thin))));
+}
+
+[dir="rtl"] .spectrum-Picker-popover--quiet {
+  margin-right: calc(-1 * (var(--spectrum-picker-quiet-popover-offset-x, var(--spectrum-global-dimension-size-150)) + var(--spectrum-popover-border-size, var(--spectrum-alias-border-size-thin))));
+}
+
+.spectrum-Picker .spectrum-Picker-trigger:hover .spectrum-Picker-icon {
+      color: var(--spectrum-picker-icon-color-hover, var(--spectrum-alias-icon-color-hover));
+    }
+
+.spectrum-Picker .spectrum-Picker-trigger.is-selected .is-placeholder {
+        color: var(--spectrum-picker-placeholder-text-color-down, var(--spectrum-alias-placeholder-text-color-down));
+      }
+
+.spectrum-Picker.is-invalid .spectrum-Icon:not(.spectrum-Picker-icon):not(.spectrum-Menu-checkmark) {
+      color: var(--spectrum-picker-validation-icon-color-error, var(--spectrum-semantic-negative-color-icon));
+    }
+
+.spectrum-Picker.is-invalid.is-disabled .spectrum-Icon,
+      .spectrum-Picker.is-invalid.is-disabled .spectrum-Icon:not(.spectrum-Picker-icon):not(.spectrum-Menu-checkmark) {
+        color: var(--spectrum-picker-icon-color-disabled, var(--spectrum-alias-icon-color-disabled));
+      }
+
+.spectrum-Picker.is-disabled .spectrum-Picker-icon, .spectrum-Picker.is-disabled .spectrum-Picker-trigger:hover .spectrum-Picker-icon {
+        color: var(--spectrum-picker-icon-color-disabled, var(--spectrum-alias-icon-color-disabled));
+      }
+
+.spectrum-Picker.is-disabled .spectrum-Picker-label.is-placeholder {
+        color: var(--spectrum-picker-placeholder-text-color-disabled, var(--spectrum-alias-text-color-disabled));
+      }
+
+.spectrum-Picker-icon {
+  color: var(--spectrum-picker-icon-color, var(--spectrum-alias-icon-color));
+}
+
+.spectrum-Picker-label.is-placeholder {
+    color: var(--spectrum-picker-placeholder-text-color, var(--spectrum-alias-placeholder-text-color));
+  }
+
+.spectrum-Picker-label.is-placeholder:hover {
+      color: var(--spectrum-picker-placeholder-text-color-hover, var(--spectrum-alias-placeholder-text-color-hover));
+    }
+
+.spectrum-Picker-label.is-placeholder:active {
+      color: var(--spectrum-picker-placeholder-text-color-mouse-focus, var(--spectrum-alias-placeholder-text-color));
+    }
+
+.spectrum-Picker-trigger.focus-ring .spectrum-Picker-label.is-placeholder {
+    color: var(--spectrum-picker-placeholder-text-color-key-focus, var(--spectrum-alias-placeholder-text-color-hover));
+  }
+
+.spectrum-Picker-trigger.focus-ring .spectrum-Picker-icon {
+    color: var(--spectrum-picker-icon-color-key-focus, var(--spectrum-alias-icon-color-focus))
+  }
