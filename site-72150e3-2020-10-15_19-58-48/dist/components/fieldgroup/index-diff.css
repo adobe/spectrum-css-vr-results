@@ -1,0 +1,6 @@
+.spectrum--large [dir="ltr"] .spectrum-FieldGroup--horizontal .spectrum-FieldGroup-item:not(:last-child) {
+    margin-right: 20px
+}
+.spectrum--large [dir="rtl"] .spectrum-FieldGroup--horizontal .spectrum-FieldGroup-item:not(:last-child) {
+    margin-left: 20px
+}
