@@ -1,0 +1,28 @@
+.spectrum-ColorLoupe {
+  width: calc(var(--spectrum-colorloupe-width, var(--spectrum-global-dimension-static-size-600)) + var(--spectrum-colorhandle-inner-border-size, var(--spectrum-global-dimension-static-size-25)) * 2);
+  height: calc(var(--spectrum-colorloupe-height, var(--spectrum-global-dimension-static-size-800)) + var(--spectrum-colorhandle-inner-border-size, var(--spectrum-global-dimension-static-size-25)) * 2);
+
+  position: absolute;
+  transform: translate(0, var(--spectrum-global-dimension-static-size-100, 8px));
+  opacity: 0;
+  transform-origin: bottom center;
+  bottom: calc(50% + var(--spectrum-global-dimension-static-size-200, 16px));
+  left: calc(50% - (var(--spectrum-colorloupe-width, var(--spectrum-global-dimension-static-size-600)) + var(--spectrum-colorhandle-inner-border-size, var(--spectrum-global-dimension-static-size-25)) * 2) / 2);
+  transition: transform 100ms ease-in-out, opacity 125ms ease-in-out;
+
+  pointer-events: none;
+}
+
+.spectrum-ColorLoupe.is-open {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
+.spectrum-ColorLoupe-outer {
+  stroke-width: var(--spectrum-colorloupe-outer-border-size, var(--spectrum-global-dimension-static-size-10));
+}
+
+.spectrum-ColorLoupe-outer {
+  fill: var(--spectrum-colorloupe-inner-border-color, var(--spectrum-global-color-static-white));
+  stroke: var(--spectrum-colorloupe-outer-border-color, rgba(50,50,50,0.1));
+}
