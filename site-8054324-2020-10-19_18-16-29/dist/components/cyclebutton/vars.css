@@ -1,0 +1,5 @@
+
+.spectrum-CycleButton {
+  --spectrum-actionbutton-m-icononly-padding-left: var(--spectrum-alias-item-icononly-padding-m);
+  --spectrum-actionbutton-m-icononly-padding-right: var(--spectrum-alias-item-icononly-padding-m);
+}
