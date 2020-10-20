@@ -1,0 +1,19 @@
+.spectrum-FieldGroup {
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: top;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+[dir="ltr"] .spectrum-FieldGroup--horizontal .spectrum-FieldGroup-item:not(:last-child) {
+    margin-right: 20px;
+}
+[dir="rtl"] .spectrum-FieldGroup--horizontal .spectrum-FieldGroup-item:not(:last-child) {
+    margin-left: 20px;
+}
+.spectrum-FieldGroup--vertical {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
