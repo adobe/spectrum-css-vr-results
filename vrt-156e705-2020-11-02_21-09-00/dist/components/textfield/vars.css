@@ -1,0 +1,32 @@
+
+.spectrum-Textfield {
+  --spectrum-alias-border-size-thin: var(--spectrum-global-dimension-static-size-10);
+  --spectrum-alias-component-text-line-height: var(--spectrum-global-font-line-height-small);
+  --spectrum-alias-item-text-size-m: var(--spectrum-global-dimension-font-size-100);
+  --spectrum-alias-item-height-m: var(--spectrum-global-dimension-size-400);
+  --spectrum-alias-item-padding-m: var(--spectrum-global-dimension-size-150);
+  --spectrum-alias-ui-icon-checkmark-size-100: undefined;
+  --spectrum-alias-ui-icon-alert-size-100: var(--spectrum-global-dimension-size-225);
+  --spectrum-alias-border-radius-regular: var(--spectrum-global-dimension-size-50);
+  --spectrum-alias-body-text-font-family: var(--spectrum-global-font-family-base);
+  --spectrum-alias-single-line-width: var(--spectrum-global-dimension-size-2400);
+  --spectrum-icon-checkmark-medium-width: undefined;
+  --spectrum-icon-alert-medium-width: var(--spectrum-global-dimension-size-225);
+  --spectrum-alias-workflow-icon-size-m: var(--spectrum-global-dimension-size-225);
+  --spectrum-alias-border-color-hover: var(--spectrum-global-color-gray-500);
+  --spectrum-alias-placeholder-text-color-hover: var(--spectrum-global-color-gray-900);
+  --spectrum-alias-border-color-mouse-focus: var(--spectrum-global-color-blue-500);
+  --spectrum-alias-icon-color-down: var(--spectrum-global-color-gray-900);
+  --spectrum-semantic-positive-color-icon: var(--spectrum-global-color-green-600);
+  --spectrum-semantic-negative-color-icon: var(--spectrum-global-color-red-600);
+  --spectrum-semantic-negative-color-state-hover: var(--spectrum-global-color-red-600);
+  --spectrum-alias-icon-color: var(--spectrum-global-color-gray-700);
+  --spectrum-alias-border-color: var(--spectrum-global-color-gray-400);
+  --spectrum-alias-text-color: var(--spectrum-global-color-gray-800);
+  --spectrum-alias-border-color-focus: var(--spectrum-global-color-blue-400);
+  --spectrum-semantic-negative-color-default: var(--spectrum-global-color-red-500);
+  --spectrum-alias-border-color-transparent: transparent;
+  --spectrum-alias-text-color-disabled: var(--spectrum-global-color-gray-500);
+  --spectrum-alias-background-color-transparent: transparent;
+  --spectrum-alias-border-color-mid: var(--spectrum-global-color-gray-300);
+}
