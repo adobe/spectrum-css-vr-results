@@ -1,0 +1,9 @@
+
+.spectrum-Link {
+  --spectrum-alias-text-color-over-background: var(--spectrum-global-color-static-white);
+  --spectrum-alias-text-color-key-focus: var(--spectrum-global-color-blue-600);
+  --spectrum-alias-item-text-size-m: var(--spectrum-global-dimension-font-size-100);
+  --spectrum-alias-item-text-size-s: var(--spectrum-global-dimension-font-size-75);
+  --spectrum-alias-item-text-size-l: var(--spectrum-global-dimension-font-size-200);
+  --spectrum-alias-item-text-size-xl: var(--spectrum-global-dimension-font-size-300);
+}
