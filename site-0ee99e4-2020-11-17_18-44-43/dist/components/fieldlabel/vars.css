@@ -1,8 +1,0 @@
-
-.spectrum-FieldLabel,
-.spectrum-Form {
-  --spectrum-alias-body-text-font-weight: var(--spectrum-global-font-weight-regular);
-  --spectrum-alias-component-text-line-height: var(--spectrum-global-font-line-height-small);
-  --spectrum-alias-label-text-color: var(--spectrum-global-color-gray-700);
-  --spectrum-alias-text-color-disabled: var(--spectrum-global-color-gray-500);
-}
