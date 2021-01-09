@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BackstopJS" tests="10" failures="5" errors="5" skipped="0">
+    <testcase classname=".spectrum-CSSExample-example" name=" ›› truncation-light-medium">
+      <failure message="Design deviation ›› truncation-light-medium (.spectrum-CSSExample-example) component"/>
+      <error message="Design deviation ›› truncation-light-medium (.spectrum-CSSExample-example) component"/>
+    </testcase>
+    <testcase classname=".spectrum-CSSExample-example.__n1" name=" ›› truncation-light-medium">
+      <failure message="Design deviation ›› truncation-light-medium (.spectrum-CSSExample-example.__n1) component"/>
+      <error message="Design deviation ›› truncation-light-medium (.spectrum-CSSExample-example.__n1) component"/>
+    </testcase>
+    <testcase classname=".spectrum-CSSExample-example.__n2" name=" ›› truncation-light-medium">
+      <failure message="Design deviation ›› truncation-light-medium (.spectrum-CSSExample-example.__n2) component"/>
+      <error message="Design deviation ›› truncation-light-medium (.spectrum-CSSExample-example.__n2) component"/>
+    </testcase>
+    <testcase classname=".spectrum-CSSExample-example.__n3" name=" ›› truncation-light-medium">
+      <failure message="Design deviation ›› truncation-light-medium (.spectrum-CSSExample-example.__n3) component"/>
+      <error message="Design deviation ›› truncation-light-medium (.spectrum-CSSExample-example.__n3) component"/>
+    </testcase>
+    <testcase classname=".spectrum-CSSExample-example.__n4" name=" ›› truncation-light-medium">
+      <failure message="Design deviation ›› truncation-light-medium (.spectrum-CSSExample-example.__n4) component"/>
+      <error message="Design deviation ›› truncation-light-medium (.spectrum-CSSExample-example.__n4) component"/>
+    </testcase>
+    <testcase classname=".spectrum-CSSExample-example.__n5" name=" ›› truncation-light-medium"/>
+    <testcase classname=".spectrum-CSSExample-example.__n6" name=" ›› truncation-light-medium"/>
+    <testcase classname=".spectrum-CSSExample-example.__n7" name=" ›› truncation-light-medium"/>
+    <testcase classname=".spectrum-CSSExample-example.__n8" name=" ›› truncation-light-medium"/>
+    <testcase classname=".spectrum-CSSExample-example.__n9" name=" ›› truncation-light-medium"/>
+  </testsuite>
+</testsuites>
