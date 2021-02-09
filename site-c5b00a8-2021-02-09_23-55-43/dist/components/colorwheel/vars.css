@@ -1,0 +1,9 @@
+
+.spectrum-ColorWheel {
+  --spectrum-colorhandle-size: var(--spectrum-global-dimension-size-200);
+  --spectrum-colorwheel-border-size: var(--spectrum-alias-border-size-thin);
+  --spectrum-colorarea-border-color: undefined;
+  --spectrum-colorwheel-border-color-disabled: var(--spectrum-global-color-gray-300);
+  --spectrum-colorwheel-fill-color-disabled: var(--spectrum-global-color-gray-300);
+  --spectrum-colorwheel-border-color: undefined;
+}
