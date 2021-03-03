@@ -1,0 +1,14 @@
+
+.spectrum-Tray {
+  --spectrum-tray-width: 100%;
+  --spectrum-tray-max-width: 375px;
+  --spectrum-tray-min-height: var(--spectrum-global-dimension-static-size-800);
+  --spectrum-tray-full-width-border-radius: var(--spectrum-alias-border-radius-regular);
+  --spectrum-tray-border-radius: 0px;
+  --spectrum-tray-padding-y: 0;
+  --spectrum-tray-padding-x: var(--spectrum-global-dimension-static-size-100);
+  --spectrum-dialog-confirm-exit-animation-duration: var(--spectrum-global-animation-duration-100);
+  --spectrum-dialog-confirm-exit-animation-delay: 0ms;
+  --spectrum-dialog-confirm-entry-animation-duration: var(--spectrum-global-animation-duration-500);
+  --spectrum-dialog-confirm-entry-animation-delay: var(--spectrum-global-animation-duration-200);
+}
