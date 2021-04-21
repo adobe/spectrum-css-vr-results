@@ -1,0 +1,6 @@
+
+.spectrum-ActionBar {
+  --spectrum-actionbar-height: var(--spectrum-global-dimension-size-600);
+  --spectrum-actionbar-min-width: var(--spectrum-global-dimension-static-size-3500);
+  --spectrum-actionbar-max-width: var(--spectrum-global-dimension-static-size-3500);
+}
