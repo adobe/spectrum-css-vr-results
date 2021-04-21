@@ -1,0 +1,18 @@
+
+.spectrum-InLineAlert {
+  --spectrum-inlinealert-min-width: var(--spectrum-global-dimension-static-size-4600);
+  --spectrum-inlinealert-padding-y: var(--spectrum-global-dimension-static-size-250);
+  --spectrum-inlinealert-padding-x: var(--spectrum-global-dimension-static-size-250);
+  --spectrum-inlinealert-content-margin-top: var(--spectrum-global-dimension-static-size-100);
+  --spectrum-inlinealert-background-color: var(--spectrum-global-color-gray-50);
+  --spectrum-inlinealert-text-color: var(--spectrum-global-color-gray-700);
+  --spectrum-inlinealert-title-text-color: var(--spectrum-global-color-gray-900);
+  --spectrum-inlinealert-info-border-color: var(--spectrum-semantic-informative-color-border);
+  --spectrum-inlinealert-info-icon-color: var(--spectrum-semantic-informative-color-icon);
+  --spectrum-inlinealert-error-border-color: var(--spectrum-semantic-negative-color-border);
+  --spectrum-inlinealert-error-icon-color: var(--spectrum-semantic-negative-color-icon);
+  --spectrum-inlinealert-success-border-color: var(--spectrum-semantic-positive-color-border);
+  --spectrum-inlinealert-success-icon-color: var(--spectrum-semantic-positive-color-icon);
+  --spectrum-inlinealert-warning-border-color: var(--spectrum-semantic-notice-color-border);
+  --spectrum-inlinealert-warning-icon-color: var(--spectrum-semantic-notice-color-icon);
+}
