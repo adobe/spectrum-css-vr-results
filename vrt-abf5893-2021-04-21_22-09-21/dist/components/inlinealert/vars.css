@@ -1,0 +1,18 @@
+
+.spectrum-InLineAlert {
+  --spectrum-inlinealert-neutral-min-width: var(--spectrum-global-dimension-static-size-4600);
+  --spectrum-inlinealert-neutral-padding-y: var(--spectrum-global-dimension-static-size-250);
+  --spectrum-inlinealert-neutral-padding-x: var(--spectrum-global-dimension-static-size-250);
+  --spectrum-inlinealert-neutral-content-margin-top: var(--spectrum-global-dimension-static-size-100);
+  --spectrum-inlinealert-neutral-background-color: var(--spectrum-global-color-gray-50);
+  --spectrum-inlinealert-neutral-text-color: var(--spectrum-global-color-gray-700);
+  --spectrum-inlinealert-neutral-title-text-color: var(--spectrum-global-color-gray-900);
+  --spectrum-inlinealert-info-border-color: var(--spectrum-semantic-informative-color-border);
+  --spectrum-inlinealert-info-icon-color: var(--spectrum-semantic-informative-color-icon);
+  --spectrum-inlinealert-error-border-color: var(--spectrum-semantic-negative-color-border);
+  --spectrum-inlinealert-error-icon-color: var(--spectrum-semantic-negative-color-icon);
+  --spectrum-inlinealert-success-border-color: var(--spectrum-semantic-positive-color-border);
+  --spectrum-inlinealert-success-icon-color: var(--spectrum-semantic-positive-color-icon);
+  --spectrum-inlinealert-warning-border-color: var(--spectrum-semantic-notice-color-border);
+  --spectrum-inlinealert-warning-icon-color: var(--spectrum-semantic-notice-color-icon);
+}
