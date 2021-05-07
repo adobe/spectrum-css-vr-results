@@ -1,0 +1,8 @@
+
+.spectrum-SplitButton {
+  --spectrum-alias-border-radius-small: var(--spectrum-global-dimension-size-25);
+  --spectrum-button-primary-m-border-size: var(--spectrum-alias-border-size-thick);
+  --spectrum-button-primary-m-padding-left: var(--spectrum-alias-item-rounded-workflow-padding-left-m);
+  --spectrum-button-primary-m-padding-right: var(--spectrum-alias-item-rounded-padding-m);
+  --spectrum-button-primary-m-border-radius: var(--spectrum-alias-item-rounded-border-radius-m);
+}
