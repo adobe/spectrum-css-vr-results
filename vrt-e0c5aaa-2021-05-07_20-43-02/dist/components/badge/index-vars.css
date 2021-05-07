@@ -1,0 +1,163 @@
+.spectrum-Badge--sizeS {
+  --spectrum-badge-neutral-texticon-text-line-height: var(--spectrum-badge-s-neutral-texticon-text-line-height, var(--spectrum-alias-component-text-line-height));
+  --spectrum-badge-neutral-texticon-text-size: var(--spectrum-badge-s-neutral-texticon-text-size, var(--spectrum-alias-item-text-size-s));
+  --spectrum-badge-neutral-texticon-text-padding-top: var(--spectrum-badge-s-neutral-texticon-text-padding-top, var(--spectrum-alias-item-text-padding-top-s));
+  --spectrum-badge-neutral-texticon-text-padding-bottom: var(--spectrum-badge-s-neutral-texticon-text-padding-bottom, var(--spectrum-alias-item-text-padding-bottom-s));
+  --spectrum-badge-neutral-texticon-padding-left: var(--spectrum-badge-s-neutral-texticon-padding-left, var(--spectrum-alias-item-workflow-padding-left-s));
+  --spectrum-badge-neutral-texticon-padding-right: var(--spectrum-badge-s-neutral-texticon-padding-right, var(--spectrum-alias-item-padding-s));
+  --spectrum-badge-neutral-texticon-border-top-left-radius: var(--spectrum-badge-s-neutral-texticon-border-top-left-radius, var(--spectrum-alias-border-radius-regular));
+  --spectrum-badge-neutral-texticon-border-top-right-radius: var(--spectrum-badge-s-neutral-texticon-border-top-right-radius, var(--spectrum-alias-border-radius-regular));
+  --spectrum-badge-neutral-texticon-border-bottom-right-radius: var(--spectrum-badge-s-neutral-texticon-border-bottom-right-radius, var(--spectrum-alias-border-radius-regular));
+  --spectrum-badge-neutral-texticon-border-bottom-left-radius: var(--spectrum-badge-s-neutral-texticon-border-bottom-left-radius, var(--spectrum-alias-border-radius-regular));
+}
+
+.spectrum-Badge--sizeM {
+  --spectrum-badge-neutral-texticon-text-line-height: var(--spectrum-badge-m-neutral-texticon-text-line-height, var(--spectrum-alias-component-text-line-height));
+  --spectrum-badge-neutral-texticon-text-size: var(--spectrum-badge-m-neutral-texticon-text-size, var(--spectrum-alias-item-text-size-m));
+  --spectrum-badge-neutral-texticon-text-padding-top: var(--spectrum-badge-m-neutral-texticon-text-padding-top, var(--spectrum-alias-item-text-padding-top-m));
+  --spectrum-badge-neutral-texticon-text-padding-bottom: var(--spectrum-badge-m-neutral-texticon-text-padding-bottom, var(--spectrum-alias-item-text-padding-bottom-m));
+  --spectrum-badge-neutral-texticon-padding-left: var(--spectrum-badge-m-neutral-texticon-padding-left, var(--spectrum-alias-item-workflow-padding-left-m));
+  --spectrum-badge-neutral-texticon-padding-right: var(--spectrum-badge-m-neutral-texticon-padding-right, var(--spectrum-alias-item-padding-m));
+  --spectrum-badge-neutral-texticon-border-top-left-radius: var(--spectrum-badge-m-neutral-texticon-border-top-left-radius, var(--spectrum-alias-border-radius-regular));
+  --spectrum-badge-neutral-texticon-border-top-right-radius: var(--spectrum-badge-m-neutral-texticon-border-top-right-radius, var(--spectrum-alias-border-radius-regular));
+  --spectrum-badge-neutral-texticon-border-bottom-right-radius: var(--spectrum-badge-m-neutral-texticon-border-bottom-right-radius, var(--spectrum-alias-border-radius-regular));
+  --spectrum-badge-neutral-texticon-border-bottom-left-radius: var(--spectrum-badge-m-neutral-texticon-border-bottom-left-radius, var(--spectrum-alias-border-radius-regular));
+}
+
+.spectrum-Badge--sizeL {
+  --spectrum-badge-neutral-texticon-text-line-height: var(--spectrum-badge-l-neutral-texticon-text-line-height, var(--spectrum-alias-component-text-line-height));
+  --spectrum-badge-neutral-texticon-text-size: var(--spectrum-badge-l-neutral-texticon-text-size, var(--spectrum-alias-item-text-size-l));
+  --spectrum-badge-neutral-texticon-text-padding-top: var(--spectrum-badge-l-neutral-texticon-text-padding-top, var(--spectrum-alias-item-text-padding-top-l));
+  --spectrum-badge-neutral-texticon-text-padding-bottom: var(--spectrum-badge-l-neutral-texticon-text-padding-bottom, var(--spectrum-alias-item-text-padding-bottom-l));
+  --spectrum-badge-neutral-texticon-padding-left: var(--spectrum-badge-l-neutral-texticon-padding-left, var(--spectrum-alias-item-workflow-padding-left-l));
+  --spectrum-badge-neutral-texticon-padding-right: var(--spectrum-badge-l-neutral-texticon-padding-right, var(--spectrum-alias-item-padding-l));
+  --spectrum-badge-neutral-texticon-border-top-left-radius: var(--spectrum-badge-l-neutral-texticon-border-top-left-radius, var(--spectrum-alias-border-radius-regular));
+  --spectrum-badge-neutral-texticon-border-top-right-radius: var(--spectrum-badge-l-neutral-texticon-border-top-right-radius, var(--spectrum-alias-border-radius-regular));
+  --spectrum-badge-neutral-texticon-border-bottom-right-radius: var(--spectrum-badge-l-neutral-texticon-border-bottom-right-radius, var(--spectrum-alias-border-radius-regular));
+  --spectrum-badge-neutral-texticon-border-bottom-left-radius: var(--spectrum-badge-l-neutral-texticon-border-bottom-left-radius, var(--spectrum-alias-border-radius-regular));
+}
+
+.spectrum-Badge--sizeXL {
+  --spectrum-badge-neutral-texticon-text-line-height: var(--spectrum-badge-xl-neutral-texticon-text-line-height, var(--spectrum-alias-component-text-line-height));
+  --spectrum-badge-neutral-texticon-text-size: var(--spectrum-badge-xl-neutral-texticon-text-size, var(--spectrum-alias-item-text-size-xl));
+  --spectrum-badge-neutral-texticon-text-padding-top: var(--spectrum-badge-xl-neutral-texticon-text-padding-top, var(--spectrum-alias-item-text-padding-top-xl));
+  --spectrum-badge-neutral-texticon-text-padding-bottom: var(--spectrum-badge-xl-neutral-texticon-text-padding-bottom, var(--spectrum-alias-item-text-padding-bottom-xl));
+  --spectrum-badge-neutral-texticon-padding-left: var(--spectrum-badge-xl-neutral-texticon-padding-left, var(--spectrum-alias-item-workflow-padding-left-xl));
+  --spectrum-badge-neutral-texticon-padding-right: var(--spectrum-badge-xl-neutral-texticon-padding-right, var(--spectrum-alias-item-padding-xl));
+  --spectrum-badge-neutral-texticon-border-top-left-radius: var(--spectrum-badge-xl-neutral-texticon-border-top-left-radius, var(--spectrum-alias-border-radius-regular));
+  --spectrum-badge-neutral-texticon-border-top-right-radius: var(--spectrum-badge-xl-neutral-texticon-border-top-right-radius, var(--spectrum-alias-border-radius-regular));
+  --spectrum-badge-neutral-texticon-border-bottom-right-radius: var(--spectrum-badge-xl-neutral-texticon-border-bottom-right-radius, var(--spectrum-alias-border-radius-regular));
+  --spectrum-badge-neutral-texticon-border-bottom-left-radius: var(--spectrum-badge-xl-neutral-texticon-border-bottom-left-radius, var(--spectrum-alias-border-radius-regular));
+}
+
+[dir="ltr"] .spectrum-Badge {
+  padding-left: var(--spectrum-badge-neutral-texticon-padding-right);
+  padding-right: var(--spectrum-badge-neutral-texticon-padding-left);
+}
+
+[dir="rtl"] .spectrum-Badge {
+  padding-right: var(--spectrum-badge-neutral-texticon-padding-right);
+  padding-left: var(--spectrum-badge-neutral-texticon-padding-left);
+}
+
+.spectrum-Badge {
+  display: inline-block;
+  position: relative;
+
+  width: auto;
+
+  padding-top: var(--spectrum-badge-neutral-texticon-text-padding-top);
+
+  padding-bottom: var(--spectrum-badge-neutral-texticon-text-padding-bottom);
+
+  border-radius: var(--spectrum-badge-neutral-texticon-border-top-left-radius) var(--spectrum-badge-neutral-texticon-border-top-right-radius) var(--spectrum-badge-neutral-texticon-border-bottom-right-radius) var(--spectrum-badge-neutral-texticon-border-bottom-left-radius);
+
+  font-size: var(--spectrum-badge-neutral-texticon-text-size);
+  line-height: var(--spectrum-badge-neutral-texticon-text-line-height);
+
+  cursor: default;
+
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-smoothing: subpixel-antialiased;
+}
+
+.spectrum-Badge--neutral {
+  --spectrum-badge-m-texticon-background-color: var(--spectrum-badge-m-neutral-texticon-background-color, var(--spectrum-semantic-neutral-background-color-default));
+  --spectrum-badge-m-texticon-text-color: var(--spectrum-badge-m-neutral-texticon-text-color, var(--spectrum-global-color-static-white));
+  --spectrum-badge-m-texticon-background-color-hover: var(--spectrum-badge-m-neutral-texticon-background-color-hover, var(--spectrum-semantic-neutral-background-color-hover));
+  --spectrum-badge-m-texticon-text-color-hover: var(--spectrum-badge-m-neutral-texticon-text-color-hover, var(--spectrum-global-color-static-white));
+}
+
+.spectrum-Badge--informative {
+  --spectrum-badge-m-texticon-background-color: var(--spectrum-badge-m-informative-texticon-background-color, var(--spectrum-semantic-informative-background-color-default));
+  --spectrum-badge-m-texticon-text-color: var(--spectrum-badge-m-informative-texticon-text-color, var(--spectrum-global-color-static-white));
+  --spectrum-badge-m-texticon-background-color-hover: var(--spectrum-badge-m-informative-texticon-background-color-hover, var(--spectrum-semantic-informative-background-color-hover));
+  --spectrum-badge-m-texticon-text-color-hover: var(--spectrum-badge-m-informative-texticon-text-color-hover, var(--spectrum-global-color-static-white));
+}
+
+.spectrum-Badge--positive {
+  --spectrum-badge-m-texticon-background-color: var(--spectrum-badge-m-positive-texticon-background-color, var(--spectrum-semantic-positive-background-color-default));
+  --spectrum-badge-m-texticon-text-color: var(--spectrum-badge-m-positive-texticon-text-color, var(--spectrum-global-color-static-white));
+  --spectrum-badge-m-texticon-background-color-hover: var(--spectrum-badge-m-positive-texticon-background-color-hover, var(--spectrum-semantic-positive-background-color-hover));
+  --spectrum-badge-m-texticon-text-color-hover: var(--spectrum-badge-m-positive-texticon-text-color-hover, var(--spectrum-global-color-static-white));
+}
+
+.spectrum-Badge--negative {
+  --spectrum-badge-m-texticon-background-color: var(--spectrum-badge-m-negative-texticon-background-color, var(--spectrum-semantic-negative-background-color-default));
+  --spectrum-badge-m-texticon-text-color: var(--spectrum-badge-m-negative-texticon-text-color, var(--spectrum-global-color-static-white));
+  --spectrum-badge-m-texticon-background-color-hover: var(--spectrum-badge-m-negative-texticon-background-color-hover, var(--spectrum-semantic-negative-background-color-hover));
+  --spectrum-badge-m-texticon-text-color-hover: var(--spectrum-badge-m-negative-texticon-text-color-hover, var(--spectrum-global-color-static-white));
+}
+
+.spectrum-Badge--fuchsia {
+  --spectrum-badge-m-texticon-background-color: var(--spectrum-badge-m-fuchsia-texticon-background-color, var(--spectrum-global-color-static-fuchsia-600));
+  --spectrum-badge-m-texticon-text-color: var(--spectrum-badge-m-fuchsia-texticon-text-color, var(--spectrum-global-color-static-white));
+  --spectrum-badge-m-texticon-background-color-hover: var(--spectrum-badge-m-fuchsia-texticon-background-color-hover, var(--spectrum-global-color-static-fuchsia-700));
+  --spectrum-badge-m-texticon-text-color-hover: var(--spectrum-badge-m-fuchsia-texticon-text-color-hover, var(--spectrum-global-color-static-white));
+}
+
+.spectrum-Badge--indigo {
+  --spectrum-badge-m-texticon-background-color: var(--spectrum-badge-m-indigo-texticon-background-color, var(--spectrum-global-color-static-indigo-600));
+  --spectrum-badge-m-texticon-text-color: var(--spectrum-badge-m-indigo-texticon-text-color, var(--spectrum-global-color-static-white));
+  --spectrum-badge-m-texticon-background-color-hover: var(--spectrum-badge-m-indigo-texticon-background-color-hover, var(--spectrum-global-color-static-indigo-700));
+  --spectrum-badge-m-texticon-text-color-hover: var(--spectrum-badge-m-indigo-texticon-text-color-hover, var(--spectrum-global-color-static-white));
+}
+
+.spectrum-Badge--magenta {
+  --spectrum-badge-m-texticon-background-color: var(--spectrum-badge-m-magenta-texticon-background-color, var(--spectrum-global-color-static-magenta-600));
+  --spectrum-badge-m-texticon-text-color: var(--spectrum-badge-m-magenta-texticon-text-color, var(--spectrum-global-color-static-white));
+  --spectrum-badge-m-texticon-background-color-hover: var(--spectrum-badge-m-magenta-texticon-background-color-hover, var(--spectrum-global-color-static-magenta-700));
+  --spectrum-badge-m-texticon-text-color-hover: var(--spectrum-badge-m-magenta-texticon-text-color-hover, var(--spectrum-global-color-static-white));
+}
+
+.spectrum-Badge--purple {
+  --spectrum-badge-m-texticon-background-color: var(--spectrum-badge-m-purple-texticon-background-color, var(--spectrum-global-color-static-purple-600));
+  --spectrum-badge-m-texticon-text-color: var(--spectrum-badge-m-purple-texticon-text-color, var(--spectrum-global-color-static-white));
+  --spectrum-badge-m-texticon-background-color-hover: var(--spectrum-badge-m-purple-texticon-background-color-hover, var(--spectrum-global-color-static-purple-700));
+  --spectrum-badge-m-texticon-text-color-hover: var(--spectrum-badge-m-purple-texticon-text-color-hover, var(--spectrum-global-color-static-white));
+}
+
+.spectrum-Badge--seafoam {
+  --spectrum-badge-m-texticon-background-color: var(--spectrum-badge-m-seafoam-texticon-background-color, var(--spectrum-global-color-static-seafoam-600));
+  --spectrum-badge-m-texticon-text-color: var(--spectrum-badge-m-seafoam-texticon-text-color, var(--spectrum-global-color-static-white));
+  --spectrum-badge-m-texticon-background-color-hover: var(--spectrum-badge-m-seafoam-texticon-background-color-hover, var(--spectrum-global-color-static-seafoam-700));
+  --spectrum-badge-m-texticon-text-color-hover: var(--spectrum-badge-m-seafoam-texticon-text-color-hover, var(--spectrum-global-color-static-white));
+}
+
+.spectrum-Badge--yellow {
+  --spectrum-badge-m-texticon-background-color: var(--spectrum-badge-m-yellow-texticon-background-color, var(--spectrum-global-color-static-yellow-600));
+  --spectrum-badge-m-texticon-text-color: var(--spectrum-badge-m-yellow-texticon-text-color, var(--spectrum-global-color-static-black));
+  --spectrum-badge-m-texticon-background-color-hover: var(--spectrum-badge-m-yellow-texticon-background-color-hover, var(--spectrum-global-color-static-yellow-700));
+  --spectrum-badge-m-texticon-text-color-hover: var(--spectrum-badge-m-yellow-texticon-text-color-hover, var(--spectrum-global-color-static-black));
+}
+
+.spectrum-Badge {
+  color: var(--spectrum-badge-m-texticon-text-color);
+  background-color: var(--spectrum-badge-m-texticon-background-color);
+}
+
+.spectrum-Badge:hover {
+    color: var(--spectrum-badge-m-texticon-text-color-hover);
+    background-color: var(--spectrum-badge-m-texticon-background-color-hover);
+  }
