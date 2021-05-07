@@ -1,0 +1,9 @@
+
+.spectrum-Search {
+  --spectrum-search-s-icon-gap: var(--spectrum-global-dimension-size-85);
+  --spectrum-textfield-m-texticon-icon-color: var(--spectrum-alias-icon-color);
+  --spectrum-search-m-icon-color-hover: var(--spectrum-alias-icon-color-hover);
+  --spectrum-search-m-icon-color-down: var(--spectrum-alias-icon-color-down);
+  --spectrum-search-m-icon-color-key-focus: var(--spectrum-alias-icon-color-hover);
+  --spectrum-textfield-m-texticon-text-color-disabled: var(--spectrum-alias-text-color-disabled);
+}
