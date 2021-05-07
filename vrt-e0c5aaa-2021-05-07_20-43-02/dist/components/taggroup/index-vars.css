@@ -1,0 +1,20 @@
+.spectrum-TagGroup {
+  --spectrum-taggroup-tag-gap-x: var(--spectrum-global-dimension-size-100);
+  --spectrum-taggroup-tag-gap-y: var(--spectrum-global-dimension-size-100);
+}
+
+.spectrum-TagGroup {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.spectrum-TagGroup-item {
+  margin-top: calc(var(--spectrum-taggroup-tag-gap-y, var(--spectrum-global-dimension-size-100)) / 2);
+  margin-bottom: calc(var(--spectrum-taggroup-tag-gap-y, var(--spectrum-global-dimension-size-100)) / 2);
+  margin-left: calc(var(--spectrum-taggroup-tag-gap-x, var(--spectrum-global-dimension-size-100)) / 2);
+  margin-right: calc(var(--spectrum-taggroup-tag-gap-x, var(--spectrum-global-dimension-size-100)) / 2);
+}
