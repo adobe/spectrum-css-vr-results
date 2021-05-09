@@ -1,0 +1,658 @@
+.spectrum-LogicButton,
+.spectrum-ClearButton,
+.spectrum-Button {
+  position: relative;
+
+  display: -ms-inline-flexbox;
+
+  display: inline-flex;
+  box-sizing: border-box;
+
+  -ms-flex-align: center;
+
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  overflow: visible;
+  margin: 0;
+
+  border-style: solid;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-appearance: button;
+  vertical-align: top;
+
+  transition: background var(--spectrum-global-animation-duration-100, 130ms) ease-out,
+    border-color var(--spectrum-global-animation-duration-100, 130ms) ease-out,
+    color var(--spectrum-global-animation-duration-100, 130ms) ease-out,
+    box-shadow var(--spectrum-global-animation-duration-100, 130ms) ease-out;
+
+  text-decoration: none;
+  font-family: var(--spectrum-alias-body-text-font-family, var(--spectrum-global-font-family-base));
+
+  line-height: var(--spectrum-alias-component-text-line-height, var(--spectrum-global-font-line-height-small));
+
+  -moz-user-select: none;
+
+   -ms-user-select: none;
+
+       user-select: none;
+  -webkit-user-select: none;
+
+  cursor: pointer;
+}
+
+.spectrum-LogicButton:focus,
+.spectrum-ClearButton:focus,
+.spectrum-Button:focus {
+    outline: none;
+  }
+
+.spectrum-LogicButton::-moz-focus-inner,
+.spectrum-ClearButton::-moz-focus-inner,
+.spectrum-Button::-moz-focus-inner {
+    border: 0;
+    border-style: none;
+    padding: 0;
+    margin-top: -2px;
+    margin-bottom: -2px;
+  }
+
+.spectrum-LogicButton:disabled,
+.spectrum-ClearButton:disabled,
+.spectrum-Button:disabled {
+    cursor: default;
+  }
+
+.spectrum-Button .spectrum-Icon {
+  max-height: 100%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.spectrum-LogicButton:after,
+.spectrum-ClearButton:after,
+.spectrum-Button:after {
+    border-radius: calc(var(--spectrum-button-primary-texticon-border-radius) + var(--spectrum-alias-focus-ring-gap, var(--spectrum-global-dimension-static-size-25)));
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: calc(var(--spectrum-alias-focus-ring-gap, var(--spectrum-global-dimension-static-size-25)) * -1);
+    transition: opacity var(--spectrum-global-animation-duration-100, 130ms) ease-out,
+                margin var(--spectrum-global-animation-duration-100, 130ms) ease-out;
+  }
+
+.spectrum-LogicButton.focus-ring:after,
+.spectrum-ClearButton.focus-ring:after,
+.spectrum-Button.focus-ring:after {
+      margin: calc(var(--spectrum-alias-focus-ring-gap, var(--spectrum-global-dimension-static-size-25)) * -2);
+    }
+
+a.spectrum-Button {
+  -webkit-appearance: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.spectrum-Button-label {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.spectrum-Button-label:empty {
+    display: none;
+  }
+
+.spectrum-LogicButton {
+
+  height: var(--spectrum-logicbutton-and-height, var(--spectrum-global-dimension-static-size-300));
+  padding: var(--spectrum-logicbutton-and-padding-x, var(--spectrum-global-dimension-size-100));
+
+  border-width: var(--spectrum-logicbutton-and-border-size, var(--spectrum-alias-border-size-thick));
+  border-radius: var(--spectrum-logicbutton-and-border-radius, var(--spectrum-alias-border-radius-regular));
+
+  font-size: var(--spectrum-logicbutton-and-text-size, var(--spectrum-global-dimension-font-size-100));
+  font-weight: var(--spectrum-logicbutton-and-text-font-weight, var(--spectrum-global-font-weight-bold));
+  line-height: 0;
+}
+
+.spectrum-LogicButton:after {
+    border-radius: calc(var(--spectrum-logicbutton-and-border-radius, var(--spectrum-alias-border-radius-regular)) + var(--spectrum-alias-focus-ring-gap, var(--spectrum-global-dimension-static-size-25)));
+  }
+
+.spectrum-LogicButton.focus-ring:after, .spectrum-LogicButton.is-focused:after {
+      box-shadow: 0 0 0 var(--spectrum-button-m-primary-texticon-focus-ring-size, var(--spectrum-alias-focus-ring-size)) var(--spectrum-button-m-primary-texticon-focus-ring-color-key-focus, var(--spectrum-alias-focus-ring-color));
+    }
+
+.spectrum-ClearButton {
+  background-color: var(--spectrum-clearbutton-m-background-color, var(--spectrum-alias-background-color-transparent));
+
+  color: var(--spectrum-clearbutton-m-icon-color, var(--spectrum-alias-icon-color));
+}
+
+.spectrum-ClearButton:hover {
+    background-color: var(--spectrum-clearbutton-m-background-color-hover, var(--spectrum-alias-background-color-transparent));
+
+    color: var(--spectrum-clearbutton-m-icon-color-hover, var(--spectrum-alias-icon-color-hover));
+  }
+
+.spectrum-ClearButton:active {
+    background-color: var(--spectrum-clearbutton-m-background-color-down, var(--spectrum-alias-background-color-transparent));
+
+    color: var(--spectrum-clearbutton-m-icon-color-down, var(--spectrum-alias-icon-color-down));
+  }
+
+.spectrum-ClearButton.focus-ring {
+    background-color: var(--spectrum-clearbutton-m-background-color-key-focus, var(--spectrum-alias-background-color-transparent));
+
+    color: var(--spectrum-clearbutton-m-icon-color-key-focus, var(--spectrum-alias-icon-color-focus));
+  }
+
+.spectrum-ClearButton:disabled,
+  .spectrum-ClearButton.is-disabled {
+    background-color: var(--spectrum-clearbutton-m-background-color-disabled, var(--spectrum-alias-background-color-transparent));
+
+    color: var(--spectrum-clearbutton-m-icon-color-disabled, var(--spectrum-alias-icon-color-disabled));
+  }
+
+.spectrum-LogicButton--and {
+  background-color: var(--spectrum-logicbutton-and-background-color, var(--spectrum-global-color-blue-500));
+  border-color: var(--spectrum-logicbutton-and-border-color, var(--spectrum-global-color-blue-500));
+  color: var(--spectrum-logicbutton-and-text-color, var(--spectrum-global-color-static-white));
+}
+
+.spectrum-LogicButton--and:hover {
+    background-color: var(--spectrum-logicbutton-and-background-color-hover, var(--spectrum-global-color-blue-700));
+    border-color: var(--spectrum-logicbutton-and-border-color-hover, var(--spectrum-global-color-blue-700));
+    color: var(--spectrum-logicbutton-and-text-color, var(--spectrum-global-color-static-white));
+  }
+
+.spectrum-LogicButton--and:disabled,
+  .spectrum-LogicButton--and.is-disabled {
+    background-color: var(--spectrum-logicbutton-and-background-color-disabled, var(--spectrum-global-color-gray-200));
+    border-color: var(--spectrum-logicbutton-and-border-color-disabled, var(--spectrum-global-color-gray-200));
+    color: var(--spectrum-logicbutton-and-text-color-disabled, var(--spectrum-alias-text-color-disabled));
+  }
+
+.spectrum-LogicButton--or {
+  background-color: var(--spectrum-logicbutton-or-background-color, var(--spectrum-global-color-magenta-500));
+  border-color: var(--spectrum-logicbutton-or-border-color, var(--spectrum-global-color-magenta-500));
+  color: var(--spectrum-logicbutton-or-text-color, var(--spectrum-global-color-static-white));
+}
+
+.spectrum-LogicButton--or:hover {
+    background-color: var(--spectrum-logicbutton-or-background-color-hover, var(--spectrum-global-color-magenta-700));
+    border-color: var(--spectrum-logicbutton-or-border-color-hover, var(--spectrum-global-color-magenta-700));
+    color: var(--spectrum-logicbutton-or-text-color, var(--spectrum-global-color-static-white));
+  }
+
+.spectrum-LogicButton--or:disabled,
+  .spectrum-LogicButton--or.is-disabled {
+    background-color: var(--spectrum-button-m-secondary-texticon-background-color-disabled, var(--spectrum-global-color-gray-200));
+    border-color: var(--spectrum-button-m-secondary-texticon-border-color-disabled, var(--spectrum-global-color-gray-200));
+    color: var(--spectrum-logicbutton-and-text-color-disabled, var(--spectrum-alias-text-color-disabled));
+  }
+
+.spectrum-ClearButton {
+
+  width: var(--spectrum-clearbutton-m-width, var(--spectrum-global-dimension-size-400));
+  height: var(--spectrum-clearbutton-m-height, var(--spectrum-global-dimension-size-400));
+
+  border-radius: 100%;
+
+  padding: 0;
+  margin: 0;
+
+  border: none;
+}
+
+.spectrum-ClearButton > .spectrum-Icon {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.spectrum-ClearButton--overBackground.focus-ring:after {
+      margin: calc(var(--spectrum-alias-focus-ring-gap, var(--spectrum-global-dimension-static-size-25)) * -1);
+    }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .spectrum-ClearButton > .spectrum-Icon {
+      margin: 0;
+    }
+}
+
+.spectrum-ClearButton--small {
+  width: var(--spectrum-clearbutton-s-width, var(--spectrum-global-dimension-size-300));
+  height: var(--spectrum-clearbutton-s-height, var(--spectrum-global-dimension-size-300));
+}
+
+.spectrum-Button--sizeS {
+  --spectrum-button-primary-texticon-text-size: var(--spectrum-button-s-primary-texticon-text-size, var(--spectrum-global-dimension-font-size-75));
+  --spectrum-button-primary-texticon-text-font-weight: var(--spectrum-button-s-primary-texticon-text-font-weight, var(--spectrum-global-font-weight-bold));
+  --spectrum-button-primary-texticon-text-line-height: var(--spectrum-button-s-primary-texticon-text-line-height, var(--spectrum-alias-component-text-line-height));
+  --spectrum-button-primary-texticon-icon-gap: var(--spectrum-button-s-primary-texticon-icon-gap, var(--spectrum-global-dimension-size-85));
+  --spectrum-button-primary-texticon-focus-ring-size: var(--spectrum-button-s-primary-texticon-focus-ring-size, var(--spectrum-alias-focus-ring-size));
+  --spectrum-button-primary-texticon-border-size: var(--spectrum-button-s-primary-texticon-border-size, var(--spectrum-alias-border-size-thick));
+  --spectrum-button-primary-texticon-border-radius: var(--spectrum-button-s-primary-texticon-border-radius, var(--spectrum-global-dimension-size-150));
+  --spectrum-button-primary-texticon-padding-right: var(--spectrum-button-s-primary-texticon-padding-right, var(--spectrum-global-dimension-size-150));
+  --spectrum-button-primary-texticon-padding-left: var(--spectrum-button-s-primary-texticon-padding-left, var(--spectrum-global-dimension-size-125));
+  --spectrum-button-primary-textonly-min-width: var(--spectrum-button-s-primary-textonly-min-width, var(--spectrum-global-dimension-size-675));
+  --spectrum-button-primary-textonly-height: var(--spectrum-button-s-primary-textonly-height, var(--spectrum-global-dimension-size-300));
+  --spectrum-button-primary-text-padding-top: calc(var(--spectrum-button-s-primary-texticon-text-padding-top, var(--spectrum-global-dimension-static-size-50)) - 3px);
+}
+
+.spectrum-Button--sizeM {
+  --spectrum-button-primary-texticon-padding-left: var(--spectrum-button-m-primary-texticon-padding-left);
+  --spectrum-button-primary-texticon-text-size: var(--spectrum-button-m-primary-texticon-text-size, var(--spectrum-global-dimension-font-size-100));
+  --spectrum-button-primary-texticon-text-font-weight: var(--spectrum-button-m-primary-texticon-text-font-weight, var(--spectrum-global-font-weight-bold));
+  --spectrum-button-primary-texticon-text-line-height: var(--spectrum-button-m-primary-texticon-text-line-height, var(--spectrum-alias-component-text-line-height));
+  --spectrum-button-primary-texticon-icon-gap: var(--spectrum-button-m-primary-texticon-icon-gap, var(--spectrum-global-dimension-size-100));
+  --spectrum-button-primary-texticon-focus-ring-size: var(--spectrum-button-m-primary-texticon-focus-ring-size, var(--spectrum-alias-focus-ring-size));
+  --spectrum-button-primary-texticon-border-size: var(--spectrum-button-m-primary-texticon-border-size, var(--spectrum-alias-border-size-thick));
+  --spectrum-button-primary-texticon-border-radius: var(--spectrum-button-m-primary-texticon-border-radius, var(--spectrum-global-dimension-size-200));
+  --spectrum-button-primary-texticon-padding-right: var(--spectrum-button-m-primary-texticon-padding-right, var(--spectrum-global-dimension-size-200));
+  --spectrum-button-primary-textonly-min-width: var(--spectrum-button-m-primary-textonly-min-width, var(--spectrum-global-dimension-size-900));
+  --spectrum-button-primary-textonly-height: var(--spectrum-button-m-primary-textonly-height, var(--spectrum-global-dimension-size-400));
+}
+
+.spectrum-Button--sizeL {
+  --spectrum-button-primary-texticon-text-size: var(--spectrum-button-l-primary-texticon-text-size, var(--spectrum-global-dimension-font-size-200));
+  --spectrum-button-primary-texticon-text-font-weight: var(--spectrum-button-l-primary-texticon-text-font-weight, var(--spectrum-global-font-weight-bold));
+  --spectrum-button-primary-texticon-text-line-height: var(--spectrum-button-l-primary-texticon-text-line-height, var(--spectrum-alias-component-text-line-height));
+  --spectrum-button-primary-texticon-icon-gap: var(--spectrum-button-l-primary-texticon-icon-gap, var(--spectrum-global-dimension-size-115));
+  --spectrum-button-primary-texticon-focus-ring-size: var(--spectrum-button-l-primary-texticon-focus-ring-size, var(--spectrum-alias-focus-ring-size));
+  --spectrum-button-primary-texticon-border-size: var(--spectrum-button-l-primary-texticon-border-size, var(--spectrum-alias-border-size-thick));
+  --spectrum-button-primary-texticon-border-radius: var(--spectrum-button-l-primary-texticon-border-radius, var(--spectrum-global-dimension-size-250));
+  --spectrum-button-primary-texticon-padding-right: var(--spectrum-button-l-primary-texticon-padding-right, var(--spectrum-global-dimension-size-250));
+  --spectrum-button-primary-texticon-padding-left: var(--spectrum-button-l-primary-texticon-padding-left, var(--spectrum-global-dimension-size-225));
+  --spectrum-button-primary-textonly-min-width: var(--spectrum-button-l-primary-textonly-min-width, var(--spectrum-global-dimension-size-1125));
+  --spectrum-button-primary-textonly-height: var(--spectrum-button-l-primary-textonly-height, var(--spectrum-global-dimension-size-500));
+}
+
+.spectrum-Button--sizeXL {
+  --spectrum-button-primary-texticon-padding-left: var(--spectrum-button-xl-primary-texticon-padding-left);
+  --spectrum-button-primary-texticon-text-size: var(--spectrum-button-xl-primary-texticon-text-size, var(--spectrum-global-dimension-font-size-300));
+  --spectrum-button-primary-texticon-text-font-weight: var(--spectrum-button-xl-primary-texticon-text-font-weight, var(--spectrum-global-font-weight-bold));
+  --spectrum-button-primary-texticon-text-line-height: var(--spectrum-button-xl-primary-texticon-text-line-height, var(--spectrum-alias-component-text-line-height));
+  --spectrum-button-primary-texticon-icon-gap: var(--spectrum-button-xl-primary-texticon-icon-gap, var(--spectrum-global-dimension-size-125));
+  --spectrum-button-primary-texticon-focus-ring-size: var(--spectrum-button-xl-primary-texticon-focus-ring-size, var(--spectrum-alias-focus-ring-size));
+  --spectrum-button-primary-texticon-border-size: var(--spectrum-button-xl-primary-texticon-border-size, var(--spectrum-alias-border-size-thick));
+  --spectrum-button-primary-texticon-border-radius: var(--spectrum-button-xl-primary-texticon-border-radius, var(--spectrum-global-dimension-size-300));
+  --spectrum-button-primary-texticon-padding-right: var(--spectrum-button-xl-primary-texticon-padding-right, var(--spectrum-global-dimension-size-300));
+  --spectrum-button-primary-textonly-min-width: var(--spectrum-button-xl-primary-textonly-min-width, var(--spectrum-global-dimension-size-1250));
+  --spectrum-button-primary-textonly-height: var(--spectrum-button-xl-primary-textonly-height, var(--spectrum-global-dimension-size-600));
+}
+
+.spectrum-Button {
+  --spectrum-button-primary-padding-left-adjusted: calc(var(--spectrum-button-primary-texticon-padding-left) - var(--spectrum-button-primary-texticon-border-size));
+  --spectrum-button-primary-textonly-padding-left-adjusted: calc(var(--spectrum-button-primary-texticon-padding-left) - var(--spectrum-button-primary-texticon-border-size));
+  --spectrum-button-primary-textonly-padding-right-adjusted: calc(var(--spectrum-button-primary-texticon-padding-right) - var(--spectrum-button-primary-texticon-border-size));
+  --spectrum-button-padding-y: calc(var(--spectrum-button-primary-text-padding-top) - 1px);
+}
+
+[dir="ltr"] .spectrum-Button {
+  padding-left: var(--spectrum-button-primary-textonly-padding-left-adjusted);
+  padding-right: var(--spectrum-button-primary-textonly-padding-right-adjusted);
+}
+
+[dir="rtl"] .spectrum-Button {
+  padding-right: var(--spectrum-button-primary-textonly-padding-left-adjusted);
+  padding-left: var(--spectrum-button-primary-textonly-padding-right-adjusted);
+}
+
+.spectrum-Button {
+
+  border-width: var(--spectrum-button-primary-texticon-border-size);
+  border-style: solid;
+  border-radius: var(--spectrum-button-primary-texticon-border-radius);
+
+  min-height: var(--spectrum-button-primary-textonly-height);
+  height: auto;
+  min-width: var(--spectrum-button-primary-textonly-min-width);
+  padding-bottom: calc(var(--spectrum-button-padding-y) + 1px);
+  padding-top: calc(var(--spectrum-button-padding-y) - 1px);
+
+  font-size: var(--spectrum-button-primary-texticon-text-size);
+  font-weight: var(--spectrum-button-primary-texticon-text-font-weight);
+}
+
+.spectrum-Button:hover,
+  .spectrum-Button:active {
+    box-shadow: none;
+  }
+
+[dir="ltr"] .spectrum-Button .spectrum-Icon {
+    margin-left: calc(-1 * (var(--spectrum-button-primary-textonly-padding-left-adjusted) - var(--spectrum-button-primary-padding-left-adjusted)));
+}
+
+[dir="rtl"] .spectrum-Button .spectrum-Icon {
+    margin-right: calc(-1 * (var(--spectrum-button-primary-textonly-padding-left-adjusted) - var(--spectrum-button-primary-padding-left-adjusted)));
+}
+
+[dir="ltr"] .spectrum-Button .spectrum-Icon + .spectrum-Button-label {
+    padding-left: var(--spectrum-button-primary-texticon-icon-gap);
+}
+
+[dir="rtl"] .spectrum-Button .spectrum-Icon + .spectrum-Button-label {
+    padding-right: var(--spectrum-button-primary-texticon-icon-gap);
+}
+
+[dir="ltr"] .spectrum-Button .spectrum-Icon + .spectrum-Button-label {
+    padding-right: 0;
+}
+
+[dir="rtl"] .spectrum-Button .spectrum-Icon + .spectrum-Button-label {
+    padding-left: 0;
+}
+
+.spectrum-Button-label {
+
+  line-height: var(--spectrum-button-primary-texticon-text-line-height);
+}
+
+.spectrum-LogicButton.focus-ring:after, .spectrum-LogicButton.is-focused:after, .spectrum-Button.focus-ring:after, .spectrum-Button.is-focused:after {
+      box-shadow: 0 0 0 var(--spectrum-button-primary-texticon-focus-ring-size) var(--spectrum-button-m-primary-texticon-focus-ring-color-key-focus, var(--spectrum-alias-focus-ring-color));
+    }
+
+.spectrum-Button--cta {
+  background-color: var(--spectrum-button-m-cta-texticon-background-color, var(--spectrum-semantic-cta-color-background-default));
+  border-color: var(--spectrum-button-m-cta-texticon-border-color, var(--spectrum-semantic-cta-color-background-default));
+  color: var(--spectrum-button-m-cta-texticon-text-color, var(--spectrum-global-color-static-white));
+}
+
+.spectrum-Button--cta:hover {
+    background-color: var(--spectrum-button-m-cta-texticon-background-color-hover, var(--spectrum-semantic-cta-color-background-hover));
+    border-color: var(--spectrum-button-m-cta-texticon-border-color-hover, var(--spectrum-semantic-cta-color-background-hover));
+    color: var(--spectrum-button-m-cta-texticon-text-color-hover, var(--spectrum-global-color-static-white));
+  }
+
+.spectrum-Button--cta.focus-ring {
+    background-color: var(--spectrum-button-m-cta-texticon-background-color-key-focus, var(--spectrum-semantic-cta-color-background-hover));
+    border-color: var(--spectrum-button-m-cta-texticon-border-color-key-focus, var(--spectrum-semantic-cta-color-background-hover));
+    color: var(--spectrum-button-m-cta-texticon-text-color-key-focus, var(--spectrum-global-color-static-white));
+  }
+
+.spectrum-Button--cta:active {
+    background-color: var(--spectrum-button-m-cta-texticon-background-color-down, var(--spectrum-semantic-cta-color-background-down));
+    border-color: var(--spectrum-button-m-cta-texticon-border-color-down, var(--spectrum-semantic-cta-color-background-down));
+    color: var(--spectrum-button-m-cta-texticon-text-color-down, var(--spectrum-global-color-static-white));
+  }
+
+.spectrum-Button--cta:disabled,
+  .spectrum-Button--cta.is-disabled {
+    background-color: var(--spectrum-button-m-cta-texticon-background-color-disabled, var(--spectrum-global-color-gray-200));
+    border-color: var(--spectrum-button-m-cta-texticon-border-color-disabled, var(--spectrum-global-color-gray-200));
+    color: var(--spectrum-button-m-cta-texticon-text-color-disabled, var(--spectrum-global-color-gray-500));
+  }
+
+.spectrum-Button--primary {
+  background-color: var(--spectrum-button-m-primary-texticon-background-color, var(--spectrum-global-color-gray-800));
+  border-color: var(--spectrum-button-m-primary-texticon-border-color, var(--spectrum-global-color-gray-800));
+  color: var(--spectrum-button-m-primary-texticon-text-color, var(--spectrum-global-color-gray-50));
+}
+
+.spectrum-Button--primary:hover {
+    background-color: var(--spectrum-button-m-primary-texticon-background-color-hover, var(--spectrum-global-color-gray-800));
+    border-color: var(--spectrum-button-m-primary-texticon-border-color-hover, var(--spectrum-global-color-gray-800));
+    color: var(--spectrum-button-m-primary-texticon-text-color-hover, var(--spectrum-global-color-gray-50));
+  }
+
+.spectrum-Button--primary.focus-ring {
+    background-color: var(--spectrum-button-m-primary-texticon-background-color-key-focus, var(--spectrum-global-color-gray-800));
+    border-color: var(--spectrum-button-m-primary-texticon-border-color-key-focus, var(--spectrum-global-color-gray-800));
+    color: var(--spectrum-button-m-primary-texticon-text-color-key-focus, var(--spectrum-global-color-gray-50));
+  }
+
+.spectrum-Button--primary:active {
+    background-color: var(--spectrum-button-m-primary-texticon-background-color-down, var(--spectrum-global-color-gray-900));
+    border-color: var(--spectrum-button-m-primary-texticon-border-color-down, var(--spectrum-global-color-gray-900));
+    color: var(--spectrum-button-m-primary-texticon-text-color-down, var(--spectrum-global-color-gray-50));
+  }
+
+.spectrum-Button--primary:disabled,
+  .spectrum-Button--primary.is-disabled {
+    background-color: var(--spectrum-button-m-primary-texticon-background-color-disabled, var(--spectrum-global-color-gray-200));
+    border-color: var(--spectrum-button-m-primary-texticon-border-color-disabled, var(--spectrum-global-color-gray-200));
+    color: var(--spectrum-button-m-primary-texticon-text-color-disabled, var(--spectrum-global-color-gray-500));
+  }
+
+.spectrum-Button--secondary {
+  background-color: var(--spectrum-button-m-secondary-texticon-background-color, var(--spectrum-global-color-gray-700));
+  border-color: var(--spectrum-button-m-secondary-texticon-border-color, var(--spectrum-global-color-gray-700));
+  color: var(--spectrum-button-m-secondary-texticon-text-color, var(--spectrum-global-color-gray-50));
+}
+
+.spectrum-Button--secondary:hover {
+    background-color: var(--spectrum-button-m-secondary-texticon-background-color-hover, var(--spectrum-global-color-gray-700));
+    border-color: var(--spectrum-button-m-secondary-texticon-border-color-hover, var(--spectrum-global-color-gray-700));
+    color: var(--spectrum-button-m-secondary-texticon-text-color-hover, var(--spectrum-global-color-gray-50));
+  }
+
+.spectrum-Button--secondary.focus-ring {
+    background-color: var(--spectrum-button-m-secondary-texticon-background-color-key-focus, var(--spectrum-global-color-gray-700));
+    border-color: var(--spectrum-button-m-secondary-texticon-border-color-key-focus, var(--spectrum-global-color-gray-700));
+    color: var(--spectrum-button-m-secondary-texticon-text-color-key-focus, var(--spectrum-global-color-gray-50));
+  }
+
+.spectrum-Button--secondary:active {
+    background-color: var(--spectrum-button-m-secondary-texticon-background-color-down, var(--spectrum-global-color-gray-800));
+    border-color: var(--spectrum-button-m-secondary-texticon-border-color-down, var(--spectrum-global-color-gray-800));
+    color: var(--spectrum-button-m-secondary-texticon-text-color-down, var(--spectrum-global-color-gray-50));
+  }
+
+.spectrum-Button--secondary:disabled,
+  .spectrum-Button--secondary.is-disabled {
+    background-color: var(--spectrum-button-m-secondary-texticon-background-color-disabled, var(--spectrum-global-color-gray-200));
+    border-color: var(--spectrum-button-m-secondary-texticon-border-color-disabled, var(--spectrum-global-color-gray-200));
+    color: var(--spectrum-button-m-secondary-texticon-text-color-disabled, var(--spectrum-global-color-gray-500));
+  }
+
+.spectrum-Button--warning {
+  background-color: var(--spectrum-button-m-warning-texticon-background-color, var(--spectrum-semantic-negative-color-text-small));
+  border-color: var(--spectrum-button-m-warning-texticon-border-color, var(--spectrum-semantic-negative-color-text-small));
+  color: var(--spectrum-button-m-warning-texticon-text-color, var(--spectrum-global-color-gray-50));
+}
+
+.spectrum-Button--warning:hover {
+    background-color: var(--spectrum-button-m-warning-texticon-background-color-hover, var(--spectrum-semantic-negative-color-text-small));
+    border-color: var(--spectrum-button-m-warning-texticon-border-color-hover, var(--spectrum-semantic-negative-color-text-small));
+    color: var(--spectrum-button-m-warning-texticon-text-color-hover, var(--spectrum-global-color-gray-50));
+  }
+
+.spectrum-Button--warning.focus-ring {
+    background-color: var(--spectrum-button-m-warning-texticon-background-color-key-focus, var(--spectrum-semantic-negative-color-text-small));
+    border-color: var(--spectrum-button-m-warning-texticon-border-color-key-focus, var(--spectrum-semantic-negative-color-text-small));
+    color: var(--spectrum-button-m-warning-texticon-text-color-key-focus, var(--spectrum-global-color-gray-50));
+  }
+
+.spectrum-Button--warning:active {
+    background-color: var(--spectrum-button-m-warning-texticon-background-color-down, var(--spectrum-global-color-red-700));
+    border-color: var(--spectrum-button-m-warning-texticon-border-color-down, var(--spectrum-global-color-red-700));
+    color: var(--spectrum-button-m-warning-texticon-text-color-down, var(--spectrum-global-color-gray-50));
+  }
+
+.spectrum-Button--warning:disabled,
+  .spectrum-Button--warning.is-disabled {
+    background-color: var(--spectrum-button-m-warning-texticon-background-color-disabled, var(--spectrum-global-color-gray-200));
+    border-color: var(--spectrum-button-m-warning-texticon-border-color-disabled, var(--spectrum-global-color-gray-200));
+    color: var(--spectrum-button-m-warning-texticon-text-color-disabled, var(--spectrum-global-color-gray-500));
+  }
+
+.spectrum-Button--overBackground {
+  background-color: var(--spectrum-button-m-primary-overbackground-texticon-background-color, var(--spectrum-alias-background-color-transparent));
+  border-color: var(--spectrum-button-m-primary-overbackground-texticon-border-color, var(--spectrum-global-color-static-white));
+  color: var(--spectrum-button-m-primary-overbackground-texticon-text-color, var(--spectrum-global-color-static-white));
+}
+
+.spectrum-Button--overBackground:hover {
+    background-color: var(--spectrum-button-m-primary-overbackground-texticon-background-color-hover, var(--spectrum-global-color-static-white));
+    border-color: var(--spectrum-button-m-primary-overbackground-texticon-border-color-hover, var(--spectrum-global-color-static-white));
+    color: inherit;
+  }
+
+.spectrum-Button--overBackground.focus-ring {
+    background-color: var(--spectrum-button-m-primary-overbackground-texticon-background-color-hover, var(--spectrum-global-color-static-white));
+    border-color: var(--spectrum-button-m-primary-overbackground-texticon-border-color-hover, var(--spectrum-global-color-static-white));
+    color: inherit;
+  }
+
+.spectrum-Button--overBackground.focus-ring:after {
+      box-shadow: 0 0 0 var(--spectrum-alias-focus-ring-size, var(--spectrum-global-dimension-static-size-25)) var(--spectrum-button-m-primary-overbackground-texticon-border-color-key-focus, var(--spectrum-global-color-static-white));
+    }
+
+.spectrum-Button--overBackground:active {
+    background-color: var(--spectrum-button-m-primary-overbackground-texticon-background-color-down, var(--spectrum-global-color-static-white));
+    border-color: var(--spectrum-button-m-primary-overbackground-texticon-border-color-down, var(--spectrum-global-color-static-white));
+    color: inherit;
+  }
+
+.spectrum-Button--overBackground:disabled,
+  .spectrum-Button--overBackground.is-disabled {
+    background-color: var(--spectrum-button-m-primary-overbackground-texticon-background-color-disabled, var(--spectrum-alias-background-color-overbackground-disabled));
+    border-color: var(--spectrum-button-m-primary-overbackground-texticon-border-color-disabled, var(--spectrum-alias-border-color-transparent));
+    color: var(--spectrum-button-m-primary-overbackground-texticon-text-color-disabled, var(--spectrum-alias-text-color-overbackground-disabled));
+  }
+
+.spectrum-Button--overBackground.spectrum-Button--quiet,
+.spectrum-ClearButton--overBackground {
+  background-color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-background-color, var(--spectrum-alias-background-color-transparent));
+  border-color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-border-color, var(--spectrum-alias-background-color-transparent));
+  color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-text-color, var(--spectrum-global-color-static-white));
+}
+
+.spectrum-Button--overBackground.spectrum-Button--quiet:hover, .spectrum-ClearButton--overBackground:hover {
+    background-color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-background-color-hover, var(--spectrum-alias-background-color-quiet-overbackground-hover));
+    border-color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-border-color-hover, var(--spectrum-alias-border-color-transparent));
+    color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-text-color-hover, var(--spectrum-global-color-static-white));
+  }
+
+.spectrum-Button--overBackground.spectrum-Button--quiet.focus-ring, .spectrum-ClearButton--overBackground.focus-ring {
+    background-color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-background-color-hover, var(--spectrum-alias-background-color-quiet-overbackground-hover));
+    border-color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-border-color-hover, var(--spectrum-alias-border-color-transparent));
+    color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-text-color-hover, var(--spectrum-global-color-static-white));
+    box-shadow: none;
+  }
+
+.spectrum-Button--overBackground.spectrum-Button--quiet.focus-ring:after, .spectrum-ClearButton--overBackground.focus-ring:after {
+      box-shadow: 0 0 0 var(--spectrum-alias-focus-ring-size, var(--spectrum-global-dimension-static-size-25)) var(--spectrum-button-m-primary-overbackground-texticon-border-color-key-focus, var(--spectrum-global-color-static-white));
+    }
+
+.spectrum-Button--overBackground.spectrum-Button--quiet:active, .spectrum-ClearButton--overBackground:active {
+    background-color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-background-color-down, var(--spectrum-alias-background-color-quiet-overbackground-down));
+    border-color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-border-color-down, var(--spectrum-alias-border-color-transparent));
+    color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-text-color-down, var(--spectrum-global-color-static-white));
+  }
+
+.spectrum-Button--overBackground.spectrum-Button--quiet:disabled,
+  .spectrum-Button--overBackground.spectrum-Button--quiet.is-disabled,
+  .spectrum-ClearButton--overBackground:disabled,
+  .spectrum-ClearButton--overBackground.is-disabled {
+    background-color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-background-color-disabled, var(--spectrum-alias-background-color-transparent));
+    border-color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-border-color-disabled, var(--spectrum-alias-border-color-transparent));
+    color: var(--spectrum-button-m-primary-quiet-overbackground-texticon-text-color-disabled, var(--spectrum-alias-text-color-quiet-overbackground-disabled));
+  }
+
+.spectrum-Button--primary.spectrum-Button--quiet {
+  background-color: var(--spectrum-button-m-primary-quiet-texticon-background-color, var(--spectrum-alias-background-color-transparent));
+  border-color: var(--spectrum-button-m-primary-quiet-texticon-border-color, var(--spectrum-alias-background-color-transparent));
+  color: var(--spectrum-button-m-primary-quiet-texticon-text-color, var(--spectrum-global-color-gray-800));
+}
+
+.spectrum-Button--primary.spectrum-Button--quiet:hover {
+    background-color: var(--spectrum-button-m-primary-quiet-texticon-background-color-hover, var(--spectrum-global-color-gray-200));
+    border-color: var(--spectrum-button-m-primary-quiet-texticon-border-color-hover, var(--spectrum-global-color-gray-200));
+    color: var(--spectrum-button-m-primary-quiet-texticon-text-color-hover, var(--spectrum-global-color-gray-900));
+  }
+
+.spectrum-Button--primary.spectrum-Button--quiet.focus-ring {
+    background-color: var(--spectrum-button-m-primary-quiet-texticon-background-color-key-focus, var(--spectrum-global-color-gray-200));
+    border-color: var(--spectrum-button-m-primary-quiet-texticon-border-color-key-focus, var(--spectrum-global-color-gray-200));
+    color: var(--spectrum-button-m-primary-quiet-texticon-text-color-key-focus, var(--spectrum-global-color-gray-900));
+  }
+
+.spectrum-Button--primary.spectrum-Button--quiet:active {
+    background-color: var(--spectrum-button-m-primary-quiet-texticon-background-color-down, var(--spectrum-global-color-gray-300));
+    border-color: var(--spectrum-button-m-primary-quiet-texticon-border-color-down, var(--spectrum-global-color-gray-300));
+    color: var(--spectrum-button-m-primary-quiet-texticon-text-color-down, var(--spectrum-global-color-gray-900));
+  }
+
+.spectrum-Button--primary.spectrum-Button--quiet:disabled,
+  .spectrum-Button--primary.spectrum-Button--quiet.is-disabled {
+    background-color: var(--spectrum-button-m-primary-quiet-texticon-background-color-disabled, var(--spectrum-alias-background-color-transparent));
+    border-color: var(--spectrum-button-m-primary-quiet-texticon-border-color-disabled, var(--spectrum-alias-border-color-transparent));
+    color: var(--spectrum-button-m-primary-quiet-texticon-text-color-disabled, var(--spectrum-global-color-gray-500));
+  }
+
+.spectrum-Button--secondary.spectrum-Button--quiet {
+  background-color: var(--spectrum-button-m-secondary-quiet-texticon-background-color, var(--spectrum-alias-background-color-transparent));
+  border-color: var(--spectrum-button-m-secondary-quiet-texticon-border-color, var(--spectrum-alias-background-color-transparent));
+  color: var(--spectrum-button-m-secondary-quiet-texticon-text-color, var(--spectrum-global-color-gray-700));
+}
+
+.spectrum-Button--secondary.spectrum-Button--quiet:hover {
+    background-color: var(--spectrum-button-m-secondary-quiet-texticon-background-color-hover, var(--spectrum-global-color-gray-200));
+    border-color: var(--spectrum-button-m-secondary-quiet-texticon-border-color-hover, var(--spectrum-global-color-gray-200));
+    color: var(--spectrum-button-m-secondary-quiet-texticon-text-color-hover, var(--spectrum-global-color-gray-800));
+  }
+
+.spectrum-Button--secondary.spectrum-Button--quiet.focus-ring {
+    background-color: var(--spectrum-button-m-secondary-quiet-texticon-background-color-key-focus, var(--spectrum-global-color-gray-200));
+    border-color: var(--spectrum-button-m-secondary-quiet-texticon-border-color-key-focus, var(--spectrum-global-color-gray-200));
+    color: var(--spectrum-button-m-secondary-quiet-texticon-text-color-key-focus, var(--spectrum-global-color-gray-800));
+  }
+
+.spectrum-Button--secondary.spectrum-Button--quiet:active {
+    background-color: var(--spectrum-button-m-secondary-quiet-texticon-background-color-down, var(--spectrum-global-color-gray-300));
+    border-color: var(--spectrum-button-m-secondary-quiet-texticon-border-color-down, var(--spectrum-global-color-gray-300));
+    color: var(--spectrum-button-m-secondary-quiet-texticon-text-color-down, var(--spectrum-global-color-gray-800));
+  }
+
+.spectrum-Button--secondary.spectrum-Button--quiet:disabled,
+  .spectrum-Button--secondary.spectrum-Button--quiet.is-disabled {
+    background-color: var(--spectrum-button-m-secondary-quiet-texticon-background-color-disabled, var(--spectrum-alias-background-color-transparent));
+    border-color: var(--spectrum-button-m-secondary-quiet-texticon-border-color-disabled, var(--spectrum-alias-border-color-transparent));
+    color: var(--spectrum-button-m-secondary-quiet-texticon-text-color-disabled, var(--spectrum-global-color-gray-500));
+  }
+
+.spectrum-Button--warning.spectrum-Button--quiet {
+  background-color: var(--spectrum-button-m-warning-quiet-texticon-background-color, var(--spectrum-alias-background-color-transparent));
+  border-color: var(--spectrum-button-m-warning-quiet-texticon-border-color, var(--spectrum-alias-background-color-transparent));
+  color: var(--spectrum-button-m-warning-quiet-texticon-text-color, var(--spectrum-semantic-negative-color-text-small));
+}
+
+.spectrum-Button--warning.spectrum-Button--quiet:hover {
+    background-color: var(--spectrum-button-m-warning-quiet-texticon-background-color-hover, var(--spectrum-global-color-gray-200));
+    border-color: var(--spectrum-button-m-warning-quiet-texticon-border-color-hover, var(--spectrum-global-color-gray-200));
+    color: var(--spectrum-button-m-warning-quiet-texticon-text-color-hover, var(--spectrum-global-color-red-700));
+  }
+
+.spectrum-Button--warning.spectrum-Button--quiet.focus-ring {
+    background-color: var(--spectrum-button-m-warning-quiet-texticon-background-color-key-focus, var(--spectrum-global-color-gray-200));
+    border-color: var(--spectrum-button-m-warning-quiet-texticon-border-color-key-focus, var(--spectrum-global-color-gray-200));
+    color: var(--spectrum-button-m-warning-quiet-texticon-text-color-key-focus, var(--spectrum-global-color-red-700));
+  }
+
+.spectrum-Button--warning.spectrum-Button--quiet:active {
+    background-color: var(--spectrum-button-m-warning-quiet-texticon-background-color-down, var(--spectrum-global-color-gray-300));
+    border-color: var(--spectrum-button-m-warning-quiet-texticon-border-color-down, var(--spectrum-global-color-gray-300));
+    color: var(--spectrum-button-m-warning-quiet-texticon-text-color-down, var(--spectrum-global-color-red-700));
+  }
+
+.spectrum-Button--warning.spectrum-Button--quiet:disabled,
+  .spectrum-Button--warning.spectrum-Button--quiet.is-disabled {
+    background-color: var(--spectrum-button-m-warning-quiet-texticon-background-color-disabled, var(--spectrum-alias-background-color-transparent));
+    border-color: var(--spectrum-button-m-warning-quiet-texticon-border-color-disabled, var(--spectrum-alias-border-color-transparent));
+    color: var(--spectrum-button-m-warning-quiet-texticon-text-color-disabled, var(--spectrum-global-color-gray-500));
+  }
