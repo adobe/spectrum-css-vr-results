@@ -1,0 +1,21 @@
+
+.spectrum-Rating {
+  --spectrum-rating-icon-width: var(--spectrum-global-dimension-size-300);
+  --spectrum-rating-icon-count: 5;
+  --spectrum-rating-border-radius: var(--spectrum-alias-border-radius-regular);
+  --spectrum-rating-icon-padding-y: var(--spectrum-global-dimension-size-85);
+  --spectrum-rating-indicator-width: var(--spectrum-global-dimension-size-200);
+  --spectrum-rating-indicator-border-radius: var(--spectrum-alias-border-radius-small);
+  --spectrum-rating-indicator-height: var(--spectrum-global-dimension-size-25);
+  --spectrum-rating-indicator-offset: var(--spectrum-alias-border-size-thick);
+  --spectrum-alias-focus-ring-color: var(--spectrum-alias-focus-color);
+  --spectrum-rating-icon-color-selected: var(--spectrum-alias-icon-color);
+  --spectrum-rating-icon-color-hover: var(--spectrum-global-color-gray-800);
+  --spectrum-rating-icon-color-down: var(--spectrum-alias-icon-color-down);
+  --spectrum-rating-icon-color: var(--spectrum-alias-icon-color);
+  --spectrum-rating-emphasized-icon-color: var(--spectrum-alias-icon-color);
+  --spectrum-rating-emphasized-icon-color-selected: var(--spectrum-alias-icon-color-selected);
+  --spectrum-rating-emphasized-icon-color-hover: var(--spectrum-global-color-gray-800);
+  --spectrum-rating-emphasized-icon-color-down: var(--spectrum-alias-icon-color-down);
+  --spectrum-rating-icon-color-disabled: var(--spectrum-alias-icon-color-disabled);
+}

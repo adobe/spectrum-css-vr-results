@@ -1,0 +1,32 @@
+
+.spectrum-Menu {
+  --spectrum-alias-body-text-line-height: var(--spectrum-global-font-line-height-medium);
+  --spectrum-listitem-m-texticon-padding-left: undefined;
+  --spectrum-listitem-m-textthumbnail-padding-left: undefined;
+  --spectrum-listitem-m-texticon-text-size: var(--spectrum-global-dimension-font-size-100);
+  --spectrum-listitem-m-texticon-text-font-weight: var(--spectrum-alias-body-text-font-weight);
+  --spectrum-listitem-m-texticon-icon-margin-top: 0;
+  --spectrum-listitem-m-texticon-icon-gap: var(--spectrum-global-dimension-size-100);
+  --spectrum-listitem-m-texticon-divider-size: var(--spectrum-alias-border-size-thick);
+  --spectrum-listitem-m-texticon-divider-padding: var(--spectrum-global-dimension-static-size-40);
+  --spectrum-listitem-m-texticon-ui-icon-width: var(--spectrum-alias-ui-icon-checkmark-size-100);
+  --spectrum-listitem-m-texticon-padding-right: var(--spectrum-global-dimension-size-150);
+  --spectrum-listitem-m-texticon-focus-indicator-size: var(--spectrum-alias-border-size-thick);
+  --spectrum-listitem-m-texticon-height: var(--spectrum-global-dimension-size-400);
+  --spectrum-popover-padding-y: var(--spectrum-global-dimension-size-50);
+  --spectrum-popover-border-size: var(--spectrum-alias-border-size-thin);
+  --spectrum-alias-workflow-icon-size-m: var(--spectrum-global-dimension-size-225);
+  --spectrum-listitem-m-texticon-background-color: var(--spectrum-alias-background-color-transparent);
+  --spectrum-listitem-m-texticon-text-color: var(--spectrum-global-color-gray-800);
+  --spectrum-listitem-m-texticon-focus-indicator-color: var(--spectrum-alias-border-color-focus);
+  --spectrum-listitem-m-texticon-background-color-key-focus: var(--spectrum-alias-background-color-hover-overlay);
+  --spectrum-listitem-m-texticon-text-color-key-focus: var(--spectrum-global-color-gray-900);
+  --spectrum-listitem-m-texticon-background-color-hover: var(--spectrum-alias-background-color-hover-overlay);
+  --spectrum-listitem-m-texticon-text-color-hover: var(--spectrum-global-color-gray-900);
+  --spectrum-listitem-m-texticon-text-color-selected: var(--spectrum-global-color-gray-800);
+  --spectrum-listitem-m-texticon-icon-color-selected: var(--spectrum-global-color-gray-50);
+  --spectrum-listitem-m-texticon-background-color-down: var(--spectrum-alias-background-color-hover-overlay);
+  --spectrum-listitem-m-texticon-background-color-disabled: var(--spectrum-alias-background-color-transparent);
+  --spectrum-listitem-m-texticon-text-color-disabled: var(--spectrum-global-color-gray-500);
+  --spectrum-listitem-m-texticon-divider-color: var(--spectrum-alias-border-color-extralight);
+}
