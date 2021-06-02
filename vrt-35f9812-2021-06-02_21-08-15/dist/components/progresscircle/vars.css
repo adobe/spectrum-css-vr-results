@@ -1,0 +1,14 @@
+
+.spectrum-ProgressCircle {
+  --spectrum-progresscircle-m-width: var(--spectrum-global-dimension-size-400);
+  --spectrum-progresscircle-m-height: var(--spectrum-global-dimension-size-400);
+  --spectrum-progresscircle-m-border-size: undefined;
+  --spectrum-progresscircle-s-width: var(--spectrum-global-dimension-size-200);
+  --spectrum-progresscircle-s-height: var(--spectrum-global-dimension-size-200);
+  --spectrum-progresscircle-s-border-size: undefined;
+  --spectrum-progresscircle-l-width: var(--spectrum-global-dimension-size-800);
+  --spectrum-progresscircle-l-height: var(--spectrum-global-dimension-size-800);
+  --spectrum-progresscircle-l-border-size: var(--spectrum-global-dimension-size-50);
+  --spectrum-progresscircle-m-track-color: var(--spectrum-alias-track-color-default);
+  --spectrum-progresscircle-m-track-fill-color: var(--spectrum-semantic-informative-color-default);
+}
