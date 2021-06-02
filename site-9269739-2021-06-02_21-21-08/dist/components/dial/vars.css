@@ -1,0 +1,26 @@
+
+.spectrum-Dial {
+  --spectrum-alias-border-size-thick: var(--spectrum-global-dimension-static-size-25);
+  --spectrum-body-xs-text-size: var(--spectrum-global-dimension-font-size-75);
+  --spectrum-body-xs-text-line-height: var(--spectrum-alias-body-text-line-height);
+  --spectrum-dial-container-width: var(--spectrum-global-dimension-static-size-600);
+  --spectrum-fieldlabel-m-padding-top: var(--spectrum-global-dimension-size-50);
+  --spectrum-dial-width: var(--spectrum-global-dimension-static-size-400);
+  --spectrum-dial-height: var(--spectrum-global-dimension-static-size-400);
+  --spectrum-dial-border-radius: var(--spectrum-alias-border-radius-large);
+  --spectrum-dial-handle-marker-height: var(--spectrum-alias-border-size-thick);
+  --spectrum-dial-handle-marker-border-radius: var(--spectrum-alias-border-radius-xsmall);
+  --spectrum-dial-min-max-tick-angles: 45deg;
+  --spectrum-dial-handle-marker-width: var(--spectrum-global-dimension-static-size-150);
+  --spectrum-dial-small-width: var(--spectrum-global-dimension-static-size-300);
+  --spectrum-dial-small-height: var(--spectrum-global-dimension-static-size-300);
+  --spectrum-alias-label-text-color: var(--spectrum-global-color-gray-700);
+  --spectrum-alias-icon-color-disabled: var(--spectrum-global-color-gray-400);
+  --spectrum-dial-small-handle-marker-color: var(--spectrum-global-color-gray-700);
+  --spectrum-dial-handle-marker-color: var(--spectrum-global-color-gray-700);
+  --spectrum-dial-border-color-hover: var(--spectrum-global-color-gray-800);
+  --spectrum-dial-handle-marker-color-hover: var(--spectrum-global-color-gray-800);
+  --spectrum-dial-handle-marker-color-key-focus: var(--spectrum-global-color-gray-50);
+  --spectrum-dial-min-max-tick-color: var(--spectrum-global-color-gray-600);
+  --spectrum-alias-background-color-default: var(--spectrum-global-color-gray-100);
+}
