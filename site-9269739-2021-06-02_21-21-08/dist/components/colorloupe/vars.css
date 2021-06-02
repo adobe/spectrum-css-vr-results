@@ -1,0 +1,9 @@
+
+.spectrum-ColorLoupe {
+  --spectrum-colorloupe-width: var(--spectrum-global-dimension-static-size-600);
+  --spectrum-colorhandle-inner-border-size: var(--spectrum-global-dimension-static-size-25);
+  --spectrum-colorloupe-height: var(--spectrum-global-dimension-static-size-800);
+  --spectrum-colorloupe-outer-border-size: var(--spectrum-global-dimension-static-size-10);
+  --spectrum-colorloupe-inner-border-color: var(--spectrum-global-color-static-white);
+  --spectrum-colorloupe-outer-border-color: var(--spectrum-alias-border-color-translucent);
+}
