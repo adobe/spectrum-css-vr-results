@@ -1,0 +1,46 @@
+
+.spectrum-Switch {
+  --spectrum-switch-m-handle-size: var(--spectrum-global-dimension-size-175);
+  --spectrum-switch-m-handle-border-size: var(--spectrum-alias-border-size-thick);
+  --spectrum-switch-m-handle-border-radius: var(--spectrum-global-dimension-size-85);
+  --spectrum-switch-m-text-gap: var(--spectrum-global-dimension-size-125);
+  --spectrum-switch-m-text-size: var(--spectrum-global-dimension-font-size-100);
+  --spectrum-switch-m-track-height: var(--spectrum-alias-control-three-height-m);
+  --spectrum-switch-m-track-width: var(--spectrum-alias-control-three-width-m);
+  --spectrum-switch-m-cursor-hit-x: var(--spectrum-global-dimension-size-100);
+  --spectrum-switch-m-height: var(--spectrum-global-dimension-size-400);
+  --spectrum-alias-focus-ring-gap: var(--spectrum-global-dimension-static-size-25);
+  --spectrum-switch-m-track-color: var(--spectrum-global-color-gray-300);
+  --spectrum-switch-m-handle-background-color: var(--spectrum-global-color-gray-75);
+  --spectrum-switch-m-handle-border-color: var(--spectrum-global-color-gray-600);
+  --spectrum-switch-m-text-color: var(--spectrum-global-color-gray-800);
+  --spectrum-switch-m-track-color-selected: var(--spectrum-global-color-gray-700);
+  --spectrum-switch-m-handle-border-color-selected: var(--spectrum-global-color-gray-700);
+  --spectrum-switch-m-handle-border-color-hover: var(--spectrum-global-color-gray-700);
+  --spectrum-switch-m-text-color-hover: var(--spectrum-global-color-gray-900);
+  --spectrum-switch-m-track-color-selected-hover: var(--spectrum-global-color-gray-800);
+  --spectrum-switch-m-handle-border-color-selected-hover: var(--spectrum-global-color-gray-800);
+  --spectrum-switch-m-handle-border-color-down: var(--spectrum-global-color-gray-800);
+  --spectrum-switch-m-text-color-down: var(--spectrum-global-color-gray-900);
+  --spectrum-switch-m-track-color-selected-down: var(--spectrum-global-color-gray-900);
+  --spectrum-switch-m-handle-border-color-selected-down: var(--spectrum-global-color-gray-900);
+  --spectrum-switch-m-track-color-disabled: var(--spectrum-global-color-gray-300);
+  --spectrum-switch-m-handle-border-color-disabled: var(--spectrum-global-color-gray-400);
+  --spectrum-switch-m-text-color-disabled: var(--spectrum-global-color-gray-500);
+  --spectrum-switch-m-track-color-selected-disabled: var(--spectrum-global-color-gray-400);
+  --spectrum-switch-m-handle-border-color-selected-disabled: var(--spectrum-global-color-gray-400);
+  --spectrum-switch-m-text-color-selected-disabled: var(--spectrum-global-color-gray-500);
+  --spectrum-switch-m-emphasized-track-color-selected: var(--spectrum-semantic-cta-background-color-default);
+  --spectrum-switch-m-emphasized-handle-border-color-selected: var(--spectrum-semantic-cta-background-color-default);
+  --spectrum-switch-m-emphasized-track-color-selected-hover: var(--spectrum-semantic-cta-background-color-hover);
+  --spectrum-switch-m-emphasized-handle-border-color-selected-hover: var(--spectrum-semantic-cta-background-color-hover);
+  --spectrum-switch-m-emphasized-track-color-selected-down: var(--spectrum-semantic-cta-background-color-down);
+  --spectrum-switch-m-emphasized-handle-border-color-selected-down: var(--spectrum-semantic-cta-background-color-down);
+  --spectrum-switch-m-focus-ring-size: var(--spectrum-alias-focus-ring-size);
+  --spectrum-switch-m-focus-ring-color-key-focus: var(--spectrum-alias-focus-ring-color);
+  --spectrum-switch-m-handle-border-color-key-focus: var(--spectrum-global-color-gray-700);
+  --spectrum-switch-m-track-color-selected-key-focus: var(--spectrum-global-color-gray-800);
+  --spectrum-switch-m-handle-border-color-selected-key-focus: var(--spectrum-global-color-gray-800);
+  --spectrum-switch-m-emphasized-track-color-selected-key-focus: var(--spectrum-semantic-cta-background-color-key-focus);
+  --spectrum-switch-m-emphasized-handle-border-color-selected-key-focus: var(--spectrum-semantic-cta-background-color-key-focus);
+}

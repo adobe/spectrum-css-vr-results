@@ -1,0 +1,44 @@
+
+.spectrum-StatusLight {
+  --spectrum-statuslight-s-info-dot-size: var(--spectrum-global-dimension-static-size-100);
+  --spectrum-statuslight-s-info-text-size: var(--spectrum-global-dimension-font-size-75);
+  --spectrum-statuslight-s-info-text-gap: var(--spectrum-global-dimension-size-115);
+  --spectrum-statuslight-s-info-text-font-weight: var(--spectrum-alias-body-text-font-weight);
+  --spectrum-statuslight-s-info-text-line-height: var(--spectrum-alias-component-text-line-height);
+  --spectrum-statuslight-s-info-height: var(--spectrum-global-dimension-size-300);
+  --spectrum-statuslight-m-info-dot-size: var(--spectrum-global-dimension-size-100);
+  --spectrum-statuslight-m-info-text-size: var(--spectrum-global-dimension-font-size-100);
+  --spectrum-statuslight-m-info-text-gap: var(--spectrum-global-dimension-size-125);
+  --spectrum-statuslight-m-info-text-font-weight: var(--spectrum-alias-body-text-font-weight);
+  --spectrum-statuslight-m-info-text-line-height: var(--spectrum-alias-component-text-line-height);
+  --spectrum-statuslight-m-info-height: var(--spectrum-global-dimension-size-400);
+  --spectrum-statuslight-l-info-dot-size: undefined;
+  --spectrum-statuslight-l-info-text-size: var(--spectrum-global-dimension-font-size-200);
+  --spectrum-statuslight-l-info-text-gap: var(--spectrum-global-dimension-size-130);
+  --spectrum-statuslight-l-info-text-font-weight: var(--spectrum-alias-body-text-font-weight);
+  --spectrum-statuslight-l-info-text-line-height: var(--spectrum-alias-component-text-line-height);
+  --spectrum-statuslight-l-info-height: var(--spectrum-global-dimension-size-500);
+  --spectrum-statuslight-xl-info-dot-size: undefined;
+  --spectrum-statuslight-xl-info-text-size: var(--spectrum-global-dimension-font-size-300);
+  --spectrum-statuslight-xl-info-text-gap: var(--spectrum-global-dimension-size-160);
+  --spectrum-statuslight-xl-info-text-font-weight: var(--spectrum-alias-body-text-font-weight);
+  --spectrum-statuslight-xl-info-text-line-height: var(--spectrum-alias-component-text-line-height);
+  --spectrum-statuslight-xl-info-height: var(--spectrum-global-dimension-size-600);
+  --spectrum-statuslight-m-info-text-color: var(--spectrum-alias-text-color);
+  --spectrum-statuslight-m-info-text-color-disabled: var(--spectrum-alias-text-color-disabled);
+  --spectrum-statuslight-m-info-dot-color-disabled: var(--spectrum-global-color-gray-400);
+  --spectrum-statuslight-m-negative-dot-color: var(--spectrum-semantic-negative-status-color);
+  --spectrum-statuslight-m-notice-dot-color: var(--spectrum-semantic-notice-status-color);
+  --spectrum-statuslight-m-positive-dot-color: var(--spectrum-semantic-positive-status-color);
+  --spectrum-statuslight-m-info-dot-color: var(--spectrum-semantic-informative-status-color);
+  --spectrum-statuslight-m-neutral-text-color: var(--spectrum-alias-label-text-color);
+  --spectrum-statuslight-m-neutral-dot-color: var(--spectrum-global-color-gray-500);
+  --spectrum-statuslight-m-celery-dot-color: var(--spectrum-global-color-celery-400);
+  --spectrum-statuslight-m-yellow-dot-color: var(--spectrum-global-color-yellow-400);
+  --spectrum-statuslight-m-fuchsia-dot-color: var(--spectrum-global-color-fuchsia-400);
+  --spectrum-statuslight-m-indigo-dot-color: var(--spectrum-global-color-indigo-400);
+  --spectrum-statuslight-m-seafoam-dot-color: var(--spectrum-global-color-seafoam-400);
+  --spectrum-statuslight-m-chartreuse-dot-color: var(--spectrum-global-color-chartreuse-400);
+  --spectrum-statuslight-m-magenta-dot-color: var(--spectrum-global-color-magenta-400);
+  --spectrum-statuslight-m-purple-dot-color: var(--spectrum-global-color-purple-400);
+}
