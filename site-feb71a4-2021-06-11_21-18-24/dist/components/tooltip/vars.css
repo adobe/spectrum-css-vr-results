@@ -1,0 +1,22 @@
+
+.spectrum-Tooltip {
+  --spectrum-picker-m-texticon-popover-offset-y: var(--spectrum-global-dimension-size-75);
+  --spectrum-tooltip-neutral-tip-height: var(--spectrum-global-dimension-size-50);
+  --spectrum-tooltip-neutral-padding-top: var(--spectrum-global-dimension-size-50);
+  --spectrum-tooltip-neutral-padding-x: var(--spectrum-global-dimension-size-125);
+  --spectrum-tooltip-neutral-border-radius: var(--spectrum-global-dimension-size-50);
+  --spectrum-tooltip-neutral-min-height: var(--spectrum-global-dimension-size-300);
+  --spectrum-tooltip-neutral-max-width: var(--spectrum-global-dimension-size-2000);
+  --spectrum-tooltip-neutral-text-size: var(--spectrum-global-dimension-font-size-75);
+  --spectrum-tooltip-neutral-text-font-weight: var(--spectrum-alias-body-text-font-weight);
+  --spectrum-tooltip-neutral-text-line-height: var(--spectrum-alias-component-text-line-height);
+  --spectrum-tooltip-neutral-tip-width: var(--spectrum-global-dimension-size-100);
+  --spectrum-tooltip-neutral-icon-margin-x: var(--spectrum-global-dimension-size-100);
+  --spectrum-tooltip-neutral-icon-size: var(--spectrum-global-dimension-size-175);
+  --spectrum-tooltip-neutral-tip-margin: var(--spectrum-global-dimension-size-50);
+  --spectrum-tooltip-neutral-background-color: var(--spectrum-semantic-neutral-background-color-default);
+  --spectrum-tooltip-neutral-text-color: var(--spectrum-global-color-static-white);
+  --spectrum-tooltip-negative-background-color: var(--spectrum-semantic-negative-background-color);
+  --spectrum-tooltip-info-background-color: var(--spectrum-semantic-informative-background-color);
+  --spectrum-tooltip-positive-background-color: var(--spectrum-semantic-positive-background-color);
+}

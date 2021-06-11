@@ -1,0 +1,20 @@
+
+.spectrum-AssetList {
+  --spectrum-millercolumn-item-padding-left: var(--spectrum-global-dimension-static-size-200);
+  --spectrum-millercolumn-item-padding-right: var(--spectrum-global-dimension-static-size-200);
+  --spectrum-millercolumn-width: var(--spectrum-global-dimension-static-size-3400);
+  --spectrum-millercolumn-item-height: var(--spectrum-global-dimension-static-size-500);
+  --spectrum-millercolumn-item-margin-bottom: var(--spectrum-global-dimension-static-size-50);
+  --spectrum-millercolumn-item-border-radius: var(--spectrum-global-dimension-static-size-50);
+  --spectrum-listitem-m-texticon-text-size: var(--spectrum-global-dimension-font-size-100);
+  --spectrum-listitem-m-texticon-text-font-weight: var(--spectrum-alias-body-text-font-weight);
+  --spectrum-millercolumn-thumbnail-margin-left: var(--spectrum-global-dimension-static-size-100);
+  --spectrum-millercolumn-thumbnail-width: var(--spectrum-global-dimension-static-size-300);
+  --spectrum-millercolumn-thumbnail-height: var(--spectrum-global-dimension-static-size-300);
+  --spectrum-millercolumn-item-label-padding-left: var(--spectrum-global-dimension-static-size-100);
+  --spectrum-millercolumn-item-background-color-hover: var(--spectrum-global-color-gray-200);
+  --spectrum-alias-border-color-key-focus: var(--spectrum-global-color-blue-400);
+  --spectrum-millercolumn-item-background-color-down: var(--spectrum-global-color-gray-300);
+  --spectrum-millercolumn-item-background-color-selected: var(--spectrum-alias-highlight-selected);
+  --spectrum-millercolumn-item-background-color-selected-hover: var(--spectrum-alias-highlight-selected-hover);
+}

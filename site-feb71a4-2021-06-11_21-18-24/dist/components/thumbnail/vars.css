@@ -1,0 +1,8 @@
+
+.spectrum-Thumbnail {
+  --spectrum-alias-border-radius-small: var(--spectrum-global-dimension-size-25);
+  --spectrum-alias-border-size-thin: var(--spectrum-global-dimension-static-size-10);
+  --spectrum-alias-border-size-thick: var(--spectrum-global-dimension-static-size-25);
+  --spectrum-alias-dropshadow-color: undefined;
+  --spectrum-alias-border-color-key-focus: var(--spectrum-global-color-blue-400);
+}
